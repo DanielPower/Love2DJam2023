@@ -3,19 +3,23 @@ local Concord = require("concord")
 local MoveSystem = require("systems.move")
 local GravitySystem = require("systems.gravity")
 local DrawSystem = require("systems.draw")
+local ShootSystem = require("systems.shoot")
+local Vec = require("vec")
 
 local world = Concord.world()
 
-world:addSystems(MoveSystem, GravitySystem, DrawSystem)
+world:addSystems(MoveSystem, GravitySystem, DrawSystem, ShootSystem)
 
-Concord.entity(world):give("body", 300, 600, 0, 0, 20)
-Concord.entity(world):give("body", 300, 300, 0, 0, 5)
-Concord.entity(world):give("body", 500, 100, 0, 0, 30)
+Concord.entity(world):give("body", Vec(400, 300), 20):give("player")
+
+function love.mousepressed(x, y, button)
+	world:emit("mousepressed", world, x, y, button)
+end
 
 function love.update(dt)
-	world:emit("update", dt)
+	world:emit("update", world, dt)
 end
 
 function love.draw()
-	world:emit("draw")
+	world:emit("draw", world)
 end

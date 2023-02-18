@@ -1,13 +1,15 @@
 local Concord = require("concord")
-local Vec2 = require("cpml.vec2")
+local Vec = require("vec")
 
 local MoveSystem = Concord.system({
 	pool = { "body" },
 })
 
-function MoveSystem:update(dt)
+function MoveSystem:update(_, dt)
 	for _, e in ipairs(self.pool) do
-		e.body.position:add(e.body.position, e.body.velocity.scale(Vec2.new(), e.body.velocity, dt))
+		e.body.velocity = e.body.velocity:add(e.body.force:scale(1 / e.body.mass))
+		e.body.force = Vec.of(0)
+		e.body.position = e.body.position:add(e.body.velocity:scale(dt))
 	end
 end
 
