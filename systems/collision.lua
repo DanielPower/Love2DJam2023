@@ -24,10 +24,6 @@ function CollisionSystem:update()
 				local massTransferred = util.radiusToMass(smallRadius) - util.radiusToMass(smallRadius - overlap / 2)
 				smaller.body.mass = smaller.body.mass - massTransferred
 				larger.body.mass = larger.body.mass + massTransferred
-				if smaller.body.mass < 1 then
-					larger.body.mass = larger.body.mass + smaller.body.mass
-					smaller:give("dead")
-				end
 			end
 		end
 	end

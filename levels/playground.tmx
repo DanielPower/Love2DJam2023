@@ -4,7 +4,7 @@
   <export target="playground.lua" format="lua"/>
  </editorsettings>
  <objectgroup id="2" name="Objects">
-  <object id="1" name="Player" x="-26.6667" y="-42.6667" width="144.167" height="144.167">
+  <object id="1" name="Player" x="0" y="0" width="64" height="64">
    <properties>
     <property name="player" type="bool" value="true"/>
    </properties>
@@ -200,9 +200,6 @@
    <ellipse/>
   </object>
   <object id="67" x="464" y="-162" width="10" height="10">
-   <ellipse/>
-  </object>
-  <object id="68" x="472" y="-198">
    <ellipse/>
   </object>
   <object id="69" x="485" y="-232" width="15" height="15">
@@ -643,16 +640,10 @@
   <object id="214" x="-462" y="-134" width="22" height="22">
    <ellipse/>
   </object>
-  <object id="215" x="-555" y="-119">
-   <ellipse/>
-  </object>
   <object id="216" x="-562" y="-102" width="23" height="23">
    <ellipse/>
   </object>
   <object id="217" x="-596" y="-142" width="14" height="14">
-   <ellipse/>
-  </object>
-  <object id="218" x="-550" y="-181">
    <ellipse/>
   </object>
   <object id="219" x="-532" y="-233" width="36" height="36">
@@ -709,7 +700,7 @@
   <object id="236" x="-454" y="-473" width="82" height="82">
    <ellipse/>
   </object>
-  <object id="237" x="-758" y="-556" width="171" height="171">
+  <object id="237" x="-720" y="-502" width="171" height="171">
    <ellipse/>
   </object>
   <object id="238" x="640" y="-647" width="199" height="199">
@@ -718,10 +709,205 @@
   <object id="239" x="612" y="230" width="209" height="209">
    <ellipse/>
   </object>
+  <object id="240" x="-404" y="464" width="392" height="392">
+   <ellipse/>
+  </object>
+  <object id="241" x="-3752" y="756" width="836" height="836">
+   <ellipse/>
+  </object>
+  <object id="242" x="-2552" y="588" width="60" height="60">
+   <ellipse/>
+  </object>
+  <object id="243" x="-2284" y="936" width="212" height="212">
+   <ellipse/>
+  </object>
+  <object id="244" x="-1856" y="876" width="4" height="4">
+   <ellipse/>
+  </object>
+  <object id="245" x="-1860" y="576" width="180" height="180">
+   <ellipse/>
+  </object>
+  <object id="246" x="-1632" y="428" width="4" height="4">
+   <ellipse/>
+  </object>
+  <object id="247" x="-1512" y="192" width="108" height="108">
+   <ellipse/>
+  </object>
+  <object id="248" x="-1428" y="-12" width="120" height="120">
+   <ellipse/>
+  </object>
+  <object id="249" x="-1592" y="-296" width="68" height="68">
+   <ellipse/>
+  </object>
+  <object id="250" x="-1568" y="-492" width="36" height="36">
+   <ellipse/>
+  </object>
+  <object id="251" x="-2252" y="-160" width="240" height="240">
+   <ellipse/>
+  </object>
+  <object id="252" x="-2172" y="200" width="148" height="148">
+   <ellipse/>
+  </object>
+  <object id="253" x="-2240" y="400" width="188" height="188">
+   <ellipse/>
+  </object>
+  <object id="254" x="-2980" y="208" width="88" height="88">
+   <ellipse/>
+  </object>
+  <object id="255" x="-2748" y="-484" width="204" height="204">
+   <ellipse/>
+  </object>
+  <object id="256" x="-1644" y="-832" width="12" height="12">
+   <ellipse/>
+  </object>
+  <object id="257" x="-872" y="-1240" width="440" height="440">
+   <ellipse/>
+  </object>
+  <object id="258" x="2440" y="-2416" width="1392" height="1392">
+   <ellipse/>
+  </object>
+  <object id="259" x="2720" y="864" width="536" height="536">
+   <ellipse/>
+  </object>
+  <object id="260" x="2320" y="1616" width="184" height="184">
+   <ellipse/>
+  </object>
+  <object id="261" x="1640" y="2016" width="320" height="320">
+   <ellipse/>
+  </object>
+  <object id="262" x="-352" y="2736" width="352" height="352">
+   <ellipse/>
+  </object>
+  <object id="263" x="-1024" y="1960" width="696" height="696">
+   <ellipse/>
+  </object>
+  <object id="264" x="408" y="1568" width="184" height="184">
+   <ellipse/>
+  </object>
+  <object id="265" x="1040" y="1336" width="320" height="320">
+   <ellipse/>
+  </object>
+  <object id="266" x="1280" y="1184" width="168" height="168">
+   <ellipse/>
+  </object>
+  <object id="267" x="1712" y="408" width="168" height="168">
+   <ellipse/>
+  </object>
+  <object id="268" x="1976" y="208" width="200" height="200">
+   <ellipse/>
+  </object>
+  <object id="269" x="2152" y="-288" width="464" height="464">
+   <ellipse/>
+  </object>
+  <object id="270" x="2416" y="-464" width="48" height="48">
+   <ellipse/>
+  </object>
+  <object id="271" x="1944" y="-864" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="272" x="1792" y="-1160" width="200" height="200">
+   <ellipse/>
+  </object>
+  <object id="273" x="1528" y="-1488" width="592" height="592">
+   <ellipse/>
+  </object>
+  <object id="274" x="1120" y="-1936" width="240" height="240">
+   <ellipse/>
+  </object>
+  <object id="275" x="944" y="-1616" width="320" height="320">
+   <ellipse/>
+  </object>
+  <object id="276" x="344" y="-1680" width="208" height="208">
+   <ellipse/>
+  </object>
+  <object id="277" x="136" y="-1400" width="232" height="232">
+   <ellipse/>
+  </object>
+  <object id="278" x="-168" y="-1232" width="224" height="224">
+   <ellipse/>
+  </object>
   <object id="279" x="8" y="-792" width="120" height="120">
    <ellipse/>
   </object>
+  <object id="280" x="-2040" y="720" width="208" height="208">
+   <ellipse/>
+  </object>
+  <object id="281" x="-1600" y="1072" width="384" height="384">
+   <ellipse/>
+  </object>
+  <object id="282" x="-1240" y="1192" width="144" height="144">
+   <ellipse/>
+  </object>
+  <object id="283" x="-1040" y="736" width="168" height="168">
+   <ellipse/>
+  </object>
+  <object id="284" x="-728" y="800" width="464" height="464">
+   <ellipse/>
+  </object>
+  <object id="285" x="-256" y="1568" width="296" height="296">
+   <ellipse/>
+  </object>
+  <object id="286" x="512" y="2088" width="56" height="56">
+   <ellipse/>
+  </object>
+  <object id="287" x="1040" y="2672" width="48" height="48">
+   <ellipse/>
+  </object>
+  <object id="288" x="1264" y="1960" width="512" height="512">
+   <ellipse/>
+  </object>
+  <object id="289" x="1528" y="848" width="416" height="416">
+   <ellipse/>
+  </object>
+  <object id="290" x="1144" y="0" width="64" height="64">
+   <ellipse/>
+  </object>
+  <object id="291" x="1280" y="-320" width="40" height="40">
+   <ellipse/>
+  </object>
+  <object id="292" x="1336" y="-768" width="304" height="304">
+   <ellipse/>
+  </object>
+  <object id="293" x="1552" y="-560" width="376" height="376">
+   <ellipse/>
+  </object>
   <object id="294" x="184" y="-552" width="32" height="32">
+   <ellipse/>
+  </object>
+  <object id="295" x="-1288" y="-448" width="440" height="440">
+   <ellipse/>
+  </object>
+  <object id="296" x="-1272" y="416" width="112" height="112">
+   <ellipse/>
+  </object>
+  <object id="297" x="-2072" y="-368" width="376" height="376">
+   <ellipse/>
+  </object>
+  <object id="298" x="-1832" y="-888" width="136" height="136">
+   <ellipse/>
+  </object>
+  <object id="299" x="-2040" y="-1680" width="320" height="320">
+   <ellipse/>
+  </object>
+  <object id="300" x="-1568" y="-1704" width="248" height="248">
+   <ellipse/>
+  </object>
+  <object id="301" x="-1136" y="-1776" width="232" height="232">
+   <ellipse/>
+  </object>
+  <object id="302" x="-704" y="-1824" width="352" height="352">
+   <ellipse/>
+  </object>
+  <object id="303" x="-160" y="-2016" width="216" height="216">
+   <ellipse/>
+  </object>
+  <object id="304" x="368" y="-2424" width="224" height="224">
+   <ellipse/>
+  </object>
+  <object id="305" x="896" y="-2576" width="152" height="152">
+   <ellipse/>
+  </object>
+  <object id="306" x="2192" y="-2496" width="208" height="208">
    <ellipse/>
   </object>
  </objectgroup>
