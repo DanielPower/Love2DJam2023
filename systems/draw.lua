@@ -15,10 +15,10 @@ function DrawSystem:draw()
 	for _, e in ipairs(self.pool) do
 		if e.player then
 			love.graphics.setColor(PLAYER_COLOR)
-		elseif e.body.mass > player.body.mass then
-			love.graphics.setColor(LARGE_ORB_COLOR)
-		else
+		elseif e.body.mass < player.body.mass then
 			love.graphics.setColor(SMALL_ORB_COLOR)
+		else
+			love.graphics.setColor(LARGE_ORB_COLOR)
 		end
 		love.graphics.circle("fill", e.body.position.x, e.body.position.y, util.bodyRadius(e.body))
 	end
