@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="1" nextlayerid="3" nextobjectid="9">
+ <editorsettings>
+  <export format="lua"/>
+ </editorsettings>
+ <objectgroup id="2" name="Objects">
+  <object id="1" x="-38.6429" y="-35.8359" width="69.177" height="69.177">
+   <properties>
+    <property name="player" type="bool" value="true"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="2" x="-64.5455" y="40.3636" width="9.45455" height="9.45455">
+   <ellipse/>
+  </object>
+  <object id="3" x="79.4545" y="48" width="11.6364" height="11.6364">
+   <ellipse/>
+  </object>
+  <object id="4" x="67.0909" y="-40" width="46.1818" height="46.1818">
+   <ellipse/>
+  </object>
+  <object id="5" x="-180.333" y="-242" width="86" height="86">
+   <ellipse/>
+  </object>
+  <object id="6" x="14.6667" y="-110" width="28" height="28">
+   <ellipse/>
+  </object>
+  <object id="7" x="-14" y="126.667" width="30.6667" height="30.6667">
+   <ellipse/>
+  </object>
+  <object id="8" x="-161.333" y="-22.6667" width="28" height="28">
+   <ellipse/>
+  </object>
+ </objectgroup>
+</map>

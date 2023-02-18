@@ -12,3 +12,4 @@ Concord.component("body", function(component, position, mass, options)
 end)
 
 Concord.component("player")
+Concord.component("dead")

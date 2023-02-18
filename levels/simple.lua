@@ -1,0 +1,140 @@
+return {
+  version = "1.9",
+  luaversion = "5.1",
+  tiledversion = "1.9.2",
+  class = "",
+  orientation = "orthogonal",
+  renderorder = "right-down",
+  width = 30,
+  height = 20,
+  tilewidth = 32,
+  tileheight = 32,
+  nextlayerid = 3,
+  nextobjectid = 9,
+  properties = {},
+  tilesets = {},
+  layers = {
+    {
+      type = "objectgroup",
+      draworder = "topdown",
+      id = 2,
+      name = "Objects",
+      class = "",
+      visible = true,
+      opacity = 1,
+      offsetx = 0,
+      offsety = 0,
+      parallaxx = 1,
+      parallaxy = 1,
+      properties = {},
+      objects = {
+        {
+          id = 1,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -38.6429,
+          y = -35.8359,
+          width = 69.177,
+          height = 69.177,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["player"] = true
+          }
+        },
+        {
+          id = 2,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -64.5455,
+          y = 40.3636,
+          width = 9.45455,
+          height = 9.45455,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 3,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 79.4545,
+          y = 48,
+          width = 11.6364,
+          height = 11.6364,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 4,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 67.0909,
+          y = -40,
+          width = 46.1818,
+          height = 46.1818,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 5,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -180.333,
+          y = -242,
+          width = 86,
+          height = 86,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 6,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 14.6667,
+          y = -110,
+          width = 28,
+          height = 28,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 7,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -14,
+          y = 126.667,
+          width = 30.6667,
+          height = 30.6667,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        },
+        {
+          id = 8,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -161.333,
+          y = -22.6667,
+          width = 28,
+          height = 28,
+          rotation = 0,
+          visible = true,
+          properties = {}
+        }
+      }
+    }
+  }
+}
