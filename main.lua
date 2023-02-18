@@ -9,7 +9,7 @@ local FpsCounterSystem = require("systems.fpsCounter")
 local DeathSystem = require("systems.death")
 local Vec = require("vec")
 local gamera = require("gamera")
-local playgroundMap = require("levels.simple")
+local playgroundMap = require("levels.playground")
 local util = require("util")
 
 local world = Concord.world()

@@ -1,18 +1,16 @@
 local Concord = require("concord")
 local Vec = require("vec")
-local ORB_SCALE = 10
-
 local util = {}
 
 function util.bodyRadius(body)
-	return math.sqrt(body.mass / math.pi) * ORB_SCALE
+	return math.sqrt(body.mass / math.pi)
 end
 
 function util.radiusToMass(radius)
 	if radius <= 0 then
 		return 0
 	end
-	return (math.pi * radius ^ 2) / ORB_SCALE ^ 2
+	return math.pi * radius ^ 2
 end
 
 function util.loadTiledObject(world, object)

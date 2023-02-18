@@ -7,6 +7,9 @@ local MoveSystem = Concord.system({
 
 function MoveSystem:update(dt)
 	for _, e in ipairs(self.pool) do
+		if e.player then
+			print(e.body.velocity, e.body.position, e.body.mass)
+		end
 		if not e.dead then
 			e.body.velocity = e.body.velocity:add(e.body.force:scale(1 / e.body.mass))
 		end
