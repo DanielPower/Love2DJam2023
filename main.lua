@@ -7,20 +7,21 @@ local ShootSystem = require("systems.shoot")
 local CollisionSystem = require("systems.collision")
 local FpsCounterSystem = require("systems.fpsCounter")
 local DeathSystem = require("systems.death")
-local Vec = require("vec")
 local gamera = require("gamera")
 local playgroundMap = require("levels.playground")
 local util = require("util")
 
-local world = Concord.world()
+local gameWorld = Concord.world()
+gameWorld:addSystems(FpsCounterSystem)
 
 local paused = false
 local camera = gamera.new(-math.huge, -math.huge, math.huge, math.huge)
 
-world:addSystems(MoveSystem, GravitySystem, DrawSystem, ShootSystem, CollisionSystem, DeathSystem, FpsCounterSystem)
-world:setResource("camera", camera)
+local levelWorld = Concord.world()
+levelWorld:addSystems(MoveSystem, GravitySystem, DrawSystem, ShootSystem, CollisionSystem, DeathSystem)
+levelWorld:setResource("camera", camera)
 
-util.loadTiledMap(world, playgroundMap)
+util.loadTiledMap(levelWorld, playgroundMap)
 
 function love.keypressed(key)
 	if key == "p" then
@@ -29,15 +30,17 @@ function love.keypressed(key)
 end
 
 function love.mousepressed(x, y, button)
-	world:emit("mousepressed", x, y, button)
+	levelWorld:emit("mousepressed", x, y, button)
 end
 
 function love.update(dt)
+	gameWorld:emit("update", dt)
 	if not paused then
-		world:emit("update", dt)
+		levelWorld:emit("update", dt)
 	end
 end
 
 function love.draw()
-	world:emit("draw")
+	levelWorld:emit("draw")
+	gameWorld:emit("draw")
 end
