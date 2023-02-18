@@ -15,6 +15,7 @@ function DrawSystem:draw()
 	local world = self:getWorld()
 	local camera = world:getResource("camera")
 	camera:setPosition(player.body.position.x, player.body.position.y)
+	camera:setScale(30 / util.bodyRadius(player.body))
 	camera:draw(function()
 		for _, e in ipairs(self.pool) do
 			if e.player then

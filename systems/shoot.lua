@@ -27,6 +27,7 @@ function ShootSystem:mousepressed(x, y, button)
 		local relativeVelocity = Vec.new(worldX, worldY):sub(e.body.position):normalize():scale(SHOT_VELOCITY)
 		Concord.entity(world)
 			:give("body", e.body.position:clone(), massLost, { velocity = e.body.velocity:add(relativeVelocity) })
+			:give("immunity", e)
 		e.body.force = e.body.force:sub(relativeVelocity:scale(massLost))
 	end
 end

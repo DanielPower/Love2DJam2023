@@ -11,5 +11,9 @@ Concord.component("body", function(component, position, mass, options)
 	component.force = options.force or Vec.of(0)
 end)
 
+Concord.component("immunity", function(component, entity)
+	component.entity = entity
+end)
+
 Concord.component("player")
 Concord.component("dead")
