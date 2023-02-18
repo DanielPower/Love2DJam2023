@@ -6,7 +6,7 @@ local GravitySystem = Concord.system({
 	pool = { "body" },
 })
 
-function GravitySystem:update(_, dt)
+function GravitySystem:update(dt)
 	for i = 1, #self.pool do
 		for j = i + 1, #self.pool do
 			local e1 = self.pool[i]

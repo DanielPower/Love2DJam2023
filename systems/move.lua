@@ -5,7 +5,7 @@ local MoveSystem = Concord.system({
 	pool = { "body" },
 })
 
-function MoveSystem:update(_, dt)
+function MoveSystem:update(dt)
 	for _, e in ipairs(self.pool) do
 		e.body.velocity = e.body.velocity:add(e.body.force:scale(1 / e.body.mass))
 		e.body.force = Vec.of(0)
