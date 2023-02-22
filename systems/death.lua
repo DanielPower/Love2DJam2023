@@ -1,13 +1,13 @@
 local Concord = require("concord")
 
 local DeathSystem = Concord.system({
-	pool = { "body" },
+	pool = { "mass" },
 })
 
 function DeathSystem:update()
 	for _, e in ipairs(self.pool) do
-		if e.body.mass < 1 then
-			if e.player then
+		if e.mass.val < 1 then
+			if e:has("player") then
 				e:give("dead")
 			else
 				e:destroy()

@@ -2,8 +2,8 @@ local Concord = require("concord")
 local Vec = require("vec")
 local util = {}
 
-function util.bodyRadius(body)
-	return math.sqrt(body.mass / math.pi)
+function util.massToRadius(mass)
+	return math.sqrt(mass / math.pi)
 end
 
 function util.radiusToMass(radius)
@@ -15,7 +15,11 @@ end
 
 function util.loadTiledObject(world, object)
 	local entity = Concord.entity(world)
-	entity:give("body", Vec(object.x, object.y), util.radiusToMass(object.width / 2))
+	entity
+		:give("position", Vec(object.x, object.y))
+		:give("mass", util.radiusToMass(object.width / 2))
+		:give("velocity")
+		:give("force")
 	if object.properties.player then
 		entity:give("player")
 	end

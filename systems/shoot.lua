@@ -2,7 +2,7 @@ local Concord = require("concord")
 local Vec = require("vec")
 
 local ShootSystem = Concord.system({
-	pool = { "player", "body" },
+	pool = { "player", "mass", "position" },
 })
 
 local SHOT_VELOCITY = 600
@@ -22,13 +22,15 @@ function ShootSystem:mousepressed(x, y, button)
 		return
 	end
 	for _, e in ipairs(self.pool) do
-		local massLost = e.body.mass * shotSize
-		e.body.mass = e.body.mass - massLost
-		local relativeVelocity = Vec.new(worldX, worldY):sub(e.body.position):normalize():scale(SHOT_VELOCITY)
+		local massLost = e.mass.val * shotSize
+		e.mass.val = e.mass.val - massLost
+		local relativeVelocity = Vec.new(worldX, worldY):sub(e.position.val):normalize():scale(SHOT_VELOCITY)
 		Concord.entity(world)
-			:give("body", e.body.position:clone(), massLost, { velocity = e.body.velocity:add(relativeVelocity) })
+			:give("position", e.position.val:clone())
+			:give("mass", massLost)
+			:give("velocity", e.velocity.val:add(relativeVelocity))
 			:give("immunity", e)
-		e.body.force = e.body.force:sub(relativeVelocity:scale(massLost))
+		e.force.val = e.force.val:sub(relativeVelocity:scale(massLost))
 	end
 end
 

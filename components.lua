@@ -1,14 +1,20 @@
 local Concord = require("concord")
 local Vec = require("vec")
 
-Concord.component("body", function(component, position, mass, options)
-	if not options then
-		options = {}
-	end
-	component.position = position
-	component.mass = mass
-	component.velocity = options.velocity or Vec.of(0)
-	component.force = options.force or Vec.of(0)
+Concord.component("position", function(component, position)
+	component.val = position
+end)
+
+Concord.component("mass", function(component, mass)
+	component.val = mass
+end)
+
+Concord.component("velocity", function(component, velocity)
+	component.val = velocity or Vec.of(0)
+end)
+
+Concord.component("force", function(component, force)
+	component.val = force or Vec.of(0)
 end)
 
 Concord.component("immunity", function(component, entity)
