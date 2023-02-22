@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<template>
+ <object width="86" height="86">
+  <properties>
+   <property name="autoMass" type="class" propertytype="Void"/>
+   <property name="force" type="class" propertytype="Vec">
+    <properties>
+     <property name="x" type="float" value="0"/>
+     <property name="y" type="float" value="0"/>
+    </properties>
+   </property>
+   <property name="velocity" type="class" propertytype="Vec">
+    <properties>
+     <property name="x" type="float" value="0"/>
+     <property name="y" type="float" value="0"/>
+    </properties>
+   </property>
+  </properties>
+  <ellipse/>
+ </object>
+</template>

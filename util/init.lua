@@ -1,9 +1,10 @@
 local Concord = require("concord")
 local Vec = require("vec")
+
 local util = {}
 
 function util.massToRadius(mass)
-	return math.sqrt(mass / math.pi)
+	return math.sqrt(mass) / math.pi
 end
 
 function util.radiusToMass(radius)
@@ -13,15 +14,31 @@ function util.radiusToMass(radius)
 	return math.pi * radius ^ 2
 end
 
+local componentResolvers = {
+	player = function(e)
+		e:give("player")
+	end,
+	velocity = function(e, v)
+		e:give("velocity", Vec(v.x, v.y))
+	end,
+	force = function(e, v)
+		e:give("force", Vec(v.x, v.y))
+	end,
+	autoMass = function(e, _, p)
+		e:give("mass", util.radiusToMass(p.width / 2))
+	end,
+	mass = function(e, v)
+		e:give("mass", v)
+	end,
+}
+
 function util.loadTiledObject(world, object)
 	local entity = Concord.entity(world)
-	entity
-		:give("position", Vec(object.x, object.y))
-		:give("mass", util.radiusToMass(object.width / 2))
-		:give("velocity")
-		:give("force")
-	if object.properties.player then
-		entity:give("player")
+	entity:give("position", Vec(object.x, object.y))
+	for property, value in pairs(object.properties) do
+		if componentResolvers[property] then
+			componentResolvers[property](entity, value, object)
+		end
 	end
 end
 

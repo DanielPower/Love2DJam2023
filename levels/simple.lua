@@ -1,5 +1,5 @@
 return {
-  version = "1.9",
+  version = "1.10",
   luaversion = "5.1",
   tiledversion = "1.9.2",
   class = "",
@@ -10,7 +10,7 @@ return {
   tilewidth = 32,
   tileheight = 32,
   nextlayerid = 3,
-  nextobjectid = 9,
+  nextobjectid = 15,
   properties = {},
   tilesets = {},
   layers = {
@@ -29,110 +29,120 @@ return {
       properties = {},
       objects = {
         {
-          id = 1,
+          id = 10,
           name = "",
-          class = "",
+          type = "",
           shape = "ellipse",
-          x = -38.6429,
-          y = -35.8359,
-          width = 69.177,
-          height = 69.177,
+          x = -108,
+          y = -108.667,
+          width = 44.6667,
+          height = 44.6667,
           rotation = 0,
           visible = true,
           properties = {
-            ["player"] = true
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            }
           }
         },
         {
-          id = 2,
+          id = 11,
           name = "",
-          class = "",
+          type = "",
           shape = "ellipse",
-          x = -64.5455,
-          y = 40.3636,
-          width = 9.45455,
-          height = 9.45455,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
-          id = 3,
-          name = "",
-          class = "",
-          shape = "ellipse",
-          x = 79.4545,
-          y = 48,
-          width = 11.6364,
-          height = 11.6364,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
-          id = 4,
-          name = "",
-          class = "",
-          shape = "ellipse",
-          x = 67.0909,
-          y = -40,
-          width = 46.1818,
-          height = 46.1818,
-          rotation = 0,
-          visible = true,
-          properties = {}
-        },
-        {
-          id = 5,
-          name = "",
-          class = "",
-          shape = "ellipse",
-          x = -180.333,
-          y = -242,
+          x = -363.333,
+          y = -255.333,
           width = 86,
           height = 86,
           rotation = 0,
           visible = true,
-          properties = {}
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            }
+          }
         },
         {
-          id = 6,
+          id = 12,
           name = "",
-          class = "",
+          type = "",
           shape = "ellipse",
-          x = 14.6667,
-          y = -110,
-          width = 28,
-          height = 28,
+          x = -34.6667,
+          y = 16,
+          width = 86,
+          height = 86,
           rotation = 0,
           visible = true,
-          properties = {}
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["player"] = {},
+            ["velocity"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            }
+          }
         },
         {
-          id = 7,
+          id = 13,
           name = "",
-          class = "",
+          type = "",
           shape = "ellipse",
-          x = -14,
-          y = 126.667,
-          width = 30.6667,
-          height = 30.6667,
+          x = -306,
+          y = -16,
+          width = 86,
+          height = 86,
           rotation = 0,
           visible = true,
-          properties = {}
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            }
+          }
         },
         {
-          id = 8,
+          id = 14,
           name = "",
-          class = "",
+          type = "",
           shape = "ellipse",
-          x = -161.333,
-          y = -22.6667,
-          width = 28,
-          height = 28,
+          x = -195.333,
+          y = -318,
+          width = 172.667,
+          height = 172.667,
           rotation = 0,
           visible = true,
-          properties = {}
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            }
+          }
         }
       }
     }
