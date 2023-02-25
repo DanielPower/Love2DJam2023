@@ -48,6 +48,10 @@ function util.loadTiledMap(world, map)
 		if layer.name == "Objects" then
 			objects = layer.objects
 		end
+		world:setResource(
+			"backgroundColor",
+			{ map.backgroundcolor[1] / 255, map.backgroundcolor[2] / 255, map.backgroundcolor[3] / 255 }
+		)
 	end
 	if not objects then
 		print("No objects found")

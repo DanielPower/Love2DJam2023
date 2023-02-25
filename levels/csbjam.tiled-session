@@ -1,0 +1,29 @@
+{
+    "activeFile": "",
+    "expandedProjectPaths": [
+    ],
+    "fileStates": {
+        "playground.tmx": {
+            "scale": 0.75,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 104.66666666666674,
+                "y": -35.33333333333337
+            }
+        },
+        "simple.tmx": {
+            "scale": 36.3375,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": 16.002751977984175,
+                "y": 16.002751977984175
+            }
+        }
+    },
+    "openFiles": [
+    ],
+    "project": "csbjam.tiled-project",
+    "property.type": "file",
+    "recentFiles": [
+    ]
+}

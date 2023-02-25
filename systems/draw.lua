@@ -17,6 +17,7 @@ function DrawSystem:draw()
 	camera:setPosition(player.position.val.x, player.position.val.y)
 	camera:setScale(30 / util.massToRadius(player.mass.val))
 	camera:draw(function()
+		love.graphics.setBackgroundColor(world:getResource("backgroundColor"))
 		for _, e in ipairs(self.pool) do
 			if e.player then
 				love.graphics.setColor(PLAYER_COLOR)
