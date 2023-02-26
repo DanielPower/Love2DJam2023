@@ -10,7 +10,7 @@ return {
   tilewidth = 100,
   tileheight = 100,
   nextlayerid = 3,
-  nextobjectid = 14,
+  nextobjectid = 19,
   backgroundcolor = { 56, 56, 43 },
   properties = {},
   tilesets = {},
@@ -118,7 +118,7 @@ return {
             },
             ["velocity"] = {
               ["angle"] = 45,
-              ["magnitude"] = 60
+              ["magnitude"] = 80
             }
           }
         },
@@ -187,7 +187,7 @@ return {
             },
             ["velocity"] = {
               ["angle"] = 135,
-              ["magnitude"] = 60
+              ["magnitude"] = 80
             }
           }
         },
@@ -256,7 +256,7 @@ return {
             },
             ["velocity"] = {
               ["angle"] = 315,
-              ["magnitude"] = 60
+              ["magnitude"] = 80
             }
           }
         },
@@ -278,7 +278,7 @@ return {
               ["y"] = 0
             },
             ["velocity"] = {
-              ["angle"] = 215,
+              ["angle"] = 225,
               ["magnitude"] = 60
             }
           }
@@ -301,7 +301,7 @@ return {
               ["y"] = 0
             },
             ["velocity"] = {
-              ["angle"] = 215,
+              ["angle"] = 225,
               ["magnitude"] = 60
             }
           }
@@ -324,8 +324,100 @@ return {
               ["y"] = 0
             },
             ["velocity"] = {
-              ["angle"] = 215,
-              ["magnitude"] = 60
+              ["angle"] = 225,
+              ["magnitude"] = 80
+            }
+          }
+        },
+        {
+          id = 14,
+          name = "",
+          type = "",
+          shape = "ellipse",
+          x = -2100,
+          y = -2100,
+          width = 800,
+          height = 800,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 45,
+              ["magnitude"] = 180
+            }
+          }
+        },
+        {
+          id = 15,
+          name = "",
+          type = "",
+          shape = "ellipse",
+          x = 1300,
+          y = -2100,
+          width = 800,
+          height = 800,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 135,
+              ["magnitude"] = 180
+            }
+          }
+        },
+        {
+          id = 16,
+          name = "",
+          type = "",
+          shape = "ellipse",
+          x = -2100,
+          y = 1300,
+          width = 800,
+          height = 800,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 315,
+              ["magnitude"] = 180
+            }
+          }
+        },
+        {
+          id = 17,
+          name = "",
+          type = "",
+          shape = "ellipse",
+          x = 1300,
+          y = 1300,
+          width = 800,
+          height = 800,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 225,
+              ["magnitude"] = 180
             }
           }
         }

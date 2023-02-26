@@ -1,11 +1,12 @@
 local Concord = require("concord")
 local Vec = require("vec")
+local util = require("util")
 
 local ShootSystem = Concord.system({
 	pool = { "player", "mass", "position" },
 })
 
-local SHOT_VELOCITY = 600
+local SHOT_VELOCITY = 1000
 local SMALL_SHOT_MASS = 0.05
 local LARGE_SHOT_MASS = 0.15
 
@@ -30,7 +31,7 @@ function ShootSystem:mousepressed(x, y, button)
 			:give("mass", massLost)
 			:give("velocity", e.velocity.val:add(relativeVelocity))
 			:give("immunity", e)
-		e.force.val = e.force.val:sub(relativeVelocity:scale(massLost))
+		e.force.val = e.force.val:sub(relativeVelocity:scale(e.mass.val))
 	end
 end
 

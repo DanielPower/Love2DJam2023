@@ -15,7 +15,7 @@ function GravitySystem:update(dt)
 				util.massToRadius(e1.mass.val) + util.massToRadius(e2.mass.val),
 				e1.position.val:dist(e2.position.val)
 			)
-			local magnitude = 6000 * math.sqrt(e1.mass.val * e2.mass.val) / distance ^ 2 * dt
+			local magnitude = 6000000 * math.sqrt(e1.mass.val * e2.mass.val) / distance ^ 2 * dt
 			local angle = e2.position.val:angle_to(e1.position.val)
 			local delta = Vec.new(math.cos(angle) * magnitude, math.sin(angle) * magnitude)
 			e1.force.val = e1.force.val:add(delta)

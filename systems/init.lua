@@ -17,7 +17,7 @@ systems.default = {
 	systems.death,
 	systems.orbDraw,
 	systems.fpsCounter,
-	systems.gravity,
+	-- systems.gravity,
 	systems.hud,
 	systems.move,
 	systems.shoot,

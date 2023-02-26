@@ -2,30 +2,25 @@ local Concord = require("concord")
 local systems = require("systems")
 
 return function(world)
+	world:addSystems(unpack(systems.default))
 	world:addSystem(systems.message)
-	world:addSystem(systems.goal)
-	world:getSystem(systems.move):setEnabled(false)
 	world:getSystem(systems.shoot):setEnabled(false)
-	world:setResource("message", "Welcome to a shitty Osmos clone")
+	world:setResource("message", "Click anywhere to emit mass in that direction")
 	Concord.entity(world):give("timer", 3, function(entity)
-		world:setResource("message", "The goal is to get big")
+		world:setResource("message", "You will be propelled in the opposite direction")
 		entity:destroy()
 	end)
 	Concord.entity(world):give("timer", 6, function(entity)
-		world:setResource("message", "Click to emit mass.\nAbsorb small masses. Avoid large masses")
-		entity:destroy()
-	end)
-	Concord.entity(world):give("timer", 10, function(entity)
 		world:setResource("message", nil)
-		entity:destroy()
-		world:getSystem(systems.move):setEnabled(true)
 		world:getSystem(systems.shoot):setEnabled(true)
+		world:addSystem(systems.goal)
 		world:setResource("goal", {
-			title = "Grow to 1 nanogram",
+			title = "Grow to 10 micrograms",
 			condition = function()
 				local player = world:getResource("player")
-				return player.mass.val >= 1000
+				return player.mass.val >= 10000000
 			end,
 		})
+		entity:destroy()
 	end)
 end

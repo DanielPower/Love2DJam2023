@@ -1,35 +1,153 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="1" backgroundcolor="#3c3c5a" nextlayerid="3" nextobjectid="18">
+<map version="1.10" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="1" backgroundcolor="#3c3c5a" nextlayerid="3" nextobjectid="161">
  <editorsettings>
   <export target="map.lua" format="lua"/>
  </editorsettings>
  <objectgroup id="2" name="Objects">
-  <object id="10" template="../Orb.tx" x="-82.6667" y="-99.3337" width="44.6667" height="44.6667">
-   <properties>
-    <property name="timer.1" type="class" propertytype="Timer">
-     <properties>
-      <property name="callback" type="file" value="../scripts/destroy.lua"/>
-      <property name="time" type="int" value="1"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="11" template="../Orb.tx" x="-363.333" y="-255.333">
-   <properties>
-    <property name="force" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="12" template="../Orb.tx" x="-34.6667" y="16">
+  <object id="10" template="../Orb.tx" x="-500" y="-500" width="1000" height="1000">
    <properties>
     <property name="player" type="class" propertytype="Void"/>
    </properties>
   </object>
-  <object id="13" template="../Orb.tx" x="-306" y="-16"/>
-  <object id="14" template="../Orb.tx" x="-195.333" y="-318" width="172.667" height="172.667"/>
+  <object id="19" template="../Orb.tx" x="-1848" y="-608" width="790" height="790"/>
+  <object id="20" template="../Orb.tx" x="1133" y="-451" width="790" height="790"/>
+  <object id="21" template="../Orb.tx" x="2037" y="933" width="790" height="790"/>
+  <object id="22" template="../Orb.tx" x="741" y="1669" width="790" height="790"/>
+  <object id="23" template="../Orb.tx" x="-1115" y="1765" width="790" height="790"/>
+  <object id="24" template="../Orb.tx" x="2677" y="-2203" width="790" height="790"/>
+  <object id="25" template="../Orb.tx" x="-2603" y="469" width="790" height="790"/>
+  <object id="26" template="../Orb.tx" x="-2651" y="-1867" width="790" height="790"/>
+  <object id="27" template="../Orb.tx" x="-763" y="-2011" width="790" height="790"/>
+  <object id="28" template="../Orb.tx" x="1221" y="-3003" width="790" height="790"/>
+  <object id="29" template="../Orb.tx" x="-827" y="-4363" width="1270" height="1270"/>
+  <object id="30" template="../Orb.tx" x="2149" y="-3707" width="1270" height="1270"/>
+  <object id="31" template="../Orb.tx" x="-3019" y="-3819" width="1270" height="1270"/>
+  <object id="32" template="../Orb.tx" x="-4459" y="-2539" width="1270" height="1270"/>
+  <object id="33" template="../Orb.tx" x="-5483" y="-75" width="1270" height="1270"/>
+  <object id="34" template="../Orb.tx" x="-4187" y="2085" width="1270" height="1270"/>
+  <object id="35" template="../Orb.tx" x="4645" y="-2347" width="1270" height="1270"/>
+  <object id="36" template="../Orb.tx" x="-2379" y="3637" width="1270" height="1270"/>
+  <object id="37" template="../Orb.tx" x="917" y="3749" width="1270" height="1270"/>
+  <object id="38" template="../Orb.tx" x="3157" y="2053" width="1270" height="1270"/>
+  <object id="39" template="../Orb.tx" x="4549" y="-331" width="1270" height="1270"/>
+  <object id="41" template="../Orb.tx" x="2581" y="-587" width="790" height="790"/>
+  <object id="42" template="../Orb.tx" x="1605" y="-1691" width="790" height="790"/>
+  <object id="43" template="../Orb.tx" x="-219" y="3845" width="246" height="246"/>
+  <object id="45" template="../Orb.tx" x="165" y="3141" width="246" height="246"/>
+  <object id="46" template="../Orb.tx" x="-1051" y="3205" width="246" height="246"/>
+  <object id="47" template="../Orb.tx" x="-2123" y="2037" width="246" height="246"/>
+  <object id="48" template="../Orb.tx" x="-779" y="1141" width="246" height="246"/>
+  <object id="49" template="../Orb.tx" x="293" y="933" width="246" height="246"/>
+  <object id="50" template="../Orb.tx" x="2469" y="565" width="246" height="246"/>
+  <object id="51" template="../Orb.tx" x="3669" y="917" width="246" height="246"/>
+  <object id="52" template="../Orb.tx" x="5061" y="1509" width="246" height="246"/>
+  <object id="53" template="../Orb.tx" x="3749" y="149" width="246" height="246"/>
+  <object id="54" template="../Orb.tx" x="3957" y="-907" width="246" height="246"/>
+  <object id="55" template="../Orb.tx" x="4693" y="-939" width="246" height="246"/>
+  <object id="56" template="../Orb.tx" x="3733" y="-1899" width="246" height="246"/>
+  <object id="57" template="../Orb.tx" x="3797" y="-2843" width="246" height="246"/>
+  <object id="58" template="../Orb.tx" x="2229" y="-2219" width="246" height="246"/>
+  <object id="59" template="../Orb.tx" x="1109" y="-1835" width="246" height="246"/>
+  <object id="60" template="../Orb.tx" x="21" y="-2539" width="246" height="246"/>
+  <object id="61" template="../Orb.tx" x="-619" y="-2763" width="246" height="246"/>
+  <object id="62" template="../Orb.tx" x="-1579" y="-2059" width="246" height="246"/>
+  <object id="63" template="../Orb.tx" x="-1147" y="-1179" width="246" height="246"/>
+  <object id="64" template="../Orb.tx" x="693" y="-907" width="246" height="246"/>
+  <object id="65" template="../Orb.tx" x="533" y="-1307" width="246" height="246"/>
+  <object id="66" template="../Orb.tx" x="-1851" y="-875" width="246" height="246"/>
+  <object id="67" template="../Orb.tx" x="-3083" y="-171" width="246" height="246"/>
+  <object id="68" template="../Orb.tx" x="-3819" y="-747" width="246" height="246"/>
+  <object id="69" template="../Orb.tx" x="-3163" y="-987" width="246" height="246"/>
+  <object id="70" template="../Orb.tx" x="-3787" y="-11" width="246" height="246"/>
+  <object id="71" template="../Orb.tx" x="-3483" y="901" width="246" height="246"/>
+  <object id="72" template="../Orb.tx" x="-2683" y="1749" width="246" height="246"/>
+  <object id="73" template="../Orb.tx" x="-2475" y="2741" width="246" height="246"/>
+  <object id="74" template="../Orb.tx" x="-1387" y="2757" width="246" height="246"/>
+  <object id="75" template="../Orb.tx" x="597" y="2773" width="246" height="246"/>
+  <object id="76" template="../Orb.tx" x="2309" y="3141" width="246" height="246"/>
+  <object id="77" template="../Orb.tx" x="3125" y="3621" width="246" height="246"/>
+  <object id="78" template="../Orb.tx" x="1845" y="2181" width="246" height="246"/>
+  <object id="79" template="../Orb.tx" x="2789" y="2085" width="246" height="246"/>
+  <object id="80" template="../Orb.tx" x="3317" y="1493" width="246" height="246"/>
+  <object id="81" template="../Orb.tx" x="4293" y="1573" width="246" height="246"/>
+  <object id="82" template="../Orb.tx" x="4101" y="821" width="246" height="246"/>
+  <object id="83" template="../Orb.tx" x="4117" y="-331" width="246" height="246"/>
+  <object id="84" template="../Orb.tx" x="645" y="-2795" width="246" height="246"/>
+  <object id="85" template="../Orb.tx" x="773" y="-3195" width="246" height="246"/>
+  <object id="86" template="../Orb.tx" x="1413" y="-3659" width="246" height="246"/>
+  <object id="87" template="../Orb.tx" x="2021" y="-4283" width="246" height="246"/>
+  <object id="88" template="../Orb.tx" x="773" y="-4235" width="246" height="246"/>
+  <object id="89" template="../Orb.tx" x="3541" y="-3675" width="246" height="246"/>
+  <object id="90" template="../Orb.tx" x="4581" y="-3323" width="246" height="246"/>
+  <object id="91" template="../Orb.tx" x="4533" y="-2699" width="246" height="246"/>
+  <object id="92" template="../Orb.tx" x="5717" y="-987" width="246" height="246"/>
+  <object id="93" template="../Orb.tx" x="5957" y="-139" width="246" height="246"/>
+  <object id="94" template="../Orb.tx" x="5941" y="1045" width="246" height="246"/>
+  <object id="95" template="../Orb.tx" x="5269" y="2341" width="246" height="246"/>
+  <object id="96" template="../Orb.tx" x="4597" y="3157" width="246" height="246"/>
+  <object id="97" template="../Orb.tx" x="3941" y="4085" width="246" height="246"/>
+  <object id="98" template="../Orb.tx" x="2885" y="4645" width="246" height="246"/>
+  <object id="99" template="../Orb.tx" x="1717" y="4949" width="246" height="246"/>
+  <object id="100" template="../Orb.tx" x="357" y="5109" width="246" height="246"/>
+  <object id="101" template="../Orb.tx" x="-395" y="4773" width="246" height="246"/>
+  <object id="102" template="../Orb.tx" x="-667" y="4085" width="246" height="246"/>
+  <object id="103" template="../Orb.tx" x="-1963" y="3029" width="246" height="246"/>
+  <object id="104" template="../Orb.tx" x="-2763" y="3493" width="246" height="246"/>
+  <object id="105" template="../Orb.tx" x="-4043" y="3685" width="246" height="246"/>
+  <object id="106" template="../Orb.tx" x="-4891" y="2645" width="246" height="246"/>
+  <object id="107" template="../Orb.tx" x="-4731" y="1653" width="246" height="246"/>
+  <object id="108" template="../Orb.tx" x="-4027" y="693" width="246" height="246"/>
+  <object id="109" template="../Orb.tx" x="-7275" y="-2683" width="2102" height="2102"/>
+  <object id="110" template="../Orb.tx" x="-5563" y="-5227" width="2102" height="2102"/>
+  <object id="111" template="../Orb.tx" x="-2363" y="-6811" width="2102" height="2102"/>
+  <object id="112" template="../Orb.tx" x="1045" y="-6987" width="2102" height="2102"/>
+  <object id="113" template="../Orb.tx" x="4213" y="-6715" width="2102" height="2102"/>
+  <object id="114" template="../Orb.tx" x="6357" y="-4875" width="2102" height="2102"/>
+  <object id="115" template="../Orb.tx" x="6677" y="-2539" width="2102" height="2102"/>
+  <object id="116" template="../Orb.tx" x="6965" y="101" width="2102" height="2102"/>
+  <object id="117" template="../Orb.tx" x="6085" y="2677" width="2102" height="2102"/>
+  <object id="118" template="../Orb.tx" x="4133" y="5045" width="2102" height="2102"/>
+  <object id="119" template="../Orb.tx" x="-347" y="5797" width="2102" height="2102"/>
+  <object id="120" template="../Orb.tx" x="-4011" y="5493" width="2102" height="2102"/>
+  <object id="121" template="../Orb.tx" x="-6491" y="3989" width="2102" height="2102"/>
+  <object id="122" template="../Orb.tx" x="-8315" y="2245" width="2102" height="2102"/>
+  <object id="123" template="../Orb.tx" x="-9835" y="-443" width="2102" height="2102"/>
+  <object id="124" template="../Orb.tx" x="-6491" y="869" width="790" height="790"/>
+  <object id="125" template="../Orb.tx" x="-7403" y="-123" width="790" height="790"/>
+  <object id="126" template="../Orb.tx" x="-6011" y="2725" width="790" height="790"/>
+  <object id="127" template="../Orb.tx" x="-3707" y="4309" width="790" height="790"/>
+  <object id="128" template="../Orb.tx" x="-1595" y="5109" width="790" height="790"/>
+  <object id="129" template="../Orb.tx" x="2725" y="5477" width="790" height="790"/>
+  <object id="130" template="../Orb.tx" x="2677" y="6949" width="790" height="790"/>
+  <object id="131" template="../Orb.tx" x="6085" y="7285" width="790" height="790"/>
+  <object id="132" template="../Orb.tx" x="8037" y="5605" width="790" height="790"/>
+  <object id="133" template="../Orb.tx" x="6517" y="5317" width="790" height="790"/>
+  <object id="134" template="../Orb.tx" x="4821" y="3813" width="790" height="790"/>
+  <object id="135" template="../Orb.tx" x="6085" y="1797" width="790" height="790"/>
+  <object id="136" template="../Orb.tx" x="9253" y="2181" width="790" height="790"/>
+  <object id="137" template="../Orb.tx" x="10789" y="-299" width="790" height="790"/>
+  <object id="138" template="../Orb.tx" x="9413" y="-2011" width="790" height="790"/>
+  <object id="139" template="../Orb.tx" x="8997" y="-3563" width="790" height="790"/>
+  <object id="140" template="../Orb.tx" x="8869" y="-5723" width="790" height="790"/>
+  <object id="141" template="../Orb.tx" x="8197" y="-6555" width="790" height="790"/>
+  <object id="142" template="../Orb.tx" x="6853" y="-7179" width="790" height="790"/>
+  <object id="143" template="../Orb.tx" x="4341" y="-7595" width="790" height="790"/>
+  <object id="144" template="../Orb.tx" x="2405" y="-8027" width="790" height="790"/>
+  <object id="145" template="../Orb.tx" x="-123" y="-8315" width="790" height="790"/>
+  <object id="146" template="../Orb.tx" x="-2571" y="-7899" width="790" height="790"/>
+  <object id="147" template="../Orb.tx" x="-5195" y="-7003" width="790" height="790"/>
+  <object id="148" template="../Orb.tx" x="-7115" y="-5947" width="790" height="790"/>
+  <object id="149" template="../Orb.tx" x="-8747" y="-4667" width="790" height="790"/>
+  <object id="150" template="../Orb.tx" x="-10283" y="-2123" width="790" height="790"/>
+  <object id="151" template="../Orb.tx" x="-11595" y="1061" width="790" height="790"/>
+  <object id="152" template="../Orb.tx" x="-10811" y="4533" width="790" height="790"/>
+  <object id="153" template="../Orb.tx" x="-7899" y="7237" width="790" height="790"/>
+  <object id="154" template="../Orb.tx" x="-4603" y="8965" width="790" height="790"/>
+  <object id="155" template="../Orb.tx" x="1429" y="9429" width="790" height="790"/>
+  <object id="156" template="../Orb.tx" x="5285" y="9253" width="790" height="790"/>
+  <object id="157" template="../Orb.tx" x="2485" y="8277" width="790" height="790"/>
+  <object id="158" template="../Orb.tx" x="-2267" y="9029" width="790" height="790"/>
+  <object id="159" template="../Orb.tx" x="-2875" y="8245" width="790" height="790"/>
+  <object id="160" template="../Orb.tx" x="-603" y="8005" width="790" height="790"/>
  </objectgroup>
 </map>
