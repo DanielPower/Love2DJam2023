@@ -11,9 +11,7 @@ function MoveSystem:update(dt)
 		e.position.val = e.position.val:add(e.velocity.val:scale(dt))
 	end
 	for _, e in ipairs(self.force) do
-		if not e.dead then
-			e.velocity.val = e.velocity.val:add(e.force.val:scale(1 / e.mass.val))
-		end
+		e.velocity.val = e.velocity.val:add(e.force.val:scale(1 / e.mass.val))
 		e.force.val = Vec.of(0)
 	end
 end

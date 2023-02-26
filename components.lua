@@ -34,4 +34,3 @@ Concord.component("timer", function(component, ...)
 end)
 
 Concord.component("player")
-Concord.component("dead")

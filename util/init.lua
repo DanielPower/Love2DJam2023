@@ -17,6 +17,7 @@ end
 local componentResolvers = {
 	player = function(e)
 		e:give("player")
+		e:getWorld():setResource("player", e)
 	end,
 	velocity = function(e, o)
 		e:give("velocity", Vec(o.value.x, o.value.y))

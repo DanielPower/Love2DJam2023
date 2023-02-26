@@ -12,11 +12,10 @@ local DrawSystem = Concord.system({
 })
 
 function DrawSystem:draw()
-	local player = self.player[1]
 	local world = self:getWorld()
 	local message = world:getResource("message")
-	print(message)
 	local camera = world:getResource("camera")
+	local player = world:getResource("player")
 	camera:setPosition(player.position.val.x, player.position.val.y)
 	camera:setScale(30 / util.massToRadius(player.mass.val))
 	camera:draw(function()

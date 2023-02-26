@@ -13,21 +13,30 @@ local util = require("util")
 
 local paused = false
 local camera = gamera.new(-math.huge, -math.huge, math.huge, math.huge)
+local world
 
-local world = Concord.world()
-world:addSystems(
-	TimerSystem,
-	MoveSystem,
-	GravitySystem,
-	DrawSystem,
-	ShootSystem,
-	CollisionSystem,
-	DeathSystem,
-	FpsCounterSystem
-)
-world:setResource("camera", camera)
+local function initWorld()
+	world = Concord.world()
+	world:addSystems(
+		TimerSystem,
+		MoveSystem,
+		GravitySystem,
+		DrawSystem,
+		ShootSystem,
+		CollisionSystem,
+		DeathSystem,
+		FpsCounterSystem
+	)
+	world:setResource("camera", camera)
+	function world:onEntityRemoved(e)
+		if e:has("player") then
+			initWorld()
+		end
+	end
+	util.loadTiledMap(world, "simple")
+end
 
-util.loadTiledMap(world, "simple")
+initWorld()
 
 function love.keypressed(key)
 	if key == "p" then
