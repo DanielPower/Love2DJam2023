@@ -45,9 +45,7 @@ function util.loadTiledObject(world, object)
 	local entity = Concord.entity(world)
 	entity:give("position", Vec(object.x, object.y))
 	for property, value in pairs(object.properties) do
-		print(property)
 		local propertyName, index = unpack(util.split(property, "."))
-		print(propertyName, index)
 		if componentResolvers[propertyName] then
 			componentResolvers[propertyName](entity, {
 				value = value,
