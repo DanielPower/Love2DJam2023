@@ -3,6 +3,10 @@ local Vec = require("vec")
 
 local util = {}
 
+function util.degtorad(deg)
+	return deg * (math.pi / 180)
+end
+
 function util.massToRadius(mass)
 	return math.sqrt(mass / math.pi)
 end
@@ -20,7 +24,12 @@ local componentResolvers = {
 		e:getWorld():setResource("player", e)
 	end,
 	velocity = function(e, o)
-		e:give("velocity", Vec(o.value.x, o.value.y))
+		if o.value.angle ~= nil then
+			local angle, magnitude = util.degtorad(o.value.angle), o.value.magnitude
+			e:give("velocity", Vec(magnitude * math.cos(angle), magnitude * math.sin(angle)))
+		else
+			e:give("velocity", Vec(o.value.x, o.value.y))
+		end
 	end,
 	force = function(e, o)
 		e:give("force", Vec(o.value.x, o.value.y))
@@ -43,7 +52,7 @@ local componentResolvers = {
 
 function util.loadTiledObject(world, object)
 	local entity = Concord.entity(world)
-	entity:give("position", Vec(object.x, object.y))
+	entity:give("position", Vec(object.x + object.width / 2, object.y + object.height / 2))
 	for property, value in pairs(object.properties) do
 		local propertyName, index = unpack(util.split(property, "."))
 		if componentResolvers[propertyName] then

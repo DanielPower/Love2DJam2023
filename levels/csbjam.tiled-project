@@ -11,6 +11,35 @@
         {
             "color": "#ffa0a0a4",
             "drawFill": true,
+            "id": 6,
+            "members": [
+                {
+                    "name": "angle",
+                    "type": "float",
+                    "value": 0
+                },
+                {
+                    "name": "magnitude",
+                    "type": "float",
+                    "value": 0
+                }
+            ],
+            "name": "Polar",
+            "type": "class",
+            "useAs": [
+                "property",
+                "map",
+                "layer",
+                "object",
+                "tile",
+                "tileset",
+                "wangcolor",
+                "wangset"
+            ]
+        },
+        {
+            "color": "#ffa0a0a4",
+            "drawFill": true,
             "id": 4,
             "members": [
                 {

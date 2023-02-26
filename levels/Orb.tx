@@ -9,10 +9,10 @@
      <property name="y" type="float" value="0"/>
     </properties>
    </property>
-   <property name="velocity" type="class" propertytype="Vec">
+   <property name="velocity" type="class" propertytype="Polar">
     <properties>
-     <property name="x" type="float" value="0"/>
-     <property name="y" type="float" value="0"/>
+     <property name="angle" type="float" value="0"/>
+     <property name="magnitude" type="float" value="0"/>
     </properties>
    </property>
   </properties>
