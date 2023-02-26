@@ -1,6 +1,9 @@
 {
-    "activeFile": "",
+    "activeFile": "simple/simple.tmx",
     "expandedProjectPaths": [
+        ".",
+        "playground",
+        "simple"
     ],
     "fileStates": {
         "playground.tmx": {
@@ -11,19 +14,51 @@
                 "y": -35.33333333333337
             }
         },
-        "simple.tmx": {
-            "scale": 36.3375,
+        "playground/playground.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 0.75,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 16.002751977984175,
-                "y": 16.002751977984175
+                "x": 842,
+                "y": 473.99999999999994
+            }
+        },
+        "simple.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -69,
+                "y": -137
+            }
+        },
+        "simple/simple.tmx": {
+            "expandedObjectLayers": [
+                2
+            ],
+            "scale": 1.5,
+            "selectedLayer": 0,
+            "viewCenter": {
+                "x": -8.333333333333258,
+                "y": -146.33333333333331
             }
         }
     },
+    "last.exportedFilePath": "/home/daniel/Development/csbjamlove/levels/simple",
+    "map.lastUsedExportFilter": "All Files (*)",
+    "map.lastUsedFormat": "tmx",
     "openFiles": [
+        "playground/playground.tmx",
+        "simple/simple.tmx"
     ],
     "project": "csbjam.tiled-project",
-    "property.type": "file",
+    "property.type": "Timer",
     "recentFiles": [
+        "playground/playground.tmx",
+        "simple/simple.tmx"
     ]
 }

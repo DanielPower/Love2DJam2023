@@ -1,5 +1,6 @@
 local util = require("util")
 local Concord = require("concord")
+local fonts = require("fonts")
 
 local PLAYER_COLOR = { 0.5, 0.5, 1 }
 local SMALL_ORB_COLOR = { 0.5, 1, 0.5 }
@@ -13,6 +14,8 @@ local DrawSystem = Concord.system({
 function DrawSystem:draw()
 	local player = self.player[1]
 	local world = self:getWorld()
+	local message = world:getResource("message")
+	print(message)
 	local camera = world:getResource("camera")
 	camera:setPosition(player.position.val.x, player.position.val.y)
 	camera:setScale(30 / util.massToRadius(player.mass.val))
@@ -29,6 +32,11 @@ function DrawSystem:draw()
 			love.graphics.circle("fill", e.position.val.x, e.position.val.y, util.massToRadius(e.mass.val))
 		end
 	end)
+	if message then
+		love.graphics.setFont(fonts.levelMessage)
+		love.graphics.setColor(1, 1, 1, 1)
+		love.graphics.printf(message, 0, love.graphics.getHeight() / 2, love.graphics.getWidth(), "center")
+	end
 end
 
 return DrawSystem

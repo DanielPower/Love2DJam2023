@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.10" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="1" backgroundcolor="#3c3c5a" nextlayerid="3" nextobjectid="18">
+ <editorsettings>
+  <export target="map.lua" format="lua"/>
+ </editorsettings>
+ <objectgroup id="2" name="Objects">
+  <object id="10" template="../Orb.tx" x="-82.6667" y="-99.3337" width="44.6667" height="44.6667">
+   <properties>
+    <property name="timer.1" type="class" propertytype="Timer">
+     <properties>
+      <property name="callback" type="file" value="../scripts/destroy.lua"/>
+      <property name="time" type="int" value="1"/>
+     </properties>
+    </property>
+   </properties>
+  </object>
+  <object id="11" template="../Orb.tx" x="-363.333" y="-255.333">
+   <properties>
+    <property name="force" type="class" propertytype="Vec">
+     <properties>
+      <property name="x" type="float" value="0"/>
+      <property name="y" type="float" value="0"/>
+     </properties>
+    </property>
+   </properties>
+  </object>
+  <object id="12" template="../Orb.tx" x="-34.6667" y="16">
+   <properties>
+    <property name="player" type="class" propertytype="Void"/>
+   </properties>
+  </object>
+  <object id="13" template="../Orb.tx" x="-306" y="-16"/>
+  <object id="14" template="../Orb.tx" x="-195.333" y="-318" width="172.667" height="172.667"/>
+ </objectgroup>
+</map>

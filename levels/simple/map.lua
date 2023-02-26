@@ -10,8 +10,8 @@ return {
   tilewidth = 32,
   tileheight = 32,
   nextlayerid = 3,
-  nextobjectid = 15,
-  backgroundcolor = { 85, 85, 127 },
+  nextobjectid = 18,
+  backgroundcolor = { 60, 60, 90 },
   properties = {},
   tilesets = {},
   layers = {
@@ -34,8 +34,8 @@ return {
           name = "",
           type = "",
           shape = "ellipse",
-          x = -108,
-          y = -108.667,
+          x = -82.6667,
+          y = -99.3337,
           width = 44.6667,
           height = 44.6667,
           rotation = 0,
@@ -45,6 +45,10 @@ return {
             ["force"] = {
               ["x"] = 0,
               ["y"] = 0
+            },
+            ["timer.1"] = {
+              ["callback"] = "../scripts/destroy.lua",
+              ["time"] = 1
             },
             ["velocity"] = {
               ["x"] = 0,

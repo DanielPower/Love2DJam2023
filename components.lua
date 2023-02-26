@@ -21,5 +21,17 @@ Concord.component("immunity", function(component, entity)
 	component.entity = entity
 end)
 
+Concord.component("timer", function(component, ...)
+	local args = { ... }
+	if type(args[1]) == "number" then
+		component.timers = { {
+			time = args[1],
+			callback = args[2],
+		} }
+	else
+		component.timers = args[1]
+	end
+end)
+
 Concord.component("player")
 Concord.component("dead")

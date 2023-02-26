@@ -1,4 +1,5 @@
 local Concord = require("concord")
+local fonts = require("fonts")
 
 local FpsCounterSystem = Concord.system()
 
@@ -9,8 +10,9 @@ function FpsCounterSystem:update(dt)
 end
 
 function FpsCounterSystem:draw()
+	love.graphics.setFont(fonts.fps)
 	love.graphics.setColor(0, 1, 0)
-	love.graphics.print(fps, 30, 30)
+	love.graphics.print(tostring(math.floor(fps)), 30, 30)
 end
 
 return FpsCounterSystem
