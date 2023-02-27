@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="1" backgroundcolor="#1f281f" nextlayerid="4" nextobjectid="1226">
+<map version="1.10" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="30" height="20" tilewidth="32" tileheight="32" infinite="1" backgroundcolor="#1f281f" nextlayerid="4" nextobjectid="1789">
  <editorsettings>
   <export target="map.lua" format="lua"/>
  </editorsettings>
@@ -9,39 +9,6 @@
     <property name="player" type="class" propertytype="Void"/>
    </properties>
   </object>
-  <object id="314" template="../Orb.tx" x="-271" y="-77">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="315" template="../Orb.tx" x="66" y="-32">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="316" template="../Orb.tx" x="-26" y="66">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="317" template="../Orb.tx" x="-294" y="-306"/>
-  <object id="318" template="../Orb.tx" x="-564" y="-248"/>
-  <object id="324" template="../Orb.tx" x="115" y="-314"/>
   <object id="325" template="../Orb.tx" x="308" y="-320"/>
   <object id="326" template="../Orb.tx" x="383" y="-160"/>
   <object id="327" template="../Orb.tx" x="422" y="40"/>
@@ -64,36 +31,6 @@
   <object id="344" template="../Orb.tx" x="-483" y="124"/>
   <object id="345" template="../Orb.tx" x="-513" y="-54"/>
   <object id="346" template="../Orb.tx" x="140" y="292"/>
-  <object id="348" template="../Orb.tx" x="-1107.5" y="-551">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="349" template="../Orb.tx" x="-1014.5" y="-434">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="350" template="../Orb.tx" x="-1074.5" y="-320">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
   <object id="351" template="../Orb.tx" x="-1374.5" y="-708"/>
   <object id="352" template="../Orb.tx" x="-1644.5" y="-650"/>
   <object id="353" template="../Orb.tx" x="-965.5" y="-716"/>
@@ -119,36 +56,6 @@
   <object id="373" template="../Orb.tx" x="-1563.5" y="-278"/>
   <object id="374" template="../Orb.tx" x="-1593.5" y="-456"/>
   <object id="375" template="../Orb.tx" x="-940.5" y="-110"/>
-  <object id="377" template="../Orb.tx" x="-89.5" y="-1283">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="378" template="../Orb.tx" x="3.5" y="-1166">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="379" template="../Orb.tx" x="-88.5" y="-1068">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
   <object id="380" template="../Orb.tx" x="-356.5" y="-1440"/>
   <object id="381" template="../Orb.tx" x="-626.5" y="-1382"/>
   <object id="382" template="../Orb.tx" x="52.5" y="-1448"/>
@@ -186,36 +93,6 @@
   <object id="414" template="../Orb.tx" x="1864" y="-4102"/>
   <object id="415" template="../Orb.tx" x="2160" y="-4062"/>
   <object id="416" template="../Orb.tx" x="2016" y="-3954"/>
-  <object id="417" template="../Orb.tx" x="3105" y="-4483">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="418" template="../Orb.tx" x="3198" y="-4366">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="419" template="../Orb.tx" x="3106" y="-4268">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
   <object id="420" template="../Orb.tx" x="2838" y="-4640"/>
   <object id="421" template="../Orb.tx" x="2568" y="-4582"/>
   <object id="422" template="../Orb.tx" x="3247" y="-4648"/>
@@ -247,36 +124,6 @@
   <object id="448" template="../Orb.tx" x="6920" y="538"/>
   <object id="449" template="../Orb.tx" x="7216" y="578"/>
   <object id="450" template="../Orb.tx" x="7072" y="686"/>
-  <object id="451" template="../Orb.tx" x="8161" y="157">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="452" template="../Orb.tx" x="8254" y="274">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="453" template="../Orb.tx" x="8162" y="372">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
   <object id="454" template="../Orb.tx" x="7894" y="0"/>
   <object id="455" template="../Orb.tx" x="7624" y="58"/>
   <object id="456" template="../Orb.tx" x="8303" y="-8"/>
@@ -368,36 +215,6 @@
   <object id="542" template="../Orb.tx" x="-3772.5" y="-38038"/>
   <object id="543" template="../Orb.tx" x="-3476.5" y="-37998"/>
   <object id="544" template="../Orb.tx" x="-3620.5" y="-37890"/>
-  <object id="545" template="../Orb.tx" x="-2531.5" y="-38419">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="546" template="../Orb.tx" x="-2438.5" y="-38302">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="547" template="../Orb.tx" x="-2530.5" y="-38204">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
   <object id="548" template="../Orb.tx" x="-2798.5" y="-38576"/>
   <object id="549" template="../Orb.tx" x="-3068.5" y="-38518"/>
   <object id="550" template="../Orb.tx" x="-2389.5" y="-38584"/>
@@ -429,36 +246,6 @@
   <object id="576" template="../Orb.tx" x="1283.5" y="-33398"/>
   <object id="577" template="../Orb.tx" x="1579.5" y="-33358"/>
   <object id="578" template="../Orb.tx" x="1435.5" y="-33250"/>
-  <object id="579" template="../Orb.tx" x="2524.5" y="-33779">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="580" template="../Orb.tx" x="2617.5" y="-33662">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="581" template="../Orb.tx" x="2525.5" y="-33564">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
   <object id="582" template="../Orb.tx" x="2257.5" y="-33936"/>
   <object id="583" template="../Orb.tx" x="1987.5" y="-33878"/>
   <object id="584" template="../Orb.tx" x="2666.5" y="-33944"/>
@@ -527,36 +314,6 @@
   <object id="647" template="../Orb.tx" x="-21628.5" y="-58198"/>
   <object id="648" template="../Orb.tx" x="-21332.5" y="-58158"/>
   <object id="649" template="../Orb.tx" x="-21476.5" y="-58050"/>
-  <object id="650" template="../Orb.tx" x="-20387.5" y="-58579">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="651" template="../Orb.tx" x="-20294.5" y="-58462">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="652" template="../Orb.tx" x="-20386.5" y="-58364">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
   <object id="653" template="../Orb.tx" x="-20654.5" y="-58736"/>
   <object id="654" template="../Orb.tx" x="-20924.5" y="-58678"/>
   <object id="655" template="../Orb.tx" x="-20245.5" y="-58744"/>
@@ -588,36 +345,6 @@
   <object id="681" template="../Orb.tx" x="-16572.5" y="-53558"/>
   <object id="682" template="../Orb.tx" x="-16276.5" y="-53518"/>
   <object id="683" template="../Orb.tx" x="-16420.5" y="-53410"/>
-  <object id="684" template="../Orb.tx" x="-15331.5" y="-53939">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="685" template="../Orb.tx" x="-15238.5" y="-53822">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="686" template="../Orb.tx" x="-15330.5" y="-53724">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
   <object id="687" template="../Orb.tx" x="-15598.5" y="-54096"/>
   <object id="688" template="../Orb.tx" x="-15868.5" y="-54038"/>
   <object id="689" template="../Orb.tx" x="-15189.5" y="-54104"/>
@@ -686,36 +413,6 @@
   <object id="752" template="../Orb.tx" x="-48892.5" y="-59094"/>
   <object id="753" template="../Orb.tx" x="-48596.5" y="-59054"/>
   <object id="754" template="../Orb.tx" x="-48740.5" y="-58946"/>
-  <object id="755" template="../Orb.tx" x="-47651.5" y="-59475">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="756" template="../Orb.tx" x="-47558.5" y="-59358">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="757" template="../Orb.tx" x="-47650.5" y="-59260">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
   <object id="758" template="../Orb.tx" x="-47918.5" y="-59632"/>
   <object id="759" template="../Orb.tx" x="-48188.5" y="-59574"/>
   <object id="760" template="../Orb.tx" x="-47509.5" y="-59640"/>
@@ -747,36 +444,6 @@
   <object id="786" template="../Orb.tx" x="-43836.5" y="-54454"/>
   <object id="787" template="../Orb.tx" x="-43540.5" y="-54414"/>
   <object id="788" template="../Orb.tx" x="-43684.5" y="-54306"/>
-  <object id="789" template="../Orb.tx" x="-42595.5" y="-54835">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="790" template="../Orb.tx" x="-42502.5" y="-54718">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="791" template="../Orb.tx" x="-42594.5" y="-54620">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
   <object id="792" template="../Orb.tx" x="-42862.5" y="-54992"/>
   <object id="793" template="../Orb.tx" x="-43132.5" y="-54934"/>
   <object id="794" template="../Orb.tx" x="-42453.5" y="-55000"/>
@@ -845,36 +512,6 @@
   <object id="857" template="../Orb.tx" x="-72252.5" y="-32854"/>
   <object id="858" template="../Orb.tx" x="-71956.5" y="-32814"/>
   <object id="859" template="../Orb.tx" x="-72100.5" y="-32706"/>
-  <object id="860" template="../Orb.tx" x="-71011.5" y="-33235">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="861" template="../Orb.tx" x="-70918.5" y="-33118">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="862" template="../Orb.tx" x="-71010.5" y="-33020">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
   <object id="863" template="../Orb.tx" x="-71278.5" y="-33392"/>
   <object id="864" template="../Orb.tx" x="-71548.5" y="-33334"/>
   <object id="865" template="../Orb.tx" x="-70869.5" y="-33400"/>
@@ -906,36 +543,6 @@
   <object id="891" template="../Orb.tx" x="-67196.5" y="-28214"/>
   <object id="892" template="../Orb.tx" x="-66900.5" y="-28174"/>
   <object id="893" template="../Orb.tx" x="-67044.5" y="-28066"/>
-  <object id="894" template="../Orb.tx" x="-65955.5" y="-28595">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="895" template="../Orb.tx" x="-65862.5" y="-28478">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
-  <object id="896" template="../Orb.tx" x="-65954.5" y="-28380">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-  </object>
   <object id="897" template="../Orb.tx" x="-66222.5" y="-28752"/>
   <object id="898" template="../Orb.tx" x="-66492.5" y="-28694"/>
   <object id="899" template="../Orb.tx" x="-65813.5" y="-28760"/>
@@ -1044,39 +651,6 @@
   <object id="964" template="../Orb.tx" x="-62500.5" y="13292" rotation="0">
    <ellipse/>
   </object>
-  <object id="965" template="../Orb.tx" x="-61411.5" y="13821" rotation="0">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="966" template="../Orb.tx" x="-61318.5" y="13704" rotation="0">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="967" template="../Orb.tx" x="-61410.5" y="13606" rotation="0">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-   <ellipse/>
-  </object>
   <object id="968" template="../Orb.tx" x="-61678.5" y="13978" rotation="0">
    <ellipse/>
   </object>
@@ -1168,39 +742,6 @@
    <ellipse/>
   </object>
   <object id="998" template="../Orb.tx" x="-57444.5" y="8652" rotation="0">
-   <ellipse/>
-  </object>
-  <object id="999" template="../Orb.tx" x="-56355.5" y="9181" rotation="0">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="1000" template="../Orb.tx" x="-56262.5" y="9064" rotation="0">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="0"/>
-      <property name="y" type="float" value="50"/>
-     </properties>
-    </property>
-   </properties>
-   <ellipse/>
-  </object>
-  <object id="1001" template="../Orb.tx" x="-56354.5" y="8966" rotation="0">
-   <properties>
-    <property name="velocity" type="class" propertytype="Vec">
-     <properties>
-      <property name="x" type="float" value="-50"/>
-      <property name="y" type="float" value="0"/>
-     </properties>
-    </property>
-   </properties>
    <ellipse/>
   </object>
   <object id="1002" template="../Orb.tx" x="-56622.5" y="9338" rotation="0">
@@ -1820,6 +1361,1104 @@
    <ellipse/>
   </object>
   <object id="1225" template="../Orb.tx" x="20523.4" y="-34925.3" width="4466" height="4466" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1226" template="../Orb.tx" gid="0" x="853" y="-778" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1227" template="../Orb.tx" gid="0" x="1046" y="-772" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1228" template="../Orb.tx" gid="0" x="488" y="-592" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1229" template="../Orb.tx" gid="0" x="784" y="-632" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1230" template="../Orb.tx" gid="0" x="640" y="-740" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1231" template="../Orb.tx" gid="0" x="1462" y="-54" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1232" template="../Orb.tx" gid="0" x="1192" y="-112" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1233" template="../Orb.tx" gid="0" x="1871" y="-46" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1234" template="../Orb.tx" gid="0" x="2064" y="-40" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1235" template="../Orb.tx" gid="0" x="2139" y="-200" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1236" template="../Orb.tx" gid="0" x="2178" y="-400" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1237" template="../Orb.tx" gid="0" x="2075" y="-622" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1238" template="../Orb.tx" gid="0" x="1766" y="-751" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1239" template="../Orb.tx" gid="0" x="1425" y="-802" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1240" template="../Orb.tx" gid="0" x="1155" y="-667" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1241" template="../Orb.tx" gid="0" x="1109" y="-461" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1242" template="../Orb.tx" gid="0" x="1110" y="-329" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1243" template="../Orb.tx" gid="0" x="1267" y="10" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1244" template="../Orb.tx" gid="0" x="1506" y="140" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1245" template="../Orb.tx" gid="0" x="1802" y="100" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1246" template="../Orb.tx" gid="0" x="1658" y="-8" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1247" template="../Orb.tx" gid="0" x="1961" y="-204" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1248" template="../Orb.tx" gid="0" x="2029" y="-449" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1249" template="../Orb.tx" gid="0" x="1917" y="-553" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1250" template="../Orb.tx" gid="0" x="1698" y="-613" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1251" template="../Orb.tx" gid="0" x="1575" y="-628" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1252" template="../Orb.tx" gid="0" x="1399" y="-599" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1253" template="../Orb.tx" gid="0" x="1273" y="-484" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1254" template="../Orb.tx" gid="0" x="1243" y="-306" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1255" template="../Orb.tx" gid="0" x="1896" y="-652" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1256" template="../Orb.tx" gid="0" x="675.5" y="-443" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1257" template="../Orb.tx" x="421" y="1620"/>
+  <object id="1258" template="../Orb.tx" x="614" y="1614"/>
+  <object id="1259" template="../Orb.tx" x="56" y="1434"/>
+  <object id="1260" template="../Orb.tx" x="352" y="1474"/>
+  <object id="1261" template="../Orb.tx" x="208" y="1582"/>
+  <object id="1262" template="../Orb.tx" x="1030" y="896"/>
+  <object id="1263" template="../Orb.tx" x="760" y="954"/>
+  <object id="1264" template="../Orb.tx" x="1439" y="888"/>
+  <object id="1265" template="../Orb.tx" x="1632" y="882"/>
+  <object id="1266" template="../Orb.tx" x="1707" y="1042"/>
+  <object id="1267" template="../Orb.tx" x="1746" y="1242"/>
+  <object id="1268" template="../Orb.tx" x="1643" y="1464"/>
+  <object id="1269" template="../Orb.tx" x="1334" y="1593"/>
+  <object id="1270" template="../Orb.tx" x="993" y="1644"/>
+  <object id="1271" template="../Orb.tx" x="723" y="1509"/>
+  <object id="1272" template="../Orb.tx" x="677" y="1303"/>
+  <object id="1273" template="../Orb.tx" x="678" y="1171"/>
+  <object id="1274" template="../Orb.tx" x="835" y="832"/>
+  <object id="1275" template="../Orb.tx" x="1074" y="702"/>
+  <object id="1276" template="../Orb.tx" x="1370" y="742"/>
+  <object id="1277" template="../Orb.tx" x="1226" y="850"/>
+  <object id="1278" template="../Orb.tx" x="1529" y="1046"/>
+  <object id="1279" template="../Orb.tx" x="1597" y="1291"/>
+  <object id="1280" template="../Orb.tx" x="1485" y="1395"/>
+  <object id="1281" template="../Orb.tx" x="1266" y="1455"/>
+  <object id="1282" template="../Orb.tx" x="1143" y="1470"/>
+  <object id="1283" template="../Orb.tx" x="967" y="1441"/>
+  <object id="1284" template="../Orb.tx" x="841" y="1326"/>
+  <object id="1285" template="../Orb.tx" x="811" y="1148"/>
+  <object id="1286" template="../Orb.tx" x="1464" y="1494"/>
+  <object id="1287" template="../Orb.tx" x="243.5" y="1005" width="366" height="366"/>
+  <object id="1288" template="../Orb.tx" gid="0" x="3093" y="902" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1289" template="../Orb.tx" gid="0" x="3286" y="908" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1290" template="../Orb.tx" gid="0" x="2728" y="1088" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1291" template="../Orb.tx" gid="0" x="3024" y="1048" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1292" template="../Orb.tx" gid="0" x="2880" y="940" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1293" template="../Orb.tx" gid="0" x="3702" y="1626" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1294" template="../Orb.tx" gid="0" x="3432" y="1568" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1295" template="../Orb.tx" gid="0" x="4111" y="1634" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1296" template="../Orb.tx" gid="0" x="4304" y="1640" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1297" template="../Orb.tx" gid="0" x="4379" y="1480" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1298" template="../Orb.tx" gid="0" x="4418" y="1280" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1299" template="../Orb.tx" gid="0" x="4315" y="1058" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1300" template="../Orb.tx" gid="0" x="4006" y="929" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1301" template="../Orb.tx" gid="0" x="3665" y="878" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1302" template="../Orb.tx" gid="0" x="3395" y="1013" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1303" template="../Orb.tx" gid="0" x="3349" y="1219" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1304" template="../Orb.tx" gid="0" x="3350" y="1351" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1305" template="../Orb.tx" gid="0" x="3507" y="1690" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1306" template="../Orb.tx" gid="0" x="3746" y="1820" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1307" template="../Orb.tx" gid="0" x="4042" y="1780" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1308" template="../Orb.tx" gid="0" x="3898" y="1672" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1309" template="../Orb.tx" gid="0" x="4201" y="1476" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1310" template="../Orb.tx" gid="0" x="4269" y="1231" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1311" template="../Orb.tx" gid="0" x="4157" y="1127" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1312" template="../Orb.tx" gid="0" x="3938" y="1067" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1313" template="../Orb.tx" gid="0" x="3815" y="1052" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1314" template="../Orb.tx" gid="0" x="3639" y="1081" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1315" template="../Orb.tx" gid="0" x="3513" y="1196" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1316" template="../Orb.tx" gid="0" x="3483" y="1374" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1317" template="../Orb.tx" gid="0" x="4136" y="1028" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1318" template="../Orb.tx" gid="0" x="2915.5" y="1237" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1363" template="../Orb.tx" x="1317.75" y="-1541.17" width="147" height="147">
+   <properties>
+    <property name="player" type="class" propertytype="Void"/>
+   </properties>
+  </object>
+  <object id="1364" template="../Orb.tx" x="2118.75" y="-1304.5"/>
+  <object id="1365" template="../Orb.tx" x="1321.75" y="-1354.5"/>
+  <object id="1366" template="../Orb.tx" x="1856.75" y="-1444.5"/>
+  <object id="1367" template="../Orb.tx" x="1712.75" y="-1336.5"/>
+  <object id="1368" template="../Orb.tx" x="845.25" y="-1700.5"/>
+  <object id="1369" template="../Orb.tx" x="1038.25" y="-1706.5"/>
+  <object id="1370" template="../Orb.tx" x="1113.25" y="-1546.5"/>
+  <object id="1371" template="../Orb.tx" x="1152.25" y="-1346.5"/>
+  <object id="1372" template="../Orb.tx" x="776.25" y="-1846.5"/>
+  <object id="1373" template="../Orb.tx" x="935.25" y="-1542.5"/>
+  <object id="1374" template="../Orb.tx" x="1003.25" y="-1297.5"/>
+  <object id="1375" template="../Orb.tx" x="891.25" y="-1193.5"/>
+  <object id="1376" template="../Orb.tx" x="1454.25" y="-2424.5"/>
+  <object id="1377" template="../Orb.tx" x="1184.25" y="-2366.5"/>
+  <object id="1378" template="../Orb.tx" x="1863.25" y="-2432.5"/>
+  <object id="1379" template="../Orb.tx" x="2056.25" y="-2438.5"/>
+  <object id="1380" template="../Orb.tx" x="2131.25" y="-2278.5"/>
+  <object id="1381" template="../Orb.tx" x="2170.25" y="-2078.5"/>
+  <object id="1382" template="../Orb.tx" x="2067.25" y="-1856.5"/>
+  <object id="1383" template="../Orb.tx" x="1758.25" y="-1727.5"/>
+  <object id="1384" template="../Orb.tx" x="1417.25" y="-1676.5"/>
+  <object id="1385" template="../Orb.tx" x="1147.25" y="-1811.5"/>
+  <object id="1386" template="../Orb.tx" x="1101.25" y="-2017.5"/>
+  <object id="1387" template="../Orb.tx" x="1102.25" y="-2149.5"/>
+  <object id="1388" template="../Orb.tx" x="1259.25" y="-2488.5"/>
+  <object id="1389" template="../Orb.tx" x="1498.25" y="-2618.5"/>
+  <object id="1390" template="../Orb.tx" x="1794.25" y="-2578.5"/>
+  <object id="1391" template="../Orb.tx" x="1650.25" y="-2470.5"/>
+  <object id="1392" template="../Orb.tx" x="1953.25" y="-2274.5"/>
+  <object id="1393" template="../Orb.tx" x="2021.25" y="-2029.5"/>
+  <object id="1394" template="../Orb.tx" x="1909.25" y="-1925.5"/>
+  <object id="1395" template="../Orb.tx" x="1690.25" y="-1865.5"/>
+  <object id="1396" template="../Orb.tx" x="1567.25" y="-1850.5"/>
+  <object id="1397" template="../Orb.tx" x="1391.25" y="-1879.5"/>
+  <object id="1398" template="../Orb.tx" x="1265.25" y="-1994.5"/>
+  <object id="1399" template="../Orb.tx" x="1235.25" y="-2172.5"/>
+  <object id="1400" template="../Orb.tx" x="1888.25" y="-1826.5"/>
+  <object id="1401" template="../Orb.tx" x="667.75" y="-2315.5" width="366" height="366"/>
+  <object id="1402" template="../Orb.tx" x="2663.75" y="-1762.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1403" template="../Orb.tx" x="2298.75" y="-1576.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1404" template="../Orb.tx" x="2594.75" y="-1616.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1405" template="../Orb.tx" x="2450.75" y="-1724.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1406" template="../Orb.tx" x="2486.25" y="-1427.5" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1407" template="../Orb.tx" x="-1706.25" y="2490.83" width="147" height="147">
+   <properties>
+    <property name="player" type="class" propertytype="Void"/>
+   </properties>
+  </object>
+  <object id="1408" template="../Orb.tx" x="-905.25" y="2727.5"/>
+  <object id="1409" template="../Orb.tx" x="-1702.25" y="2677.5"/>
+  <object id="1410" template="../Orb.tx" x="-1167.25" y="2587.5"/>
+  <object id="1411" template="../Orb.tx" x="-1311.25" y="2695.5"/>
+  <object id="1412" template="../Orb.tx" x="-2178.75" y="2331.5"/>
+  <object id="1413" template="../Orb.tx" x="-1985.75" y="2325.5"/>
+  <object id="1414" template="../Orb.tx" x="-1910.75" y="2485.5"/>
+  <object id="1415" template="../Orb.tx" x="-1871.75" y="2685.5"/>
+  <object id="1416" template="../Orb.tx" x="-2247.75" y="2185.5"/>
+  <object id="1417" template="../Orb.tx" x="-2088.75" y="2489.5"/>
+  <object id="1418" template="../Orb.tx" x="-2020.75" y="2734.5"/>
+  <object id="1419" template="../Orb.tx" x="-2132.75" y="2838.5"/>
+  <object id="1420" template="../Orb.tx" x="-1569.75" y="1607.5"/>
+  <object id="1421" template="../Orb.tx" x="-1839.75" y="1665.5"/>
+  <object id="1422" template="../Orb.tx" x="-1160.75" y="1599.5"/>
+  <object id="1423" template="../Orb.tx" x="-967.75" y="1593.5"/>
+  <object id="1424" template="../Orb.tx" x="-892.75" y="1753.5"/>
+  <object id="1425" template="../Orb.tx" x="-853.75" y="1953.5"/>
+  <object id="1426" template="../Orb.tx" x="-956.75" y="2175.5"/>
+  <object id="1427" template="../Orb.tx" x="-1265.75" y="2304.5"/>
+  <object id="1428" template="../Orb.tx" x="-1606.75" y="2355.5"/>
+  <object id="1429" template="../Orb.tx" x="-1876.75" y="2220.5"/>
+  <object id="1430" template="../Orb.tx" x="-1922.75" y="2014.5"/>
+  <object id="1431" template="../Orb.tx" x="-1921.75" y="1882.5"/>
+  <object id="1432" template="../Orb.tx" x="-1764.75" y="1543.5"/>
+  <object id="1433" template="../Orb.tx" x="-1525.75" y="1413.5"/>
+  <object id="1434" template="../Orb.tx" x="-1229.75" y="1453.5"/>
+  <object id="1435" template="../Orb.tx" x="-1373.75" y="1561.5"/>
+  <object id="1436" template="../Orb.tx" x="-1070.75" y="1757.5"/>
+  <object id="1437" template="../Orb.tx" x="-1002.75" y="2002.5"/>
+  <object id="1438" template="../Orb.tx" x="-1114.75" y="2106.5"/>
+  <object id="1439" template="../Orb.tx" x="-1333.75" y="2166.5"/>
+  <object id="1440" template="../Orb.tx" x="-1456.75" y="2181.5"/>
+  <object id="1441" template="../Orb.tx" x="-1632.75" y="2152.5"/>
+  <object id="1442" template="../Orb.tx" x="-1758.75" y="2037.5"/>
+  <object id="1443" template="../Orb.tx" x="-1788.75" y="1859.5"/>
+  <object id="1444" template="../Orb.tx" x="-1135.75" y="2205.5"/>
+  <object id="1445" template="../Orb.tx" x="-2356.25" y="1716.5" width="366" height="366"/>
+  <object id="1446" template="../Orb.tx" x="-360.25" y="2269.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1447" template="../Orb.tx" x="-725.25" y="2455.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1448" template="../Orb.tx" x="-429.25" y="2415.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1449" template="../Orb.tx" x="-573.25" y="2307.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1450" template="../Orb.tx" x="-537.75" y="2604.5" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1451" template="../Orb.tx" gid="0" x="-3866.25" y="50.167" width="147" height="147" rotation="0">
+   <properties>
+    <property name="player" type="class" propertytype="Void"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="1452" template="../Orb.tx" gid="0" x="-3065.25" y="-125.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1453" template="../Orb.tx" gid="0" x="-3862.25" y="-75.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1454" template="../Orb.tx" gid="0" x="-3327.25" y="14.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1455" template="../Orb.tx" gid="0" x="-3471.25" y="-93.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1456" template="../Orb.tx" gid="0" x="-4338.75" y="270.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1457" template="../Orb.tx" gid="0" x="-4145.75" y="276.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1458" template="../Orb.tx" gid="0" x="-4070.75" y="116.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1459" template="../Orb.tx" gid="0" x="-4031.75" y="-83.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1460" template="../Orb.tx" gid="0" x="-4407.75" y="416.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1461" template="../Orb.tx" gid="0" x="-4248.75" y="112.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1462" template="../Orb.tx" gid="0" x="-4180.75" y="-132.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1463" template="../Orb.tx" gid="0" x="-4292.75" y="-236.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1464" template="../Orb.tx" gid="0" x="-3729.75" y="994.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1465" template="../Orb.tx" gid="0" x="-3999.75" y="936.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1466" template="../Orb.tx" gid="0" x="-3320.75" y="1002.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1467" template="../Orb.tx" gid="0" x="-3127.75" y="1008.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1468" template="../Orb.tx" gid="0" x="-3052.75" y="848.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1469" template="../Orb.tx" gid="0" x="-3013.75" y="648.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1470" template="../Orb.tx" gid="0" x="-3116.75" y="426.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1471" template="../Orb.tx" gid="0" x="-3425.75" y="297.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1472" template="../Orb.tx" gid="0" x="-3766.75" y="246.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1473" template="../Orb.tx" gid="0" x="-4036.75" y="381.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1474" template="../Orb.tx" gid="0" x="-4082.75" y="587.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1475" template="../Orb.tx" gid="0" x="-4081.75" y="719.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1476" template="../Orb.tx" gid="0" x="-3924.75" y="1058.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1477" template="../Orb.tx" gid="0" x="-3685.75" y="1188.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1478" template="../Orb.tx" gid="0" x="-3389.75" y="1148.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1479" template="../Orb.tx" gid="0" x="-3533.75" y="1040.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1480" template="../Orb.tx" gid="0" x="-3230.75" y="844.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1481" template="../Orb.tx" gid="0" x="-3162.75" y="599.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1482" template="../Orb.tx" gid="0" x="-3274.75" y="495.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1483" template="../Orb.tx" gid="0" x="-3493.75" y="435.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1484" template="../Orb.tx" gid="0" x="-3616.75" y="420.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1485" template="../Orb.tx" gid="0" x="-3792.75" y="449.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1486" template="../Orb.tx" gid="0" x="-3918.75" y="564.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1487" template="../Orb.tx" gid="0" x="-3948.75" y="742.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1488" template="../Orb.tx" gid="0" x="-3295.75" y="396.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1489" template="../Orb.tx" gid="0" x="-4516.25" y="605.5" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1490" template="../Orb.tx" gid="0" x="-2520.25" y="332.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1491" template="../Orb.tx" gid="0" x="-2885.25" y="146.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1492" template="../Orb.tx" gid="0" x="-2589.25" y="186.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1493" template="../Orb.tx" gid="0" x="-2733.25" y="294.5" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1494" template="../Orb.tx" gid="0" x="-2697.75" y="-282.5" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1495" template="../Orb.tx" x="-7097.25" y="-804.417" width="147" height="147">
+   <properties>
+    <property name="player" type="class" propertytype="Void"/>
+   </properties>
+  </object>
+  <object id="1496" template="../Orb.tx" x="-6296.25" y="-567.75"/>
+  <object id="1497" template="../Orb.tx" x="-6221.25" y="-407.75"/>
+  <object id="1498" template="../Orb.tx" x="-6182.25" y="-207.75"/>
+  <object id="1499" template="../Orb.tx" x="-6285.25" y="14.25"/>
+  <object id="1500" template="../Orb.tx" x="-6594.25" y="143.25"/>
+  <object id="1501" template="../Orb.tx" x="-6935.25" y="194.25"/>
+  <object id="1502" template="../Orb.tx" x="-7205.25" y="59.25"/>
+  <object id="1503" template="../Orb.tx" x="-7251.25" y="-146.75"/>
+  <object id="1504" template="../Orb.tx" x="-7250.25" y="-278.75"/>
+  <object id="1505" template="../Orb.tx" x="-7093.25" y="-617.75"/>
+  <object id="1506" template="../Orb.tx" x="-6558.25" y="-707.75"/>
+  <object id="1507" template="../Orb.tx" x="-6702.25" y="-599.75"/>
+  <object id="1508" template="../Orb.tx" x="-6399.25" y="-403.75"/>
+  <object id="1509" template="../Orb.tx" x="-6331.25" y="-158.75"/>
+  <object id="1510" template="../Orb.tx" x="-6443.25" y="-54.75"/>
+  <object id="1511" template="../Orb.tx" x="-6662.25" y="5.25"/>
+  <object id="1512" template="../Orb.tx" x="-6785.25" y="20.25"/>
+  <object id="1513" template="../Orb.tx" x="-6961.25" y="-8.75"/>
+  <object id="1514" template="../Orb.tx" x="-7087.25" y="-123.75"/>
+  <object id="1515" template="../Orb.tx" x="-7117.25" y="-301.75"/>
+  <object id="1516" template="../Orb.tx" x="-6464.25" y="44.25"/>
+  <object id="1517" template="../Orb.tx" x="-7569.75" y="-963.75"/>
+  <object id="1518" template="../Orb.tx" x="-7376.75" y="-969.75"/>
+  <object id="1519" template="../Orb.tx" x="-7301.75" y="-809.75"/>
+  <object id="1520" template="../Orb.tx" x="-7262.75" y="-609.75"/>
+  <object id="1521" template="../Orb.tx" x="-7365.75" y="-387.75"/>
+  <object id="1522" template="../Orb.tx" x="-7674.75" y="-258.75"/>
+  <object id="1523" template="../Orb.tx" x="-7638.75" y="-1109.75"/>
+  <object id="1524" template="../Orb.tx" x="-7782.75" y="-1001.75"/>
+  <object id="1525" template="../Orb.tx" x="-7479.75" y="-805.75"/>
+  <object id="1526" template="../Orb.tx" x="-7411.75" y="-560.75"/>
+  <object id="1527" template="../Orb.tx" x="-7523.75" y="-456.75"/>
+  <object id="1528" template="../Orb.tx" x="-7742.75" y="-396.75"/>
+  <object id="1529" template="../Orb.tx" x="-7544.75" y="-357.75"/>
+  <object id="1530" template="../Orb.tx" x="-6960.75" y="-1687.75"/>
+  <object id="1531" template="../Orb.tx" x="-7230.75" y="-1629.75"/>
+  <object id="1532" template="../Orb.tx" x="-6551.75" y="-1695.75"/>
+  <object id="1533" template="../Orb.tx" x="-6358.75" y="-1701.75"/>
+  <object id="1534" template="../Orb.tx" x="-6283.75" y="-1541.75"/>
+  <object id="1535" template="../Orb.tx" x="-6244.75" y="-1341.75"/>
+  <object id="1536" template="../Orb.tx" x="-6347.75" y="-1119.75"/>
+  <object id="1537" template="../Orb.tx" x="-6656.75" y="-990.75"/>
+  <object id="1538" template="../Orb.tx" x="-6997.75" y="-939.75"/>
+  <object id="1539" template="../Orb.tx" x="-7267.75" y="-1074.75"/>
+  <object id="1540" template="../Orb.tx" x="-7313.75" y="-1280.75"/>
+  <object id="1541" template="../Orb.tx" x="-7312.75" y="-1412.75"/>
+  <object id="1542" template="../Orb.tx" x="-7155.75" y="-1751.75"/>
+  <object id="1543" template="../Orb.tx" x="-6916.75" y="-1881.75"/>
+  <object id="1544" template="../Orb.tx" x="-6620.75" y="-1841.75"/>
+  <object id="1545" template="../Orb.tx" x="-6764.75" y="-1733.75"/>
+  <object id="1546" template="../Orb.tx" x="-6461.75" y="-1537.75"/>
+  <object id="1547" template="../Orb.tx" x="-6393.75" y="-1292.75"/>
+  <object id="1548" template="../Orb.tx" x="-6505.75" y="-1188.75"/>
+  <object id="1549" template="../Orb.tx" x="-6724.75" y="-1128.75"/>
+  <object id="1550" template="../Orb.tx" x="-6847.75" y="-1113.75"/>
+  <object id="1551" template="../Orb.tx" x="-7023.75" y="-1142.75"/>
+  <object id="1552" template="../Orb.tx" x="-7149.75" y="-1257.75"/>
+  <object id="1553" template="../Orb.tx" x="-7179.75" y="-1435.75"/>
+  <object id="1554" template="../Orb.tx" x="-6526.75" y="-1089.75"/>
+  <object id="1555" template="../Orb.tx" x="-7747.25" y="-1578.75" width="366" height="366"/>
+  <object id="1556" template="../Orb.tx" x="-7727.25" y="-70.75" width="366" height="366"/>
+  <object id="1557" template="../Orb.tx" x="-6255.25" y="253.25" width="366" height="366"/>
+  <object id="1558" template="../Orb.tx" x="-5751.25" y="-1025.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1559" template="../Orb.tx" x="-5558.25" y="-1019.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1560" template="../Orb.tx" x="-6116.25" y="-839.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1561" template="../Orb.tx" x="-5820.25" y="-879.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1562" template="../Orb.tx" x="-5964.25" y="-987.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1563" template="../Orb.tx" x="-5142.25" y="-301.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1564" template="../Orb.tx" x="-5412.25" y="-359.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1565" template="../Orb.tx" x="-4733.25" y="-293.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1566" template="../Orb.tx" x="-4838.25" y="-998.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1567" template="../Orb.tx" x="-5179.25" y="-1049.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1568" template="../Orb.tx" x="-5449.25" y="-914.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1569" template="../Orb.tx" x="-5495.25" y="-708.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1570" template="../Orb.tx" x="-5494.25" y="-576.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1571" template="../Orb.tx" x="-5337.25" y="-237.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1572" template="../Orb.tx" x="-5098.25" y="-107.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1573" template="../Orb.tx" x="-4802.25" y="-147.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1574" template="../Orb.tx" x="-4946.25" y="-255.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1575" template="../Orb.tx" x="-4687.25" y="-800.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1576" template="../Orb.tx" x="-4906.25" y="-860.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1577" template="../Orb.tx" x="-5029.25" y="-875.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1578" template="../Orb.tx" x="-5205.25" y="-846.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1579" template="../Orb.tx" x="-5331.25" y="-731.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1580" template="../Orb.tx" x="-5361.25" y="-553.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1581" template="../Orb.tx" x="-4708.25" y="-899.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1582" template="../Orb.tx" x="-5928.75" y="-690.75" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1583" template="../Orb.tx" x="-5574.25" y="648.25"/>
+  <object id="1584" template="../Orb.tx" x="-5844.25" y="706.25"/>
+  <object id="1585" template="../Orb.tx" x="-5165.25" y="640.25"/>
+  <object id="1586" template="../Orb.tx" x="-4972.25" y="634.25"/>
+  <object id="1587" template="../Orb.tx" x="-4897.25" y="794.25"/>
+  <object id="1588" template="../Orb.tx" x="-4858.25" y="994.25"/>
+  <object id="1589" template="../Orb.tx" x="-5926.25" y="923.25"/>
+  <object id="1590" template="../Orb.tx" x="-5769.25" y="584.25"/>
+  <object id="1591" template="../Orb.tx" x="-5530.25" y="454.25"/>
+  <object id="1592" template="../Orb.tx" x="-5234.25" y="494.25"/>
+  <object id="1593" template="../Orb.tx" x="-5378.25" y="602.25"/>
+  <object id="1594" template="../Orb.tx" x="-5075.25" y="798.25"/>
+  <object id="1595" template="../Orb.tx" x="-5793.25" y="900.25"/>
+  <object id="1596" template="../Orb.tx" x="-6360.75" y="757.25" width="366" height="366"/>
+  <object id="1597" template="../Orb.tx" x="-5286.5" y="-1788.92" width="147" height="147">
+   <properties>
+    <property name="player" type="class" propertytype="Void"/>
+   </properties>
+  </object>
+  <object id="1598" template="../Orb.tx" x="-5282.5" y="-1602.25"/>
+  <object id="1599" template="../Orb.tx" x="-4747.5" y="-1692.25"/>
+  <object id="1600" template="../Orb.tx" x="-4891.5" y="-1584.25"/>
+  <object id="1601" template="../Orb.tx" x="-5759" y="-1948.25"/>
+  <object id="1602" template="../Orb.tx" x="-5566" y="-1954.25"/>
+  <object id="1603" template="../Orb.tx" x="-5491" y="-1794.25"/>
+  <object id="1604" template="../Orb.tx" x="-5452" y="-1594.25"/>
+  <object id="1605" template="../Orb.tx" x="-5828" y="-2094.25"/>
+  <object id="1606" template="../Orb.tx" x="-5669" y="-1790.25"/>
+  <object id="1607" template="../Orb.tx" x="-5601" y="-1545.25"/>
+  <object id="1608" template="../Orb.tx" x="-5713" y="-1441.25"/>
+  <object id="1609" template="../Orb.tx" x="-4846" y="-1975.25"/>
+  <object id="1610" template="../Orb.tx" x="-5187" y="-1924.25"/>
+  <object id="1611" template="../Orb.tx" x="-5457" y="-2059.25"/>
+  <object id="1612" template="../Orb.tx" x="-5503" y="-2265.25"/>
+  <object id="1613" template="../Orb.tx" x="-5502" y="-2397.25"/>
+  <object id="1614" template="../Orb.tx" x="-4695" y="-2173.25"/>
+  <object id="1615" template="../Orb.tx" x="-4914" y="-2113.25"/>
+  <object id="1616" template="../Orb.tx" x="-5037" y="-2098.25"/>
+  <object id="1617" template="../Orb.tx" x="-5213" y="-2127.25"/>
+  <object id="1618" template="../Orb.tx" x="-5339" y="-2242.25"/>
+  <object id="1619" template="../Orb.tx" x="-5369" y="-2420.25"/>
+  <object id="1620" template="../Orb.tx" x="-4716" y="-2074.25"/>
+  <object id="1621" template="../Orb.tx" x="-5936.5" y="-2563.25" width="366" height="366"/>
+  <object id="1622" template="../Orb.tx" gid="0" x="2118.25" y="-6212.42" width="147" height="147" rotation="0">
+   <properties>
+    <property name="player" type="class" propertytype="Void"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="1623" template="../Orb.tx" gid="0" x="1378.25" y="-5975.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1624" template="../Orb.tx" gid="0" x="1303.25" y="-5815.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1625" template="../Orb.tx" gid="0" x="1264.25" y="-5615.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1626" template="../Orb.tx" gid="0" x="1367.25" y="-5393.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1627" template="../Orb.tx" gid="0" x="1676.25" y="-5264.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1628" template="../Orb.tx" gid="0" x="2017.25" y="-5213.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1629" template="../Orb.tx" gid="0" x="2287.25" y="-5348.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1630" template="../Orb.tx" gid="0" x="2333.25" y="-5554.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1631" template="../Orb.tx" gid="0" x="2332.25" y="-5686.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1632" template="../Orb.tx" gid="0" x="2175.25" y="-6025.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1633" template="../Orb.tx" gid="0" x="1640.25" y="-6115.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1634" template="../Orb.tx" gid="0" x="1784.25" y="-6007.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1635" template="../Orb.tx" gid="0" x="1481.25" y="-5811.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1636" template="../Orb.tx" gid="0" x="1413.25" y="-5566.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1637" template="../Orb.tx" gid="0" x="1525.25" y="-5462.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1638" template="../Orb.tx" gid="0" x="1744.25" y="-5402.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1639" template="../Orb.tx" gid="0" x="1867.25" y="-5387.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1640" template="../Orb.tx" gid="0" x="2043.25" y="-5416.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1641" template="../Orb.tx" gid="0" x="2169.25" y="-5531.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1642" template="../Orb.tx" gid="0" x="2199.25" y="-5709.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1643" template="../Orb.tx" gid="0" x="1546.25" y="-5363.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1644" template="../Orb.tx" gid="0" x="2651.75" y="-6371.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1645" template="../Orb.tx" gid="0" x="2458.75" y="-6377.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1646" template="../Orb.tx" gid="0" x="2383.75" y="-6217.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1647" template="../Orb.tx" gid="0" x="2344.75" y="-6017.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1648" template="../Orb.tx" gid="0" x="2447.75" y="-5795.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1649" template="../Orb.tx" gid="0" x="2756.75" y="-5666.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1650" template="../Orb.tx" gid="0" x="2720.75" y="-6517.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1651" template="../Orb.tx" gid="0" x="2864.75" y="-6409.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1652" template="../Orb.tx" gid="0" x="2561.75" y="-6213.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1653" template="../Orb.tx" gid="0" x="2493.75" y="-5968.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1654" template="../Orb.tx" gid="0" x="2605.75" y="-5864.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1655" template="../Orb.tx" gid="0" x="2824.75" y="-5804.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1656" template="../Orb.tx" gid="0" x="2626.75" y="-5765.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1657" template="../Orb.tx" gid="0" x="2042.75" y="-7095.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1658" template="../Orb.tx" gid="0" x="2312.75" y="-7037.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1659" template="../Orb.tx" gid="0" x="1633.75" y="-7103.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1660" template="../Orb.tx" gid="0" x="1440.75" y="-7109.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1661" template="../Orb.tx" gid="0" x="1365.75" y="-6949.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1662" template="../Orb.tx" gid="0" x="1326.75" y="-6749.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1663" template="../Orb.tx" gid="0" x="1429.75" y="-6527.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1664" template="../Orb.tx" gid="0" x="1738.75" y="-6398.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1665" template="../Orb.tx" gid="0" x="2079.75" y="-6347.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1666" template="../Orb.tx" gid="0" x="2349.75" y="-6482.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1667" template="../Orb.tx" gid="0" x="2395.75" y="-6688.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1668" template="../Orb.tx" gid="0" x="2394.75" y="-6820.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1669" template="../Orb.tx" gid="0" x="2237.75" y="-7159.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1670" template="../Orb.tx" gid="0" x="1998.75" y="-7289.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1671" template="../Orb.tx" gid="0" x="1702.75" y="-7249.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1672" template="../Orb.tx" gid="0" x="1846.75" y="-7141.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1673" template="../Orb.tx" gid="0" x="1543.75" y="-6945.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1674" template="../Orb.tx" gid="0" x="1475.75" y="-6700.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1675" template="../Orb.tx" gid="0" x="1587.75" y="-6596.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1676" template="../Orb.tx" gid="0" x="1806.75" y="-6536.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1677" template="../Orb.tx" gid="0" x="1929.75" y="-6521.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1678" template="../Orb.tx" gid="0" x="2105.75" y="-6550.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1679" template="../Orb.tx" gid="0" x="2231.75" y="-6665.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1680" template="../Orb.tx" gid="0" x="2261.75" y="-6843.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1681" template="../Orb.tx" gid="0" x="1608.75" y="-6497.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1682" template="../Orb.tx" gid="0" x="2549.25" y="-6986.75" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1683" template="../Orb.tx" gid="0" x="2529.25" y="-5478.75" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1684" template="../Orb.tx" gid="0" x="1057.25" y="-5154.75" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1685" template="../Orb.tx" gid="0" x="833.25" y="-6433.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1686" template="../Orb.tx" gid="0" x="640.25" y="-6427.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1687" template="../Orb.tx" gid="0" x="1198.25" y="-6247.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1688" template="../Orb.tx" gid="0" x="902.25" y="-6287.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1689" template="../Orb.tx" gid="0" x="1046.25" y="-6395.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1690" template="../Orb.tx" gid="0" x="224.25" y="-5709.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1691" template="../Orb.tx" gid="0" x="494.25" y="-5767.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1692" template="../Orb.tx" gid="0" x="-184.75" y="-5701.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1693" template="../Orb.tx" gid="0" x="-79.75" y="-6406.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1694" template="../Orb.tx" gid="0" x="261.25" y="-6457.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1695" template="../Orb.tx" gid="0" x="531.25" y="-6322.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1696" template="../Orb.tx" gid="0" x="577.25" y="-6116.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1697" template="../Orb.tx" gid="0" x="576.25" y="-5984.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1698" template="../Orb.tx" gid="0" x="419.25" y="-5645.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1699" template="../Orb.tx" gid="0" x="180.25" y="-5515.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1700" template="../Orb.tx" gid="0" x="-115.75" y="-5555.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1701" template="../Orb.tx" gid="0" x="28.25" y="-5663.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1702" template="../Orb.tx" gid="0" x="-230.75" y="-6208.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1703" template="../Orb.tx" gid="0" x="-11.75" y="-6268.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1704" template="../Orb.tx" gid="0" x="111.25" y="-6283.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1705" template="../Orb.tx" gid="0" x="287.25" y="-6254.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1706" template="../Orb.tx" gid="0" x="413.25" y="-6139.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1707" template="../Orb.tx" gid="0" x="443.25" y="-5961.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1708" template="../Orb.tx" gid="0" x="-209.75" y="-6307.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1709" template="../Orb.tx" gid="0" x="730.75" y="-6098.75" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1710" template="../Orb.tx" gid="0" x="656.25" y="-4759.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1711" template="../Orb.tx" gid="0" x="926.25" y="-4701.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1712" template="../Orb.tx" gid="0" x="247.25" y="-4767.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1713" template="../Orb.tx" gid="0" x="54.25" y="-4773.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1714" template="../Orb.tx" gid="0" x="-20.75" y="-4613.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1715" template="../Orb.tx" gid="0" x="-59.75" y="-4413.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1716" template="../Orb.tx" gid="0" x="1008.25" y="-4484.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1717" template="../Orb.tx" gid="0" x="851.25" y="-4823.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1718" template="../Orb.tx" gid="0" x="612.25" y="-4953.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1719" template="../Orb.tx" gid="0" x="316.25" y="-4913.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1720" template="../Orb.tx" gid="0" x="460.25" y="-4805.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1721" template="../Orb.tx" gid="0" x="157.25" y="-4609.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1722" template="../Orb.tx" gid="0" x="875.25" y="-4507.75" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1723" template="../Orb.tx" gid="0" x="1162.75" y="-4650.75" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1724" template="../Orb.tx" gid="0" x="307.5" y="-7196.92" width="147" height="147" rotation="0">
+   <properties>
+    <property name="player" type="class" propertytype="Void"/>
+   </properties>
+   <ellipse/>
+  </object>
+  <object id="1725" template="../Orb.tx" gid="0" x="364.5" y="-7010.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1726" template="../Orb.tx" gid="0" x="-170.5" y="-7100.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1727" template="../Orb.tx" gid="0" x="-26.5" y="-6992.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1728" template="../Orb.tx" gid="0" x="841" y="-7356.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1729" template="../Orb.tx" gid="0" x="648" y="-7362.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1730" template="../Orb.tx" gid="0" x="573" y="-7202.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1731" template="../Orb.tx" gid="0" x="534" y="-7002.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1732" template="../Orb.tx" gid="0" x="910" y="-7502.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1733" template="../Orb.tx" gid="0" x="751" y="-7198.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1734" template="../Orb.tx" gid="0" x="683" y="-6953.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1735" template="../Orb.tx" gid="0" x="795" y="-6849.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1736" template="../Orb.tx" gid="0" x="-72" y="-7383.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1737" template="../Orb.tx" gid="0" x="269" y="-7332.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1738" template="../Orb.tx" gid="0" x="539" y="-7467.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1739" template="../Orb.tx" gid="0" x="585" y="-7673.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1740" template="../Orb.tx" gid="0" x="584" y="-7805.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1741" template="../Orb.tx" gid="0" x="-223" y="-7581.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1742" template="../Orb.tx" gid="0" x="-4" y="-7521.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1743" template="../Orb.tx" gid="0" x="119" y="-7506.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1744" template="../Orb.tx" gid="0" x="295" y="-7535.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1745" template="../Orb.tx" gid="0" x="421" y="-7650.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1746" template="../Orb.tx" gid="0" x="451" y="-7828.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1747" template="../Orb.tx" gid="0" x="-202" y="-7482.25" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1748" template="../Orb.tx" gid="0" x="738.5" y="-7971.25" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1749" template="../Orb.tx" x="-2295.63" y="-2185.63"/>
+  <object id="1750" template="../Orb.tx" x="-2102.63" y="-2191.63"/>
+  <object id="1751" template="../Orb.tx" x="-2660.63" y="-2371.63"/>
+  <object id="1752" template="../Orb.tx" x="-2364.63" y="-2331.63"/>
+  <object id="1753" template="../Orb.tx" x="-2508.63" y="-2223.63"/>
+  <object id="1754" template="../Orb.tx" x="-1686.63" y="-2909.63"/>
+  <object id="1755" template="../Orb.tx" x="-1956.63" y="-2851.63"/>
+  <object id="1756" template="../Orb.tx" x="-1277.63" y="-2917.63"/>
+  <object id="1757" template="../Orb.tx" x="-1084.63" y="-2923.63"/>
+  <object id="1758" template="../Orb.tx" x="-1009.63" y="-2763.63"/>
+  <object id="1759" template="../Orb.tx" x="-970.625" y="-2563.63"/>
+  <object id="1760" template="../Orb.tx" x="-1073.63" y="-2341.63"/>
+  <object id="1761" template="../Orb.tx" x="-1382.63" y="-2212.63"/>
+  <object id="1762" template="../Orb.tx" x="-1723.63" y="-2161.63"/>
+  <object id="1763" template="../Orb.tx" x="-1993.63" y="-2296.63"/>
+  <object id="1764" template="../Orb.tx" x="-2039.63" y="-2502.63"/>
+  <object id="1765" template="../Orb.tx" x="-2038.63" y="-2634.63"/>
+  <object id="1766" template="../Orb.tx" x="-1881.63" y="-2973.63"/>
+  <object id="1767" template="../Orb.tx" x="-1642.63" y="-3103.63"/>
+  <object id="1768" template="../Orb.tx" x="-1346.63" y="-3063.63"/>
+  <object id="1769" template="../Orb.tx" x="-1490.63" y="-2955.63"/>
+  <object id="1770" template="../Orb.tx" x="-1187.63" y="-2759.63"/>
+  <object id="1771" template="../Orb.tx" x="-1119.63" y="-2514.63"/>
+  <object id="1772" template="../Orb.tx" x="-1231.63" y="-2410.63"/>
+  <object id="1773" template="../Orb.tx" x="-1450.63" y="-2350.63"/>
+  <object id="1774" template="../Orb.tx" x="-1573.63" y="-2335.63"/>
+  <object id="1775" template="../Orb.tx" x="-1749.63" y="-2364.63"/>
+  <object id="1776" template="../Orb.tx" x="-1875.63" y="-2479.63"/>
+  <object id="1777" template="../Orb.tx" x="-1905.63" y="-2657.63"/>
+  <object id="1778" template="../Orb.tx" x="-1252.63" y="-2311.63"/>
+  <object id="1779" template="../Orb.tx" x="-2473.13" y="-2800.63" width="366" height="366"/>
+  <object id="1780" template="../Orb.tx" x="-3157.38" y="-3663.38" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1781" template="../Orb.tx" x="-2848.38" y="-3534.38" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1782" template="../Orb.tx" x="-2507.38" y="-3483.38" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1783" template="../Orb.tx" x="-2237.38" y="-3618.38" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1784" template="../Orb.tx" x="-2657.38" y="-3657.38" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1785" template="../Orb.tx" x="-2978.38" y="-3633.38" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1786" template="../Orb.tx" x="-1995.38" y="-3748.38" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1787" template="../Orb.tx" x="-3467.38" y="-3424.38" width="366" height="366" rotation="0">
+   <ellipse/>
+  </object>
+  <object id="1788" template="../Orb.tx" x="-3361.88" y="-2920.38" width="366" height="366" rotation="0">
    <ellipse/>
   </object>
  </objectgroup>

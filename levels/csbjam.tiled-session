@@ -25,8 +25,8 @@
             "scale": 0.0156,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -16153.846153846152,
-                "y": -26794.871794871793
+                "x": 64.10256410256625,
+                "y": -32.051282051281305
             }
         },
         "simple.tmx": {
@@ -47,8 +47,8 @@
             "scale": 0.0625,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1040,
-                "y": 4144
+                "x": 2632,
+                "y": 1352
             }
         },
         "tutorial/tutorial.tmx": {
