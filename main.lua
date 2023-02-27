@@ -3,10 +3,14 @@ local worldManager = require("world")
 worldManager.loadMap("tutorial")
 
 local paused = false
+music = love.audio.newSource("res/ambient.mp3", "stream") -- the "stream" tells LÖVE to stream the file from disk, good for longer music tracks
+music:play()
 
 function love.keypressed(key)
 	if key == "p" then
 		paused = not paused
+	elseif key == "q" then
+		love.event.quit()
 	elseif key == "r" then
 		worldManager.restartMap()
 	elseif key == "1" then

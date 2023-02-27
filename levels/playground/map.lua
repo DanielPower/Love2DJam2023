@@ -1,5 +1,5 @@
 return {
-  version = "1.10",
+  version = "1.9",
   luaversion = "5.1",
   tiledversion = "1.9.2",
   class = "",
@@ -10,7 +10,7 @@ return {
   tilewidth = 32,
   tileheight = 32,
   nextlayerid = 4,
-  nextobjectid = 1176,
+  nextobjectid = 1226,
   backgroundcolor = { 31, 40, 31 },
   properties = {},
   tilesets = {},
@@ -32,7 +32,7 @@ return {
         {
           id = 312,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -493,
           y = -556.667,
@@ -56,7 +56,7 @@ return {
         {
           id = 314,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -271,
           y = -77,
@@ -79,7 +79,7 @@ return {
         {
           id = 315,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 66,
           y = -32,
@@ -102,7 +102,7 @@ return {
         {
           id = 316,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -26,
           y = 66,
@@ -125,7 +125,7 @@ return {
         {
           id = 317,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -294,
           y = -306,
@@ -148,7 +148,7 @@ return {
         {
           id = 318,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -564,
           y = -248,
@@ -171,7 +171,7 @@ return {
         {
           id = 324,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 115,
           y = -314,
@@ -194,7 +194,7 @@ return {
         {
           id = 325,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 308,
           y = -320,
@@ -217,7 +217,7 @@ return {
         {
           id = 326,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 383,
           y = -160,
@@ -240,7 +240,7 @@ return {
         {
           id = 327,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 422,
           y = 40,
@@ -263,7 +263,7 @@ return {
         {
           id = 328,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 319,
           y = 262,
@@ -286,7 +286,7 @@ return {
         {
           id = 329,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 10,
           y = 391,
@@ -309,7 +309,7 @@ return {
         {
           id = 330,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -331,
           y = 442,
@@ -332,7 +332,7 @@ return {
         {
           id = 331,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -601,
           y = 307,
@@ -355,7 +355,7 @@ return {
         {
           id = 332,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -647,
           y = 101,
@@ -378,7 +378,7 @@ return {
         {
           id = 333,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -646,
           y = -31,
@@ -401,7 +401,7 @@ return {
         {
           id = 334,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -489,
           y = -370,
@@ -424,7 +424,7 @@ return {
         {
           id = 335,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3250,
           y = -460,
@@ -447,7 +447,7 @@ return {
         {
           id = 336,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 46,
           y = -460,
@@ -470,7 +470,7 @@ return {
         {
           id = 337,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -98,
           y = -352,
@@ -493,7 +493,7 @@ return {
         {
           id = 338,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 205,
           y = -156,
@@ -516,7 +516,7 @@ return {
         {
           id = 339,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 273,
           y = 89,
@@ -539,7 +539,7 @@ return {
         {
           id = 340,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 161,
           y = 193,
@@ -562,7 +562,7 @@ return {
         {
           id = 341,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -58,
           y = 253,
@@ -585,7 +585,7 @@ return {
         {
           id = 342,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -181,
           y = 268,
@@ -608,7 +608,7 @@ return {
         {
           id = 343,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -357,
           y = 239,
@@ -631,7 +631,7 @@ return {
         {
           id = 344,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -483,
           y = 124,
@@ -654,7 +654,7 @@ return {
         {
           id = 345,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -513,
           y = -54,
@@ -677,7 +677,7 @@ return {
         {
           id = 346,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 140,
           y = 292,
@@ -700,7 +700,7 @@ return {
         {
           id = 348,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1107.5,
           y = -551,
@@ -723,7 +723,7 @@ return {
         {
           id = 349,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1014.5,
           y = -434,
@@ -746,7 +746,7 @@ return {
         {
           id = 350,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1074.5,
           y = -320,
@@ -769,7 +769,7 @@ return {
         {
           id = 351,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1374.5,
           y = -708,
@@ -792,7 +792,7 @@ return {
         {
           id = 352,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1644.5,
           y = -650,
@@ -815,7 +815,7 @@ return {
         {
           id = 353,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -965.5,
           y = -716,
@@ -838,7 +838,7 @@ return {
         {
           id = 354,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -772.5,
           y = -722,
@@ -861,7 +861,7 @@ return {
         {
           id = 355,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -697.5,
           y = -562,
@@ -884,7 +884,7 @@ return {
         {
           id = 356,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -658.5,
           y = -362,
@@ -907,7 +907,7 @@ return {
         {
           id = 357,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -761.5,
           y = -140,
@@ -930,7 +930,7 @@ return {
         {
           id = 358,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1070.5,
           y = -11,
@@ -953,7 +953,7 @@ return {
         {
           id = 359,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1411.5,
           y = 40,
@@ -976,7 +976,7 @@ return {
         {
           id = 360,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1681.5,
           y = -95,
@@ -999,7 +999,7 @@ return {
         {
           id = 361,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1727.5,
           y = -301,
@@ -1022,7 +1022,7 @@ return {
         {
           id = 362,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1726.5,
           y = -433,
@@ -1045,7 +1045,7 @@ return {
         {
           id = 363,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1569.5,
           y = -772,
@@ -1068,7 +1068,7 @@ return {
         {
           id = 364,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1330.5,
           y = -902,
@@ -1091,7 +1091,7 @@ return {
         {
           id = 365,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1034.5,
           y = -862,
@@ -1114,7 +1114,7 @@ return {
         {
           id = 366,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1178.5,
           y = -754,
@@ -1137,7 +1137,7 @@ return {
         {
           id = 367,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -875.5,
           y = -558,
@@ -1160,7 +1160,7 @@ return {
         {
           id = 368,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -807.5,
           y = -313,
@@ -1183,7 +1183,7 @@ return {
         {
           id = 369,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -919.5,
           y = -209,
@@ -1206,7 +1206,7 @@ return {
         {
           id = 370,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1138.5,
           y = -149,
@@ -1229,7 +1229,7 @@ return {
         {
           id = 371,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1261.5,
           y = -134,
@@ -1252,7 +1252,7 @@ return {
         {
           id = 372,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1437.5,
           y = -163,
@@ -1275,7 +1275,7 @@ return {
         {
           id = 373,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1563.5,
           y = -278,
@@ -1298,7 +1298,7 @@ return {
         {
           id = 374,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1593.5,
           y = -456,
@@ -1321,7 +1321,7 @@ return {
         {
           id = 375,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -940.5,
           y = -110,
@@ -1344,7 +1344,7 @@ return {
         {
           id = 377,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -89.5,
           y = -1283,
@@ -1367,7 +1367,7 @@ return {
         {
           id = 378,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3.5,
           y = -1166,
@@ -1390,7 +1390,7 @@ return {
         {
           id = 379,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -88.5,
           y = -1068,
@@ -1413,7 +1413,7 @@ return {
         {
           id = 380,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -356.5,
           y = -1440,
@@ -1436,7 +1436,7 @@ return {
         {
           id = 381,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -626.5,
           y = -1382,
@@ -1459,7 +1459,7 @@ return {
         {
           id = 382,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 52.5,
           y = -1448,
@@ -1482,7 +1482,7 @@ return {
         {
           id = 383,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 245.5,
           y = -1454,
@@ -1505,7 +1505,7 @@ return {
         {
           id = 384,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 320.5,
           y = -1294,
@@ -1528,7 +1528,7 @@ return {
         {
           id = 385,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 359.5,
           y = -1094,
@@ -1551,7 +1551,7 @@ return {
         {
           id = 386,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 256.5,
           y = -872,
@@ -1574,7 +1574,7 @@ return {
         {
           id = 387,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -52.5,
           y = -743,
@@ -1597,7 +1597,7 @@ return {
         {
           id = 388,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -393.5,
           y = -692,
@@ -1620,7 +1620,7 @@ return {
         {
           id = 389,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -663.5,
           y = -827,
@@ -1643,7 +1643,7 @@ return {
         {
           id = 390,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -709.5,
           y = -1033,
@@ -1666,7 +1666,7 @@ return {
         {
           id = 391,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -708.5,
           y = -1165,
@@ -1689,7 +1689,7 @@ return {
         {
           id = 392,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -551.5,
           y = -1504,
@@ -1712,7 +1712,7 @@ return {
         {
           id = 393,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -312.5,
           y = -1634,
@@ -1735,7 +1735,7 @@ return {
         {
           id = 394,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -16.5,
           y = -1594,
@@ -1758,7 +1758,7 @@ return {
         {
           id = 395,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -160.5,
           y = -1486,
@@ -1781,7 +1781,7 @@ return {
         {
           id = 396,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 142.5,
           y = -1290,
@@ -1804,7 +1804,7 @@ return {
         {
           id = 397,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 210.5,
           y = -1045,
@@ -1827,7 +1827,7 @@ return {
         {
           id = 398,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 98.5,
           y = -941,
@@ -1850,7 +1850,7 @@ return {
         {
           id = 399,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -120.5,
           y = -881,
@@ -1873,7 +1873,7 @@ return {
         {
           id = 400,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -243.5,
           y = -866,
@@ -1896,7 +1896,7 @@ return {
         {
           id = 401,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -419.5,
           y = -895,
@@ -1919,7 +1919,7 @@ return {
         {
           id = 402,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -545.5,
           y = -1010,
@@ -1942,7 +1942,7 @@ return {
         {
           id = 403,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -575.5,
           y = -1188,
@@ -1965,7 +1965,7 @@ return {
         {
           id = 404,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 77.5,
           y = -842,
@@ -1988,7 +1988,7 @@ return {
         {
           id = 405,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1143,
           y = -1331,
@@ -2011,7 +2011,7 @@ return {
         {
           id = 406,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1123,
           y = 177,
@@ -2034,7 +2034,7 @@ return {
         {
           id = 407,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 349,
           y = 501,
@@ -2057,7 +2057,7 @@ return {
         {
           id = 408,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2921,
           y = -1865,
@@ -2080,7 +2080,7 @@ return {
         {
           id = 409,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2673,
           y = 691,
@@ -2103,7 +2103,7 @@ return {
         {
           id = 410,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -384,
           y = 2048,
@@ -2126,7 +2126,7 @@ return {
         {
           id = 411,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7495,
           y = -12889,
@@ -2149,7 +2149,7 @@ return {
         {
           id = 412,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2229,
           y = -3916,
@@ -2172,7 +2172,7 @@ return {
         {
           id = 413,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2422,
           y = -3922,
@@ -2195,7 +2195,7 @@ return {
         {
           id = 414,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 1864,
           y = -4102,
@@ -2218,7 +2218,7 @@ return {
         {
           id = 415,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2160,
           y = -4062,
@@ -2241,7 +2241,7 @@ return {
         {
           id = 416,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2016,
           y = -3954,
@@ -2264,7 +2264,7 @@ return {
         {
           id = 417,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3105,
           y = -4483,
@@ -2287,7 +2287,7 @@ return {
         {
           id = 418,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3198,
           y = -4366,
@@ -2310,7 +2310,7 @@ return {
         {
           id = 419,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3106,
           y = -4268,
@@ -2333,7 +2333,7 @@ return {
         {
           id = 420,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2838,
           y = -4640,
@@ -2356,7 +2356,7 @@ return {
         {
           id = 421,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2568,
           y = -4582,
@@ -2379,7 +2379,7 @@ return {
         {
           id = 422,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3247,
           y = -4648,
@@ -2402,7 +2402,7 @@ return {
         {
           id = 423,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3440,
           y = -4654,
@@ -2425,7 +2425,7 @@ return {
         {
           id = 424,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3515,
           y = -4494,
@@ -2448,7 +2448,7 @@ return {
         {
           id = 425,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3554,
           y = -4294,
@@ -2471,7 +2471,7 @@ return {
         {
           id = 426,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3451,
           y = -4072,
@@ -2494,7 +2494,7 @@ return {
         {
           id = 427,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3142,
           y = -3943,
@@ -2517,7 +2517,7 @@ return {
         {
           id = 428,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2801,
           y = -3892,
@@ -2540,7 +2540,7 @@ return {
         {
           id = 429,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2531,
           y = -4027,
@@ -2563,7 +2563,7 @@ return {
         {
           id = 430,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2485,
           y = -4233,
@@ -2586,7 +2586,7 @@ return {
         {
           id = 431,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2486,
           y = -4365,
@@ -2609,7 +2609,7 @@ return {
         {
           id = 432,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2643,
           y = -4704,
@@ -2632,7 +2632,7 @@ return {
         {
           id = 433,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2882,
           y = -4834,
@@ -2655,7 +2655,7 @@ return {
         {
           id = 434,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3178,
           y = -4794,
@@ -2678,7 +2678,7 @@ return {
         {
           id = 435,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3034,
           y = -4686,
@@ -2701,7 +2701,7 @@ return {
         {
           id = 436,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3337,
           y = -4490,
@@ -2724,7 +2724,7 @@ return {
         {
           id = 437,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3405,
           y = -4245,
@@ -2747,7 +2747,7 @@ return {
         {
           id = 438,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3293,
           y = -4141,
@@ -2770,7 +2770,7 @@ return {
         {
           id = 439,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3074,
           y = -4081,
@@ -2793,7 +2793,7 @@ return {
         {
           id = 440,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2951,
           y = -4066,
@@ -2816,7 +2816,7 @@ return {
         {
           id = 441,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2775,
           y = -4095,
@@ -2839,7 +2839,7 @@ return {
         {
           id = 442,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2649,
           y = -4210,
@@ -2862,7 +2862,7 @@ return {
         {
           id = 443,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2619,
           y = -4388,
@@ -2885,7 +2885,7 @@ return {
         {
           id = 444,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3272,
           y = -4042,
@@ -2908,7 +2908,7 @@ return {
         {
           id = 445,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2051.5,
           y = -4531,
@@ -2931,7 +2931,7 @@ return {
         {
           id = 446,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7285,
           y = 724,
@@ -2954,7 +2954,7 @@ return {
         {
           id = 447,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7478,
           y = 718,
@@ -2977,7 +2977,7 @@ return {
         {
           id = 448,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 6920,
           y = 538,
@@ -3000,7 +3000,7 @@ return {
         {
           id = 449,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7216,
           y = 578,
@@ -3023,7 +3023,7 @@ return {
         {
           id = 450,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7072,
           y = 686,
@@ -3046,7 +3046,7 @@ return {
         {
           id = 451,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8161,
           y = 157,
@@ -3069,7 +3069,7 @@ return {
         {
           id = 452,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8254,
           y = 274,
@@ -3092,7 +3092,7 @@ return {
         {
           id = 453,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8162,
           y = 372,
@@ -3115,7 +3115,7 @@ return {
         {
           id = 454,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7894,
           y = 0,
@@ -3138,7 +3138,7 @@ return {
         {
           id = 455,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7624,
           y = 58,
@@ -3161,7 +3161,7 @@ return {
         {
           id = 456,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8303,
           y = -8,
@@ -3184,7 +3184,7 @@ return {
         {
           id = 457,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8496,
           y = -14,
@@ -3207,7 +3207,7 @@ return {
         {
           id = 458,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8571,
           y = 146,
@@ -3230,7 +3230,7 @@ return {
         {
           id = 459,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8610,
           y = 346,
@@ -3253,7 +3253,7 @@ return {
         {
           id = 460,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8507,
           y = 568,
@@ -3276,7 +3276,7 @@ return {
         {
           id = 461,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8198,
           y = 697,
@@ -3299,7 +3299,7 @@ return {
         {
           id = 462,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7857,
           y = 748,
@@ -3322,7 +3322,7 @@ return {
         {
           id = 463,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7587,
           y = 613,
@@ -3345,7 +3345,7 @@ return {
         {
           id = 464,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7541,
           y = 407,
@@ -3368,7 +3368,7 @@ return {
         {
           id = 465,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7542,
           y = 275,
@@ -3391,7 +3391,7 @@ return {
         {
           id = 466,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7699,
           y = -64,
@@ -3414,7 +3414,7 @@ return {
         {
           id = 467,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7938,
           y = -194,
@@ -3437,7 +3437,7 @@ return {
         {
           id = 468,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8234,
           y = -154,
@@ -3460,7 +3460,7 @@ return {
         {
           id = 469,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8090,
           y = -46,
@@ -3483,7 +3483,7 @@ return {
         {
           id = 470,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8393,
           y = 150,
@@ -3506,7 +3506,7 @@ return {
         {
           id = 471,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8461,
           y = 395,
@@ -3529,7 +3529,7 @@ return {
         {
           id = 472,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8349,
           y = 499,
@@ -3552,7 +3552,7 @@ return {
         {
           id = 473,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8130,
           y = 559,
@@ -3575,7 +3575,7 @@ return {
         {
           id = 474,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8007,
           y = 574,
@@ -3598,7 +3598,7 @@ return {
         {
           id = 475,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7831,
           y = 545,
@@ -3621,7 +3621,7 @@ return {
         {
           id = 476,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7705,
           y = 430,
@@ -3644,7 +3644,7 @@ return {
         {
           id = 477,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7675,
           y = 252,
@@ -3667,7 +3667,7 @@ return {
         {
           id = 478,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8328,
           y = 598,
@@ -3690,7 +3690,7 @@ return {
         {
           id = 479,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7107.5,
           y = 109,
@@ -3713,7 +3713,7 @@ return {
         {
           id = 480,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3383,
           y = -2409,
@@ -3736,7 +3736,7 @@ return {
         {
           id = 481,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 5239,
           y = -969,
@@ -3759,7 +3759,7 @@ return {
         {
           id = 482,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 5719,
           y = 1751,
@@ -3782,7 +3782,7 @@ return {
         {
           id = 483,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 11415,
           y = 1527,
@@ -3805,7 +3805,7 @@ return {
         {
           id = 484,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 9879,
           y = -969,
@@ -3828,7 +3828,7 @@ return {
         {
           id = 485,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 6135,
           y = -3433,
@@ -3851,7 +3851,7 @@ return {
         {
           id = 486,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3543,
           y = -7081,
@@ -3874,7 +3874,7 @@ return {
         {
           id = 487,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1481,
           y = -6729,
@@ -3897,7 +3897,7 @@ return {
         {
           id = 488,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -809,
           y = -3657,
@@ -3920,7 +3920,7 @@ return {
         {
           id = 489,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -4617,
           y = -3593,
@@ -3943,7 +3943,7 @@ return {
         {
           id = 490,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -4649,
           y = -6665,
@@ -3966,7 +3966,7 @@ return {
         {
           id = 491,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -8937,
           y = -3945,
@@ -3989,7 +3989,7 @@ return {
         {
           id = 492,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -8713,
           y = 1335,
@@ -4012,7 +4012,7 @@ return {
         {
           id = 493,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -6249,
           y = 4279,
@@ -4035,7 +4035,7 @@ return {
         {
           id = 494,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -6409,
           y = 8343,
@@ -4058,7 +4058,7 @@ return {
         {
           id = 495,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -10473,
           y = 8823,
@@ -4081,7 +4081,7 @@ return {
         {
           id = 496,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -17417,
           y = 4119,
@@ -4104,7 +4104,7 @@ return {
         {
           id = 497,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -18953,
           y = -585,
@@ -4127,7 +4127,7 @@ return {
         {
           id = 498,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -13577,
           y = -5641,
@@ -4150,7 +4150,7 @@ return {
         {
           id = 499,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -9225,
           y = -8457,
@@ -4173,7 +4173,7 @@ return {
         {
           id = 500,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -4713,
           y = -12265,
@@ -4196,7 +4196,7 @@ return {
         {
           id = 501,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 4151,
           y = -13161,
@@ -4219,7 +4219,7 @@ return {
         {
           id = 502,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 17559,
           y = -11497,
@@ -4242,7 +4242,7 @@ return {
         {
           id = 503,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 22743,
           y = -6633,
@@ -4265,7 +4265,7 @@ return {
         {
           id = 504,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 23159,
           y = 4791,
@@ -4288,7 +4288,7 @@ return {
         {
           id = 505,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 16695,
           y = 55,
@@ -4311,7 +4311,7 @@ return {
         {
           id = 506,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 15031,
           y = -2473,
@@ -4334,7 +4334,7 @@ return {
         {
           id = 507,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 17751,
           y = 8247,
@@ -4357,7 +4357,7 @@ return {
         {
           id = 508,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 16087,
           y = 13751,
@@ -4380,7 +4380,7 @@ return {
         {
           id = 509,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8055,
           y = 17655,
@@ -4403,7 +4403,7 @@ return {
         {
           id = 510,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2807,
           y = 17495,
@@ -4426,7 +4426,7 @@ return {
         {
           id = 511,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 9175,
           y = 10647,
@@ -4449,7 +4449,7 @@ return {
         {
           id = 512,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 10551,
           y = 5591,
@@ -4472,7 +4472,7 @@ return {
         {
           id = 513,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 6071,
           y = 5079,
@@ -4495,7 +4495,7 @@ return {
         {
           id = 514,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2743,
           y = 11319,
@@ -4518,7 +4518,7 @@ return {
         {
           id = 515,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 55,
           y = 14711,
@@ -4541,7 +4541,7 @@ return {
         {
           id = 516,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -9449,
           y = 16823,
@@ -4564,7 +4564,7 @@ return {
         {
           id = 517,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -18505,
           y = 17495,
@@ -4587,7 +4587,7 @@ return {
         {
           id = 518,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -19593,
           y = 13431,
@@ -4610,7 +4610,7 @@ return {
         {
           id = 519,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -18665,
           y = 10167,
@@ -4633,7 +4633,7 @@ return {
         {
           id = 520,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -11913,
           y = 12919,
@@ -4656,7 +4656,7 @@ return {
         {
           id = 521,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -6377,
           y = 13047,
@@ -4679,7 +4679,7 @@ return {
         {
           id = 522,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2025,
           y = 10839,
@@ -4702,7 +4702,7 @@ return {
         {
           id = 523,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1449,
           y = 7191,
@@ -4725,12 +4725,12 @@ return {
         {
           id = 524,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
-          x = -46465,
-          y = -34241,
-          width = 29058,
-          height = 29058,
+          x = -42298.3,
+          y = -30715.4,
+          width = 22263.1,
+          height = 22263.1,
           rotation = 0,
           visible = true,
           properties = {
@@ -4748,7 +4748,7 @@ return {
         {
           id = 525,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5328.5,
           y = -34256,
@@ -4771,7 +4771,7 @@ return {
         {
           id = 526,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5253.5,
           y = -34096,
@@ -4794,7 +4794,7 @@ return {
         {
           id = 527,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5214.5,
           y = -33896,
@@ -4817,7 +4817,7 @@ return {
         {
           id = 528,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5317.5,
           y = -33674,
@@ -4840,7 +4840,7 @@ return {
         {
           id = 529,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2386.5,
           y = -34396,
@@ -4863,7 +4863,7 @@ return {
         {
           id = 530,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5431.5,
           y = -34092,
@@ -4886,7 +4886,7 @@ return {
         {
           id = 531,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5363.5,
           y = -33847,
@@ -4909,7 +4909,7 @@ return {
         {
           id = 532,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5391,
           y = -35390,
@@ -4932,7 +4932,7 @@ return {
         {
           id = 533,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5316,
           y = -35230,
@@ -4955,7 +4955,7 @@ return {
         {
           id = 534,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5277,
           y = -35030,
@@ -4978,7 +4978,7 @@ return {
         {
           id = 535,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5380,
           y = -34808,
@@ -5001,7 +5001,7 @@ return {
         {
           id = 536,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5426,
           y = -34981,
@@ -5024,7 +5024,7 @@ return {
         {
           id = 537,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5287.5,
           y = -33435,
@@ -5047,7 +5047,7 @@ return {
         {
           id = 538,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -6020.5,
           y = -31888,
@@ -5070,7 +5070,7 @@ return {
         {
           id = 539,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 1858.5,
           y = -46825,
@@ -5093,7 +5093,7 @@ return {
         {
           id = 540,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -3407.5,
           y = -37852,
@@ -5116,7 +5116,7 @@ return {
         {
           id = 541,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -3214.5,
           y = -37858,
@@ -5139,7 +5139,7 @@ return {
         {
           id = 542,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -3772.5,
           y = -38038,
@@ -5162,7 +5162,7 @@ return {
         {
           id = 543,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -3476.5,
           y = -37998,
@@ -5185,7 +5185,7 @@ return {
         {
           id = 544,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -3620.5,
           y = -37890,
@@ -5208,7 +5208,7 @@ return {
         {
           id = 545,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2531.5,
           y = -38419,
@@ -5231,7 +5231,7 @@ return {
         {
           id = 546,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2438.5,
           y = -38302,
@@ -5254,7 +5254,7 @@ return {
         {
           id = 547,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2530.5,
           y = -38204,
@@ -5277,7 +5277,7 @@ return {
         {
           id = 548,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2798.5,
           y = -38576,
@@ -5300,7 +5300,7 @@ return {
         {
           id = 549,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -3068.5,
           y = -38518,
@@ -5323,7 +5323,7 @@ return {
         {
           id = 550,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2389.5,
           y = -38584,
@@ -5346,7 +5346,7 @@ return {
         {
           id = 551,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2196.5,
           y = -38590,
@@ -5369,7 +5369,7 @@ return {
         {
           id = 552,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2121.5,
           y = -38430,
@@ -5392,7 +5392,7 @@ return {
         {
           id = 553,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2082.5,
           y = -38230,
@@ -5415,7 +5415,7 @@ return {
         {
           id = 554,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2185.5,
           y = -38008,
@@ -5438,7 +5438,7 @@ return {
         {
           id = 555,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2494.5,
           y = -37879,
@@ -5461,7 +5461,7 @@ return {
         {
           id = 556,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2835.5,
           y = -37828,
@@ -5484,7 +5484,7 @@ return {
         {
           id = 557,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -3105.5,
           y = -37963,
@@ -5507,7 +5507,7 @@ return {
         {
           id = 558,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -3151.5,
           y = -38169,
@@ -5530,7 +5530,7 @@ return {
         {
           id = 559,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -3150.5,
           y = -38301,
@@ -5553,7 +5553,7 @@ return {
         {
           id = 560,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2993.5,
           y = -38640,
@@ -5576,7 +5576,7 @@ return {
         {
           id = 561,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2754.5,
           y = -38770,
@@ -5599,7 +5599,7 @@ return {
         {
           id = 562,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2458.5,
           y = -38730,
@@ -5622,7 +5622,7 @@ return {
         {
           id = 563,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2602.5,
           y = -38622,
@@ -5645,7 +5645,7 @@ return {
         {
           id = 564,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2299.5,
           y = -38426,
@@ -5668,7 +5668,7 @@ return {
         {
           id = 565,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2231.5,
           y = -38181,
@@ -5691,7 +5691,7 @@ return {
         {
           id = 566,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2343.5,
           y = -38077,
@@ -5714,7 +5714,7 @@ return {
         {
           id = 567,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2562.5,
           y = -38017,
@@ -5737,7 +5737,7 @@ return {
         {
           id = 568,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2685.5,
           y = -38002,
@@ -5760,7 +5760,7 @@ return {
         {
           id = 569,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2861.5,
           y = -38031,
@@ -5783,7 +5783,7 @@ return {
         {
           id = 570,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2987.5,
           y = -38146,
@@ -5806,7 +5806,7 @@ return {
         {
           id = 571,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -3017.5,
           y = -38324,
@@ -5829,7 +5829,7 @@ return {
         {
           id = 572,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2364.5,
           y = -37978,
@@ -5852,7 +5852,7 @@ return {
         {
           id = 573,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -3585,
           y = -38467,
@@ -5875,7 +5875,7 @@ return {
         {
           id = 574,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 1648.5,
           y = -33212,
@@ -5898,7 +5898,7 @@ return {
         {
           id = 575,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 1841.5,
           y = -33218,
@@ -5921,7 +5921,7 @@ return {
         {
           id = 576,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 1283.5,
           y = -33398,
@@ -5944,7 +5944,7 @@ return {
         {
           id = 577,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 1579.5,
           y = -33358,
@@ -5967,7 +5967,7 @@ return {
         {
           id = 578,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 1435.5,
           y = -33250,
@@ -5990,7 +5990,7 @@ return {
         {
           id = 579,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2524.5,
           y = -33779,
@@ -6013,7 +6013,7 @@ return {
         {
           id = 580,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2617.5,
           y = -33662,
@@ -6036,7 +6036,7 @@ return {
         {
           id = 581,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2525.5,
           y = -33564,
@@ -6059,7 +6059,7 @@ return {
         {
           id = 582,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2257.5,
           y = -33936,
@@ -6082,7 +6082,7 @@ return {
         {
           id = 583,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 1987.5,
           y = -33878,
@@ -6105,7 +6105,7 @@ return {
         {
           id = 584,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2666.5,
           y = -33944,
@@ -6128,7 +6128,7 @@ return {
         {
           id = 585,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2859.5,
           y = -33950,
@@ -6151,7 +6151,7 @@ return {
         {
           id = 586,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2934.5,
           y = -33790,
@@ -6174,7 +6174,7 @@ return {
         {
           id = 587,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2973.5,
           y = -33590,
@@ -6197,7 +6197,7 @@ return {
         {
           id = 588,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2870.5,
           y = -33368,
@@ -6220,7 +6220,7 @@ return {
         {
           id = 589,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2561.5,
           y = -33239,
@@ -6243,7 +6243,7 @@ return {
         {
           id = 590,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2220.5,
           y = -33188,
@@ -6266,7 +6266,7 @@ return {
         {
           id = 591,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 1950.5,
           y = -33323,
@@ -6289,7 +6289,7 @@ return {
         {
           id = 592,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 1904.5,
           y = -33529,
@@ -6312,7 +6312,7 @@ return {
         {
           id = 593,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 1905.5,
           y = -33661,
@@ -6335,7 +6335,7 @@ return {
         {
           id = 594,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2062.5,
           y = -34000,
@@ -6358,7 +6358,7 @@ return {
         {
           id = 595,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2301.5,
           y = -34130,
@@ -6381,7 +6381,7 @@ return {
         {
           id = 596,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2597.5,
           y = -34090,
@@ -6404,7 +6404,7 @@ return {
         {
           id = 597,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2453.5,
           y = -33982,
@@ -6427,7 +6427,7 @@ return {
         {
           id = 598,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2756.5,
           y = -33786,
@@ -6450,7 +6450,7 @@ return {
         {
           id = 599,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2824.5,
           y = -33541,
@@ -6473,7 +6473,7 @@ return {
         {
           id = 600,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2712.5,
           y = -33437,
@@ -6496,7 +6496,7 @@ return {
         {
           id = 601,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2493.5,
           y = -33377,
@@ -6519,7 +6519,7 @@ return {
         {
           id = 602,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2370.5,
           y = -33362,
@@ -6542,7 +6542,7 @@ return {
         {
           id = 603,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2194.5,
           y = -33391,
@@ -6565,7 +6565,7 @@ return {
         {
           id = 604,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2068.5,
           y = -33506,
@@ -6588,7 +6588,7 @@ return {
         {
           id = 605,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2038.5,
           y = -33684,
@@ -6611,7 +6611,7 @@ return {
         {
           id = 606,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2691.5,
           y = -33338,
@@ -6634,7 +6634,7 @@ return {
         {
           id = 607,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 1471,
           y = -33827,
@@ -6657,7 +6657,7 @@ return {
         {
           id = 608,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2253.5,
           y = -36345,
@@ -6680,7 +6680,7 @@ return {
         {
           id = 609,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -397.5,
           y = -34905,
@@ -6703,7 +6703,7 @@ return {
         {
           id = 610,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 82.5,
           y = -32185,
@@ -6726,7 +6726,7 @@ return {
         {
           id = 611,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 5778.5,
           y = -32409,
@@ -6749,7 +6749,7 @@ return {
         {
           id = 612,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 4242.5,
           y = -34905,
@@ -6772,7 +6772,7 @@ return {
         {
           id = 613,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 498.5,
           y = -37369,
@@ -6795,7 +6795,7 @@ return {
         {
           id = 614,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2093.5,
           y = -41017,
@@ -6818,7 +6818,7 @@ return {
         {
           id = 615,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1485.5,
           y = -47097,
@@ -6841,7 +6841,7 @@ return {
         {
           id = 616,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 11922.5,
           y = -45433,
@@ -6864,7 +6864,7 @@ return {
         {
           id = 617,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 17106.5,
           y = -40569,
@@ -6887,7 +6887,7 @@ return {
         {
           id = 618,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 17522.5,
           y = -29145,
@@ -6910,7 +6910,7 @@ return {
         {
           id = 619,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 11058.5,
           y = -33881,
@@ -6933,7 +6933,7 @@ return {
         {
           id = 620,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 9394.5,
           y = -36409,
@@ -6956,7 +6956,7 @@ return {
         {
           id = 621,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 12114.5,
           y = -25689,
@@ -6979,7 +6979,7 @@ return {
         {
           id = 622,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 10450.5,
           y = -20185,
@@ -7002,7 +7002,7 @@ return {
         {
           id = 623,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 2418.5,
           y = -16281,
@@ -7025,7 +7025,7 @@ return {
         {
           id = 624,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2829.5,
           y = -16441,
@@ -7048,7 +7048,7 @@ return {
         {
           id = 625,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3538.5,
           y = -23289,
@@ -7071,7 +7071,7 @@ return {
         {
           id = 626,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 4914.5,
           y = -28345,
@@ -7094,7 +7094,7 @@ return {
         {
           id = 627,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 434.5,
           y = -28857,
@@ -7117,7 +7117,7 @@ return {
         {
           id = 628,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2893.5,
           y = -22617,
@@ -7140,7 +7140,7 @@ return {
         {
           id = 629,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5581.5,
           y = -19225,
@@ -7163,7 +7163,7 @@ return {
         {
           id = 630,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23184.5,
           y = -54416,
@@ -7186,7 +7186,7 @@ return {
         {
           id = 631,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23109.5,
           y = -54256,
@@ -7209,7 +7209,7 @@ return {
         {
           id = 632,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23070.5,
           y = -54056,
@@ -7232,7 +7232,7 @@ return {
         {
           id = 633,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23173.5,
           y = -53834,
@@ -7255,7 +7255,7 @@ return {
         {
           id = 634,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20242.5,
           y = -54556,
@@ -7278,7 +7278,7 @@ return {
         {
           id = 635,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23287.5,
           y = -54252,
@@ -7301,7 +7301,7 @@ return {
         {
           id = 636,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23219.5,
           y = -54007,
@@ -7324,7 +7324,7 @@ return {
         {
           id = 637,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23247,
           y = -55550,
@@ -7347,7 +7347,7 @@ return {
         {
           id = 638,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23172,
           y = -55390,
@@ -7370,7 +7370,7 @@ return {
         {
           id = 639,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23133,
           y = -55190,
@@ -7393,7 +7393,7 @@ return {
         {
           id = 640,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23236,
           y = -54968,
@@ -7416,7 +7416,7 @@ return {
         {
           id = 641,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23282,
           y = -55141,
@@ -7439,7 +7439,7 @@ return {
         {
           id = 642,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23143.5,
           y = -53595,
@@ -7462,7 +7462,7 @@ return {
         {
           id = 643,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23876.5,
           y = -52048,
@@ -7485,7 +7485,7 @@ return {
         {
           id = 644,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15997.5,
           y = -66985,
@@ -7508,7 +7508,7 @@ return {
         {
           id = 645,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -21263.5,
           y = -58012,
@@ -7531,7 +7531,7 @@ return {
         {
           id = 646,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -21070.5,
           y = -58018,
@@ -7554,7 +7554,7 @@ return {
         {
           id = 647,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -21628.5,
           y = -58198,
@@ -7577,7 +7577,7 @@ return {
         {
           id = 648,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -21332.5,
           y = -58158,
@@ -7600,7 +7600,7 @@ return {
         {
           id = 649,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -21476.5,
           y = -58050,
@@ -7623,7 +7623,7 @@ return {
         {
           id = 650,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20387.5,
           y = -58579,
@@ -7646,7 +7646,7 @@ return {
         {
           id = 651,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20294.5,
           y = -58462,
@@ -7669,7 +7669,7 @@ return {
         {
           id = 652,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20386.5,
           y = -58364,
@@ -7692,7 +7692,7 @@ return {
         {
           id = 653,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20654.5,
           y = -58736,
@@ -7715,7 +7715,7 @@ return {
         {
           id = 654,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20924.5,
           y = -58678,
@@ -7738,7 +7738,7 @@ return {
         {
           id = 655,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20245.5,
           y = -58744,
@@ -7761,7 +7761,7 @@ return {
         {
           id = 656,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20052.5,
           y = -58750,
@@ -7784,7 +7784,7 @@ return {
         {
           id = 657,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -19977.5,
           y = -58590,
@@ -7807,7 +7807,7 @@ return {
         {
           id = 658,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -19938.5,
           y = -58390,
@@ -7830,7 +7830,7 @@ return {
         {
           id = 659,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20041.5,
           y = -58168,
@@ -7853,7 +7853,7 @@ return {
         {
           id = 660,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20350.5,
           y = -58039,
@@ -7876,7 +7876,7 @@ return {
         {
           id = 661,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20691.5,
           y = -57988,
@@ -7899,7 +7899,7 @@ return {
         {
           id = 662,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20961.5,
           y = -58123,
@@ -7922,7 +7922,7 @@ return {
         {
           id = 663,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -21007.5,
           y = -58329,
@@ -7945,7 +7945,7 @@ return {
         {
           id = 664,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -21006.5,
           y = -58461,
@@ -7968,7 +7968,7 @@ return {
         {
           id = 665,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20849.5,
           y = -58800,
@@ -7991,7 +7991,7 @@ return {
         {
           id = 666,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20610.5,
           y = -58930,
@@ -8014,7 +8014,7 @@ return {
         {
           id = 667,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20314.5,
           y = -58890,
@@ -8037,7 +8037,7 @@ return {
         {
           id = 668,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20458.5,
           y = -58782,
@@ -8060,7 +8060,7 @@ return {
         {
           id = 669,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20155.5,
           y = -58586,
@@ -8083,7 +8083,7 @@ return {
         {
           id = 670,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20087.5,
           y = -58341,
@@ -8106,7 +8106,7 @@ return {
         {
           id = 671,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20199.5,
           y = -58237,
@@ -8129,7 +8129,7 @@ return {
         {
           id = 672,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20418.5,
           y = -58177,
@@ -8152,7 +8152,7 @@ return {
         {
           id = 673,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20541.5,
           y = -58162,
@@ -8175,7 +8175,7 @@ return {
         {
           id = 674,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20717.5,
           y = -58191,
@@ -8198,7 +8198,7 @@ return {
         {
           id = 675,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20843.5,
           y = -58306,
@@ -8221,7 +8221,7 @@ return {
         {
           id = 676,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20873.5,
           y = -58484,
@@ -8244,7 +8244,7 @@ return {
         {
           id = 677,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20220.5,
           y = -58138,
@@ -8267,7 +8267,7 @@ return {
         {
           id = 678,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -21441,
           y = -58627,
@@ -8290,7 +8290,7 @@ return {
         {
           id = 679,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -16207.5,
           y = -53372,
@@ -8313,7 +8313,7 @@ return {
         {
           id = 680,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -16014.5,
           y = -53378,
@@ -8336,7 +8336,7 @@ return {
         {
           id = 681,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -16572.5,
           y = -53558,
@@ -8359,7 +8359,7 @@ return {
         {
           id = 682,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -16276.5,
           y = -53518,
@@ -8382,7 +8382,7 @@ return {
         {
           id = 683,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -16420.5,
           y = -53410,
@@ -8405,7 +8405,7 @@ return {
         {
           id = 684,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15331.5,
           y = -53939,
@@ -8428,7 +8428,7 @@ return {
         {
           id = 685,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15238.5,
           y = -53822,
@@ -8451,7 +8451,7 @@ return {
         {
           id = 686,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15330.5,
           y = -53724,
@@ -8474,7 +8474,7 @@ return {
         {
           id = 687,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15598.5,
           y = -54096,
@@ -8497,7 +8497,7 @@ return {
         {
           id = 688,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15868.5,
           y = -54038,
@@ -8520,7 +8520,7 @@ return {
         {
           id = 689,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15189.5,
           y = -54104,
@@ -8543,7 +8543,7 @@ return {
         {
           id = 690,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -14996.5,
           y = -54110,
@@ -8566,7 +8566,7 @@ return {
         {
           id = 691,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -14921.5,
           y = -53950,
@@ -8589,7 +8589,7 @@ return {
         {
           id = 692,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -14882.5,
           y = -53750,
@@ -8612,7 +8612,7 @@ return {
         {
           id = 693,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -14985.5,
           y = -53528,
@@ -8635,7 +8635,7 @@ return {
         {
           id = 694,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15294.5,
           y = -53399,
@@ -8658,7 +8658,7 @@ return {
         {
           id = 695,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15635.5,
           y = -53348,
@@ -8681,7 +8681,7 @@ return {
         {
           id = 696,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15905.5,
           y = -53483,
@@ -8704,7 +8704,7 @@ return {
         {
           id = 697,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15951.5,
           y = -53689,
@@ -8727,7 +8727,7 @@ return {
         {
           id = 698,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15950.5,
           y = -53821,
@@ -8750,7 +8750,7 @@ return {
         {
           id = 699,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15793.5,
           y = -54160,
@@ -8773,7 +8773,7 @@ return {
         {
           id = 700,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15554.5,
           y = -54290,
@@ -8796,7 +8796,7 @@ return {
         {
           id = 701,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15258.5,
           y = -54250,
@@ -8819,7 +8819,7 @@ return {
         {
           id = 702,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15402.5,
           y = -54142,
@@ -8842,7 +8842,7 @@ return {
         {
           id = 703,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15099.5,
           y = -53946,
@@ -8865,7 +8865,7 @@ return {
         {
           id = 704,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15031.5,
           y = -53701,
@@ -8888,7 +8888,7 @@ return {
         {
           id = 705,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15143.5,
           y = -53597,
@@ -8911,7 +8911,7 @@ return {
         {
           id = 706,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15362.5,
           y = -53537,
@@ -8934,7 +8934,7 @@ return {
         {
           id = 707,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15485.5,
           y = -53522,
@@ -8957,7 +8957,7 @@ return {
         {
           id = 708,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15661.5,
           y = -53551,
@@ -8980,7 +8980,7 @@ return {
         {
           id = 709,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15787.5,
           y = -53666,
@@ -9003,7 +9003,7 @@ return {
         {
           id = 710,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15817.5,
           y = -53844,
@@ -9026,7 +9026,7 @@ return {
         {
           id = 711,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15164.5,
           y = -53498,
@@ -9049,7 +9049,7 @@ return {
         {
           id = 712,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -16385,
           y = -53987,
@@ -9072,7 +9072,7 @@ return {
         {
           id = 713,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20109.5,
           y = -56505,
@@ -9095,7 +9095,7 @@ return {
         {
           id = 714,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -18253.5,
           y = -55065,
@@ -9118,7 +9118,7 @@ return {
         {
           id = 715,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -17773.5,
           y = -52345,
@@ -9141,7 +9141,7 @@ return {
         {
           id = 716,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -12077.5,
           y = -52569,
@@ -9164,7 +9164,7 @@ return {
         {
           id = 717,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -13613.5,
           y = -55065,
@@ -9187,7 +9187,7 @@ return {
         {
           id = 718,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -17357.5,
           y = -57529,
@@ -9210,7 +9210,7 @@ return {
         {
           id = 719,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -19949.5,
           y = -61177,
@@ -9233,7 +9233,7 @@ return {
         {
           id = 720,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -19341.5,
           y = -67257,
@@ -9256,7 +9256,7 @@ return {
         {
           id = 721,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5933.5,
           y = -65593,
@@ -9279,7 +9279,7 @@ return {
         {
           id = 722,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -749.5,
           y = -60729,
@@ -9302,7 +9302,7 @@ return {
         {
           id = 723,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -333.5,
           y = -49305,
@@ -9325,7 +9325,7 @@ return {
         {
           id = 724,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -6797.5,
           y = -54041,
@@ -9348,7 +9348,7 @@ return {
         {
           id = 725,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -8461.5,
           y = -56569,
@@ -9371,7 +9371,7 @@ return {
         {
           id = 726,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -5741.5,
           y = -45849,
@@ -9394,7 +9394,7 @@ return {
         {
           id = 727,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -7405.5,
           y = -40345,
@@ -9417,7 +9417,7 @@ return {
         {
           id = 728,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15437.5,
           y = -36441,
@@ -9440,7 +9440,7 @@ return {
         {
           id = 729,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20685.5,
           y = -36601,
@@ -9463,7 +9463,7 @@ return {
         {
           id = 730,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -14317.5,
           y = -43449,
@@ -9486,7 +9486,7 @@ return {
         {
           id = 731,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -12941.5,
           y = -48505,
@@ -9509,7 +9509,7 @@ return {
         {
           id = 732,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -17421.5,
           y = -49017,
@@ -9532,7 +9532,7 @@ return {
         {
           id = 733,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -20749.5,
           y = -42777,
@@ -9555,7 +9555,7 @@ return {
         {
           id = 734,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23437.5,
           y = -39385,
@@ -9578,7 +9578,7 @@ return {
         {
           id = 735,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50448.5,
           y = -55312,
@@ -9601,7 +9601,7 @@ return {
         {
           id = 736,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50373.5,
           y = -55152,
@@ -9624,7 +9624,7 @@ return {
         {
           id = 737,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50334.5,
           y = -54952,
@@ -9647,7 +9647,7 @@ return {
         {
           id = 738,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50437.5,
           y = -54730,
@@ -9670,7 +9670,7 @@ return {
         {
           id = 739,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47506.5,
           y = -55452,
@@ -9693,7 +9693,7 @@ return {
         {
           id = 740,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50551.5,
           y = -55148,
@@ -9716,7 +9716,7 @@ return {
         {
           id = 741,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50483.5,
           y = -54903,
@@ -9739,7 +9739,7 @@ return {
         {
           id = 742,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50511,
           y = -56446,
@@ -9762,7 +9762,7 @@ return {
         {
           id = 743,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50436,
           y = -56286,
@@ -9785,7 +9785,7 @@ return {
         {
           id = 744,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50397,
           y = -56086,
@@ -9808,7 +9808,7 @@ return {
         {
           id = 745,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50500,
           y = -55864,
@@ -9831,7 +9831,7 @@ return {
         {
           id = 746,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50546,
           y = -56037,
@@ -9854,7 +9854,7 @@ return {
         {
           id = 747,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50407.5,
           y = -54491,
@@ -9877,7 +9877,7 @@ return {
         {
           id = 748,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -51140.5,
           y = -52944,
@@ -9900,7 +9900,7 @@ return {
         {
           id = 749,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43261.5,
           y = -67881,
@@ -9923,7 +9923,7 @@ return {
         {
           id = 750,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48527.5,
           y = -58908,
@@ -9946,7 +9946,7 @@ return {
         {
           id = 751,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48334.5,
           y = -58914,
@@ -9969,7 +9969,7 @@ return {
         {
           id = 752,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48892.5,
           y = -59094,
@@ -9992,7 +9992,7 @@ return {
         {
           id = 753,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48596.5,
           y = -59054,
@@ -10015,7 +10015,7 @@ return {
         {
           id = 754,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48740.5,
           y = -58946,
@@ -10038,7 +10038,7 @@ return {
         {
           id = 755,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47651.5,
           y = -59475,
@@ -10061,7 +10061,7 @@ return {
         {
           id = 756,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47558.5,
           y = -59358,
@@ -10084,7 +10084,7 @@ return {
         {
           id = 757,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47650.5,
           y = -59260,
@@ -10107,7 +10107,7 @@ return {
         {
           id = 758,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47918.5,
           y = -59632,
@@ -10130,7 +10130,7 @@ return {
         {
           id = 759,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48188.5,
           y = -59574,
@@ -10153,7 +10153,7 @@ return {
         {
           id = 760,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47509.5,
           y = -59640,
@@ -10176,7 +10176,7 @@ return {
         {
           id = 761,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47316.5,
           y = -59646,
@@ -10199,7 +10199,7 @@ return {
         {
           id = 762,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47241.5,
           y = -59486,
@@ -10222,7 +10222,7 @@ return {
         {
           id = 763,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47202.5,
           y = -59286,
@@ -10245,7 +10245,7 @@ return {
         {
           id = 764,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47305.5,
           y = -59064,
@@ -10268,7 +10268,7 @@ return {
         {
           id = 765,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47614.5,
           y = -58935,
@@ -10291,7 +10291,7 @@ return {
         {
           id = 766,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47955.5,
           y = -58884,
@@ -10314,7 +10314,7 @@ return {
         {
           id = 767,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48225.5,
           y = -59019,
@@ -10337,7 +10337,7 @@ return {
         {
           id = 768,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48271.5,
           y = -59225,
@@ -10360,7 +10360,7 @@ return {
         {
           id = 769,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48270.5,
           y = -59357,
@@ -10383,7 +10383,7 @@ return {
         {
           id = 770,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48113.5,
           y = -59696,
@@ -10406,7 +10406,7 @@ return {
         {
           id = 771,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47874.5,
           y = -59826,
@@ -10429,7 +10429,7 @@ return {
         {
           id = 772,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47578.5,
           y = -59786,
@@ -10452,7 +10452,7 @@ return {
         {
           id = 773,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47722.5,
           y = -59678,
@@ -10475,7 +10475,7 @@ return {
         {
           id = 774,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47419.5,
           y = -59482,
@@ -10498,7 +10498,7 @@ return {
         {
           id = 775,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47351.5,
           y = -59237,
@@ -10521,7 +10521,7 @@ return {
         {
           id = 776,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47463.5,
           y = -59133,
@@ -10544,7 +10544,7 @@ return {
         {
           id = 777,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47682.5,
           y = -59073,
@@ -10567,7 +10567,7 @@ return {
         {
           id = 778,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47805.5,
           y = -59058,
@@ -10590,7 +10590,7 @@ return {
         {
           id = 779,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47981.5,
           y = -59087,
@@ -10613,7 +10613,7 @@ return {
         {
           id = 780,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48107.5,
           y = -59202,
@@ -10636,7 +10636,7 @@ return {
         {
           id = 781,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48137.5,
           y = -59380,
@@ -10659,7 +10659,7 @@ return {
         {
           id = 782,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47484.5,
           y = -59034,
@@ -10682,7 +10682,7 @@ return {
         {
           id = 783,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48705,
           y = -59523,
@@ -10705,7 +10705,7 @@ return {
         {
           id = 784,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43471.5,
           y = -54268,
@@ -10728,7 +10728,7 @@ return {
         {
           id = 785,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43278.5,
           y = -54274,
@@ -10751,7 +10751,7 @@ return {
         {
           id = 786,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43836.5,
           y = -54454,
@@ -10774,7 +10774,7 @@ return {
         {
           id = 787,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43540.5,
           y = -54414,
@@ -10797,7 +10797,7 @@ return {
         {
           id = 788,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43684.5,
           y = -54306,
@@ -10820,7 +10820,7 @@ return {
         {
           id = 789,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42595.5,
           y = -54835,
@@ -10843,7 +10843,7 @@ return {
         {
           id = 790,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42502.5,
           y = -54718,
@@ -10866,7 +10866,7 @@ return {
         {
           id = 791,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42594.5,
           y = -54620,
@@ -10889,7 +10889,7 @@ return {
         {
           id = 792,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42862.5,
           y = -54992,
@@ -10912,7 +10912,7 @@ return {
         {
           id = 793,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43132.5,
           y = -54934,
@@ -10935,7 +10935,7 @@ return {
         {
           id = 794,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42453.5,
           y = -55000,
@@ -10958,7 +10958,7 @@ return {
         {
           id = 795,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42260.5,
           y = -55006,
@@ -10981,7 +10981,7 @@ return {
         {
           id = 796,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42185.5,
           y = -54846,
@@ -11004,7 +11004,7 @@ return {
         {
           id = 797,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42146.5,
           y = -54646,
@@ -11027,7 +11027,7 @@ return {
         {
           id = 798,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42249.5,
           y = -54424,
@@ -11050,7 +11050,7 @@ return {
         {
           id = 799,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42558.5,
           y = -54295,
@@ -11073,7 +11073,7 @@ return {
         {
           id = 800,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42899.5,
           y = -54244,
@@ -11096,7 +11096,7 @@ return {
         {
           id = 801,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43169.5,
           y = -54379,
@@ -11119,7 +11119,7 @@ return {
         {
           id = 802,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43215.5,
           y = -54585,
@@ -11142,7 +11142,7 @@ return {
         {
           id = 803,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43214.5,
           y = -54717,
@@ -11165,7 +11165,7 @@ return {
         {
           id = 804,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43057.5,
           y = -55056,
@@ -11188,7 +11188,7 @@ return {
         {
           id = 805,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42818.5,
           y = -55186,
@@ -11211,7 +11211,7 @@ return {
         {
           id = 806,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42522.5,
           y = -55146,
@@ -11234,7 +11234,7 @@ return {
         {
           id = 807,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42666.5,
           y = -55038,
@@ -11257,7 +11257,7 @@ return {
         {
           id = 808,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42363.5,
           y = -54842,
@@ -11280,7 +11280,7 @@ return {
         {
           id = 809,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42295.5,
           y = -54597,
@@ -11303,7 +11303,7 @@ return {
         {
           id = 810,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42407.5,
           y = -54493,
@@ -11326,7 +11326,7 @@ return {
         {
           id = 811,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42626.5,
           y = -54433,
@@ -11349,7 +11349,7 @@ return {
         {
           id = 812,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42749.5,
           y = -54418,
@@ -11372,7 +11372,7 @@ return {
         {
           id = 813,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42925.5,
           y = -54447,
@@ -11395,7 +11395,7 @@ return {
         {
           id = 814,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43051.5,
           y = -54562,
@@ -11418,7 +11418,7 @@ return {
         {
           id = 815,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43081.5,
           y = -54740,
@@ -11441,7 +11441,7 @@ return {
         {
           id = 816,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42428.5,
           y = -54394,
@@ -11464,7 +11464,7 @@ return {
         {
           id = 817,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43649,
           y = -54883,
@@ -11487,7 +11487,7 @@ return {
         {
           id = 818,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47373.5,
           y = -57401,
@@ -11510,7 +11510,7 @@ return {
         {
           id = 819,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -45517.5,
           y = -55961,
@@ -11533,7 +11533,7 @@ return {
         {
           id = 820,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -45037.5,
           y = -53241,
@@ -11556,7 +11556,7 @@ return {
         {
           id = 821,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -39341.5,
           y = -53465,
@@ -11579,7 +11579,7 @@ return {
         {
           id = 822,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -40877.5,
           y = -55961,
@@ -11602,7 +11602,7 @@ return {
         {
           id = 823,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -44621.5,
           y = -58425,
@@ -11625,7 +11625,7 @@ return {
         {
           id = 824,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47213.5,
           y = -62073,
@@ -11648,7 +11648,7 @@ return {
         {
           id = 825,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -46605.5,
           y = -68153,
@@ -11671,7 +11671,7 @@ return {
         {
           id = 826,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -33197.5,
           y = -66489,
@@ -11694,7 +11694,7 @@ return {
         {
           id = 827,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -28013.5,
           y = -61625,
@@ -11717,7 +11717,7 @@ return {
         {
           id = 828,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -27597.5,
           y = -50201,
@@ -11740,7 +11740,7 @@ return {
         {
           id = 829,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -34061.5,
           y = -54937,
@@ -11763,7 +11763,7 @@ return {
         {
           id = 830,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -35725.5,
           y = -57465,
@@ -11786,7 +11786,7 @@ return {
         {
           id = 831,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -33005.5,
           y = -46745,
@@ -11809,7 +11809,7 @@ return {
         {
           id = 832,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -34669.5,
           y = -41241,
@@ -11832,7 +11832,7 @@ return {
         {
           id = 833,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -42701.5,
           y = -37337,
@@ -11855,7 +11855,7 @@ return {
         {
           id = 834,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47949.5,
           y = -37497,
@@ -11878,7 +11878,7 @@ return {
         {
           id = 835,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -41581.5,
           y = -44345,
@@ -11901,7 +11901,7 @@ return {
         {
           id = 836,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -40205.5,
           y = -49401,
@@ -11924,7 +11924,7 @@ return {
         {
           id = 837,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -44685.5,
           y = -49913,
@@ -11947,7 +11947,7 @@ return {
         {
           id = 838,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48013.5,
           y = -43673,
@@ -11970,7 +11970,7 @@ return {
         {
           id = 839,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50701.5,
           y = -40281,
@@ -11993,7 +11993,7 @@ return {
         {
           id = 840,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73808.5,
           y = -29072,
@@ -12016,7 +12016,7 @@ return {
         {
           id = 841,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73733.5,
           y = -28912,
@@ -12039,7 +12039,7 @@ return {
         {
           id = 842,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73694.5,
           y = -28712,
@@ -12062,7 +12062,7 @@ return {
         {
           id = 843,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73797.5,
           y = -28490,
@@ -12085,7 +12085,7 @@ return {
         {
           id = 844,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70866.5,
           y = -29212,
@@ -12108,7 +12108,7 @@ return {
         {
           id = 845,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73911.5,
           y = -28908,
@@ -12131,7 +12131,7 @@ return {
         {
           id = 846,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73843.5,
           y = -28663,
@@ -12154,7 +12154,7 @@ return {
         {
           id = 847,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73871,
           y = -30206,
@@ -12177,7 +12177,7 @@ return {
         {
           id = 848,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73796,
           y = -30046,
@@ -12200,7 +12200,7 @@ return {
         {
           id = 849,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73757,
           y = -29846,
@@ -12223,7 +12223,7 @@ return {
         {
           id = 850,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73860,
           y = -29624,
@@ -12246,7 +12246,7 @@ return {
         {
           id = 851,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73906,
           y = -29797,
@@ -12269,7 +12269,7 @@ return {
         {
           id = 852,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73767.5,
           y = -28251,
@@ -12292,7 +12292,7 @@ return {
         {
           id = 853,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -74500.5,
           y = -26704,
@@ -12315,7 +12315,7 @@ return {
         {
           id = 854,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66621.5,
           y = -41641,
@@ -12338,7 +12338,7 @@ return {
         {
           id = 855,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71887.5,
           y = -32668,
@@ -12361,7 +12361,7 @@ return {
         {
           id = 856,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71694.5,
           y = -32674,
@@ -12384,7 +12384,7 @@ return {
         {
           id = 857,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -72252.5,
           y = -32854,
@@ -12407,7 +12407,7 @@ return {
         {
           id = 858,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71956.5,
           y = -32814,
@@ -12430,7 +12430,7 @@ return {
         {
           id = 859,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -72100.5,
           y = -32706,
@@ -12453,7 +12453,7 @@ return {
         {
           id = 860,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71011.5,
           y = -33235,
@@ -12476,7 +12476,7 @@ return {
         {
           id = 861,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70918.5,
           y = -33118,
@@ -12499,7 +12499,7 @@ return {
         {
           id = 862,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71010.5,
           y = -33020,
@@ -12522,7 +12522,7 @@ return {
         {
           id = 863,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71278.5,
           y = -33392,
@@ -12545,7 +12545,7 @@ return {
         {
           id = 864,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71548.5,
           y = -33334,
@@ -12568,7 +12568,7 @@ return {
         {
           id = 865,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70869.5,
           y = -33400,
@@ -12591,7 +12591,7 @@ return {
         {
           id = 866,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70676.5,
           y = -33406,
@@ -12614,7 +12614,7 @@ return {
         {
           id = 867,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70601.5,
           y = -33246,
@@ -12637,7 +12637,7 @@ return {
         {
           id = 868,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70562.5,
           y = -33046,
@@ -12660,7 +12660,7 @@ return {
         {
           id = 869,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70665.5,
           y = -32824,
@@ -12683,7 +12683,7 @@ return {
         {
           id = 870,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70974.5,
           y = -32695,
@@ -12706,7 +12706,7 @@ return {
         {
           id = 871,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71315.5,
           y = -32644,
@@ -12729,7 +12729,7 @@ return {
         {
           id = 872,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71585.5,
           y = -32779,
@@ -12752,7 +12752,7 @@ return {
         {
           id = 873,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71631.5,
           y = -32985,
@@ -12775,7 +12775,7 @@ return {
         {
           id = 874,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71630.5,
           y = -33117,
@@ -12798,7 +12798,7 @@ return {
         {
           id = 875,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71473.5,
           y = -33456,
@@ -12821,7 +12821,7 @@ return {
         {
           id = 876,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71234.5,
           y = -33586,
@@ -12844,7 +12844,7 @@ return {
         {
           id = 877,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70938.5,
           y = -33546,
@@ -12867,7 +12867,7 @@ return {
         {
           id = 878,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71082.5,
           y = -33438,
@@ -12890,7 +12890,7 @@ return {
         {
           id = 879,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70779.5,
           y = -33242,
@@ -12913,7 +12913,7 @@ return {
         {
           id = 880,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70711.5,
           y = -32997,
@@ -12936,7 +12936,7 @@ return {
         {
           id = 881,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70823.5,
           y = -32893,
@@ -12959,7 +12959,7 @@ return {
         {
           id = 882,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71042.5,
           y = -32833,
@@ -12982,7 +12982,7 @@ return {
         {
           id = 883,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71165.5,
           y = -32818,
@@ -13005,7 +13005,7 @@ return {
         {
           id = 884,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71341.5,
           y = -32847,
@@ -13028,7 +13028,7 @@ return {
         {
           id = 885,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71467.5,
           y = -32962,
@@ -13051,7 +13051,7 @@ return {
         {
           id = 886,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71497.5,
           y = -33140,
@@ -13074,7 +13074,7 @@ return {
         {
           id = 887,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70844.5,
           y = -32794,
@@ -13097,7 +13097,7 @@ return {
         {
           id = 888,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -72065,
           y = -33283,
@@ -13120,7 +13120,7 @@ return {
         {
           id = 889,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66831.5,
           y = -28028,
@@ -13143,7 +13143,7 @@ return {
         {
           id = 890,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66638.5,
           y = -28034,
@@ -13166,7 +13166,7 @@ return {
         {
           id = 891,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -67196.5,
           y = -28214,
@@ -13189,7 +13189,7 @@ return {
         {
           id = 892,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66900.5,
           y = -28174,
@@ -13212,7 +13212,7 @@ return {
         {
           id = 893,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -67044.5,
           y = -28066,
@@ -13235,7 +13235,7 @@ return {
         {
           id = 894,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65955.5,
           y = -28595,
@@ -13258,7 +13258,7 @@ return {
         {
           id = 895,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65862.5,
           y = -28478,
@@ -13281,7 +13281,7 @@ return {
         {
           id = 896,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65954.5,
           y = -28380,
@@ -13304,7 +13304,7 @@ return {
         {
           id = 897,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66222.5,
           y = -28752,
@@ -13327,7 +13327,7 @@ return {
         {
           id = 898,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66492.5,
           y = -28694,
@@ -13350,7 +13350,7 @@ return {
         {
           id = 899,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65813.5,
           y = -28760,
@@ -13373,7 +13373,7 @@ return {
         {
           id = 900,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65620.5,
           y = -28766,
@@ -13396,7 +13396,7 @@ return {
         {
           id = 901,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65545.5,
           y = -28606,
@@ -13419,7 +13419,7 @@ return {
         {
           id = 902,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65506.5,
           y = -28406,
@@ -13442,7 +13442,7 @@ return {
         {
           id = 903,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65609.5,
           y = -28184,
@@ -13465,7 +13465,7 @@ return {
         {
           id = 904,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65918.5,
           y = -28055,
@@ -13488,7 +13488,7 @@ return {
         {
           id = 905,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66259.5,
           y = -28004,
@@ -13511,7 +13511,7 @@ return {
         {
           id = 906,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66529.5,
           y = -28139,
@@ -13534,7 +13534,7 @@ return {
         {
           id = 907,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66575.5,
           y = -28345,
@@ -13557,7 +13557,7 @@ return {
         {
           id = 908,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66574.5,
           y = -28477,
@@ -13580,7 +13580,7 @@ return {
         {
           id = 909,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66417.5,
           y = -28816,
@@ -13603,7 +13603,7 @@ return {
         {
           id = 910,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66178.5,
           y = -28946,
@@ -13626,7 +13626,7 @@ return {
         {
           id = 911,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65882.5,
           y = -28906,
@@ -13649,7 +13649,7 @@ return {
         {
           id = 912,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66026.5,
           y = -28798,
@@ -13672,7 +13672,7 @@ return {
         {
           id = 913,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65723.5,
           y = -28602,
@@ -13695,7 +13695,7 @@ return {
         {
           id = 914,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65655.5,
           y = -28357,
@@ -13718,7 +13718,7 @@ return {
         {
           id = 915,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65767.5,
           y = -28253,
@@ -13741,7 +13741,7 @@ return {
         {
           id = 916,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65986.5,
           y = -28193,
@@ -13764,7 +13764,7 @@ return {
         {
           id = 917,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66109.5,
           y = -28178,
@@ -13787,7 +13787,7 @@ return {
         {
           id = 918,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66285.5,
           y = -28207,
@@ -13810,7 +13810,7 @@ return {
         {
           id = 919,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66411.5,
           y = -28322,
@@ -13833,7 +13833,7 @@ return {
         {
           id = 920,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66441.5,
           y = -28500,
@@ -13856,7 +13856,7 @@ return {
         {
           id = 921,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65788.5,
           y = -28154,
@@ -13879,7 +13879,7 @@ return {
         {
           id = 922,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -67009,
           y = -28643,
@@ -13902,7 +13902,7 @@ return {
         {
           id = 923,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70733.5,
           y = -31161,
@@ -13925,7 +13925,7 @@ return {
         {
           id = 924,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -68877.5,
           y = -29721,
@@ -13948,7 +13948,7 @@ return {
         {
           id = 925,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -68397.5,
           y = -27001,
@@ -13971,7 +13971,7 @@ return {
         {
           id = 926,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -62701.5,
           y = -27225,
@@ -13994,7 +13994,7 @@ return {
         {
           id = 927,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64237.5,
           y = -29721,
@@ -14017,7 +14017,7 @@ return {
         {
           id = 928,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -67981.5,
           y = -32185,
@@ -14040,7 +14040,7 @@ return {
         {
           id = 929,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -70573.5,
           y = -35833,
@@ -14063,7 +14063,7 @@ return {
         {
           id = 930,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -69965.5,
           y = -41913,
@@ -14086,7 +14086,7 @@ return {
         {
           id = 931,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56557.5,
           y = -40249,
@@ -14109,7 +14109,7 @@ return {
         {
           id = 932,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -51373.5,
           y = -35385,
@@ -14132,7 +14132,7 @@ return {
         {
           id = 933,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50957.5,
           y = -23961,
@@ -14155,7 +14155,7 @@ return {
         {
           id = 934,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -57421.5,
           y = -28697,
@@ -14178,7 +14178,7 @@ return {
         {
           id = 935,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -59085.5,
           y = -31225,
@@ -14201,7 +14201,7 @@ return {
         {
           id = 936,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56365.5,
           y = -20505,
@@ -14224,7 +14224,7 @@ return {
         {
           id = 937,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -58029.5,
           y = -15001,
@@ -14247,7 +14247,7 @@ return {
         {
           id = 938,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -66061.5,
           y = -11097,
@@ -14270,7 +14270,7 @@ return {
         {
           id = 939,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71309.5,
           y = -11257,
@@ -14293,7 +14293,7 @@ return {
         {
           id = 940,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64941.5,
           y = -18105,
@@ -14316,7 +14316,7 @@ return {
         {
           id = 941,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -63565.5,
           y = -23161,
@@ -14339,7 +14339,7 @@ return {
         {
           id = 942,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -68045.5,
           y = -23673,
@@ -14362,7 +14362,7 @@ return {
         {
           id = 943,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -71373.5,
           y = -17433,
@@ -14385,7 +14385,7 @@ return {
         {
           id = 944,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -74061.5,
           y = -14041,
@@ -14408,7 +14408,7 @@ return {
         {
           id = 945,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64208.5,
           y = 9658,
@@ -14431,7 +14431,7 @@ return {
         {
           id = 946,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64133.5,
           y = 9498,
@@ -14454,7 +14454,7 @@ return {
         {
           id = 947,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64094.5,
           y = 9298,
@@ -14477,7 +14477,7 @@ return {
         {
           id = 948,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64197.5,
           y = 9076,
@@ -14500,7 +14500,7 @@ return {
         {
           id = 949,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61266.5,
           y = 8970,
@@ -14523,7 +14523,7 @@ return {
         {
           id = 950,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64311.5,
           y = 9494,
@@ -14546,7 +14546,7 @@ return {
         {
           id = 951,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64243.5,
           y = 9249,
@@ -14569,7 +14569,7 @@ return {
         {
           id = 952,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64271,
           y = 10792,
@@ -14592,7 +14592,7 @@ return {
         {
           id = 953,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64196,
           y = 10632,
@@ -14615,7 +14615,7 @@ return {
         {
           id = 954,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64157,
           y = 10432,
@@ -14638,7 +14638,7 @@ return {
         {
           id = 955,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64260,
           y = 10210,
@@ -14661,7 +14661,7 @@ return {
         {
           id = 956,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64306,
           y = 10383,
@@ -14684,7 +14684,7 @@ return {
         {
           id = 957,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64167.5,
           y = 8557,
@@ -14707,7 +14707,7 @@ return {
         {
           id = 958,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64900.5,
           y = 2910,
@@ -14730,7 +14730,7 @@ return {
         {
           id = 959,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -57021.5,
           y = 14759,
@@ -14753,7 +14753,7 @@ return {
         {
           id = 960,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -62287.5,
           y = 13254,
@@ -14776,7 +14776,7 @@ return {
         {
           id = 961,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -62094.5,
           y = 13260,
@@ -14799,7 +14799,7 @@ return {
         {
           id = 962,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -62652.5,
           y = 13440,
@@ -14822,7 +14822,7 @@ return {
         {
           id = 963,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -62356.5,
           y = 13400,
@@ -14845,7 +14845,7 @@ return {
         {
           id = 964,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -62500.5,
           y = 13292,
@@ -14868,7 +14868,7 @@ return {
         {
           id = 965,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61411.5,
           y = 13821,
@@ -14891,7 +14891,7 @@ return {
         {
           id = 966,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61318.5,
           y = 13704,
@@ -14914,7 +14914,7 @@ return {
         {
           id = 967,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61410.5,
           y = 13606,
@@ -14937,7 +14937,7 @@ return {
         {
           id = 968,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61678.5,
           y = 13978,
@@ -14960,7 +14960,7 @@ return {
         {
           id = 969,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61948.5,
           y = 13920,
@@ -14983,7 +14983,7 @@ return {
         {
           id = 970,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61269.5,
           y = 13986,
@@ -15006,7 +15006,7 @@ return {
         {
           id = 971,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61076.5,
           y = 13992,
@@ -15029,7 +15029,7 @@ return {
         {
           id = 972,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61001.5,
           y = 13832,
@@ -15052,7 +15052,7 @@ return {
         {
           id = 973,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -60962.5,
           y = 13632,
@@ -15075,7 +15075,7 @@ return {
         {
           id = 974,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61065.5,
           y = 13410,
@@ -15098,7 +15098,7 @@ return {
         {
           id = 975,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61374.5,
           y = 13281,
@@ -15121,7 +15121,7 @@ return {
         {
           id = 976,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61715.5,
           y = 13230,
@@ -15144,7 +15144,7 @@ return {
         {
           id = 977,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61985.5,
           y = 13365,
@@ -15167,7 +15167,7 @@ return {
         {
           id = 978,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -62031.5,
           y = 13571,
@@ -15190,7 +15190,7 @@ return {
         {
           id = 979,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -62030.5,
           y = 13703,
@@ -15213,7 +15213,7 @@ return {
         {
           id = 980,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61873.5,
           y = 14042,
@@ -15236,7 +15236,7 @@ return {
         {
           id = 981,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61634.5,
           y = 14172,
@@ -15259,7 +15259,7 @@ return {
         {
           id = 982,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61338.5,
           y = 14132,
@@ -15282,7 +15282,7 @@ return {
         {
           id = 983,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61482.5,
           y = 14024,
@@ -15305,7 +15305,7 @@ return {
         {
           id = 984,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61179.5,
           y = 13828,
@@ -15328,7 +15328,7 @@ return {
         {
           id = 985,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61111.5,
           y = 13583,
@@ -15351,7 +15351,7 @@ return {
         {
           id = 986,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61223.5,
           y = 13479,
@@ -15374,7 +15374,7 @@ return {
         {
           id = 987,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61442.5,
           y = 13419,
@@ -15397,7 +15397,7 @@ return {
         {
           id = 988,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61565.5,
           y = 13404,
@@ -15420,7 +15420,7 @@ return {
         {
           id = 989,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61741.5,
           y = 13433,
@@ -15443,7 +15443,7 @@ return {
         {
           id = 990,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61867.5,
           y = 13548,
@@ -15466,7 +15466,7 @@ return {
         {
           id = 991,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61897.5,
           y = 13726,
@@ -15489,7 +15489,7 @@ return {
         {
           id = 992,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61244.5,
           y = 13380,
@@ -15512,7 +15512,7 @@ return {
         {
           id = 993,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -62465,
           y = 13589,
@@ -15535,7 +15535,7 @@ return {
         {
           id = 994,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -57231.5,
           y = 8614,
@@ -15558,7 +15558,7 @@ return {
         {
           id = 995,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -57038.5,
           y = 8620,
@@ -15581,7 +15581,7 @@ return {
         {
           id = 996,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -57596.5,
           y = 8800,
@@ -15604,7 +15604,7 @@ return {
         {
           id = 997,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -57300.5,
           y = 8760,
@@ -15627,7 +15627,7 @@ return {
         {
           id = 998,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -57444.5,
           y = 8652,
@@ -15650,7 +15650,7 @@ return {
         {
           id = 999,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56355.5,
           y = 9181,
@@ -15673,7 +15673,7 @@ return {
         {
           id = 1000,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56262.5,
           y = 9064,
@@ -15696,7 +15696,7 @@ return {
         {
           id = 1001,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56354.5,
           y = 8966,
@@ -15719,7 +15719,7 @@ return {
         {
           id = 1002,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56622.5,
           y = 9338,
@@ -15742,7 +15742,7 @@ return {
         {
           id = 1003,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56892.5,
           y = 9280,
@@ -15765,7 +15765,7 @@ return {
         {
           id = 1004,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56213.5,
           y = 9346,
@@ -15788,7 +15788,7 @@ return {
         {
           id = 1005,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56020.5,
           y = 9352,
@@ -15811,7 +15811,7 @@ return {
         {
           id = 1006,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -55945.5,
           y = 9192,
@@ -15834,7 +15834,7 @@ return {
         {
           id = 1007,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -55906.5,
           y = 8992,
@@ -15857,7 +15857,7 @@ return {
         {
           id = 1008,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56009.5,
           y = 8770,
@@ -15880,7 +15880,7 @@ return {
         {
           id = 1009,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56318.5,
           y = 8641,
@@ -15903,7 +15903,7 @@ return {
         {
           id = 1010,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56659.5,
           y = 8590,
@@ -15926,7 +15926,7 @@ return {
         {
           id = 1011,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56929.5,
           y = 8725,
@@ -15949,7 +15949,7 @@ return {
         {
           id = 1012,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56975.5,
           y = 8931,
@@ -15972,7 +15972,7 @@ return {
         {
           id = 1013,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56974.5,
           y = 9063,
@@ -15995,7 +15995,7 @@ return {
         {
           id = 1014,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56817.5,
           y = 9402,
@@ -16018,7 +16018,7 @@ return {
         {
           id = 1015,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56578.5,
           y = 9532,
@@ -16041,7 +16041,7 @@ return {
         {
           id = 1016,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56282.5,
           y = 9492,
@@ -16064,7 +16064,7 @@ return {
         {
           id = 1017,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56426.5,
           y = 9384,
@@ -16087,7 +16087,7 @@ return {
         {
           id = 1018,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56123.5,
           y = 9188,
@@ -16110,7 +16110,7 @@ return {
         {
           id = 1019,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56055.5,
           y = 8943,
@@ -16133,7 +16133,7 @@ return {
         {
           id = 1020,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56167.5,
           y = 8839,
@@ -16156,7 +16156,7 @@ return {
         {
           id = 1021,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56386.5,
           y = 8779,
@@ -16179,7 +16179,7 @@ return {
         {
           id = 1022,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56509.5,
           y = 8764,
@@ -16202,7 +16202,7 @@ return {
         {
           id = 1023,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56685.5,
           y = 8793,
@@ -16225,7 +16225,7 @@ return {
         {
           id = 1024,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56811.5,
           y = 8908,
@@ -16248,7 +16248,7 @@ return {
         {
           id = 1025,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56841.5,
           y = 9086,
@@ -16271,7 +16271,7 @@ return {
         {
           id = 1026,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56188.5,
           y = 8740,
@@ -16294,7 +16294,7 @@ return {
         {
           id = 1027,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -57409,
           y = 8949,
@@ -16317,7 +16317,7 @@ return {
         {
           id = 1028,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61133.5,
           y = 10919,
@@ -16340,7 +16340,7 @@ return {
         {
           id = 1029,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -59277.5,
           y = 9479,
@@ -16363,7 +16363,7 @@ return {
         {
           id = 1030,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -58797.5,
           y = 6759,
@@ -16386,7 +16386,7 @@ return {
         {
           id = 1031,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -53101.5,
           y = 6983,
@@ -16409,7 +16409,7 @@ return {
         {
           id = 1032,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -54637.5,
           y = 9479,
@@ -16432,7 +16432,7 @@ return {
         {
           id = 1033,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -58381.5,
           y = 11943,
@@ -16455,7 +16455,7 @@ return {
         {
           id = 1034,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -60973.5,
           y = 15591,
@@ -16478,7 +16478,7 @@ return {
         {
           id = 1035,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -60365.5,
           y = 21671,
@@ -16501,7 +16501,7 @@ return {
         {
           id = 1036,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -46957.5,
           y = 20007,
@@ -16524,7 +16524,7 @@ return {
         {
           id = 1037,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -41773.5,
           y = 15143,
@@ -16547,7 +16547,7 @@ return {
         {
           id = 1038,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -41357.5,
           y = 3719,
@@ -16570,7 +16570,7 @@ return {
         {
           id = 1039,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47821.5,
           y = 8455,
@@ -16593,7 +16593,7 @@ return {
         {
           id = 1040,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -49485.5,
           y = 10983,
@@ -16616,7 +16616,7 @@ return {
         {
           id = 1041,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -46765.5,
           y = 263,
@@ -16639,7 +16639,7 @@ return {
         {
           id = 1042,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48429.5,
           y = -5241,
@@ -16662,7 +16662,7 @@ return {
         {
           id = 1043,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -56461.5,
           y = -9145,
@@ -16685,7 +16685,7 @@ return {
         {
           id = 1044,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61709.5,
           y = -8985,
@@ -16708,7 +16708,7 @@ return {
         {
           id = 1045,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -55341.5,
           y = -2137,
@@ -16731,7 +16731,7 @@ return {
         {
           id = 1046,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -53965.5,
           y = 2919,
@@ -16754,7 +16754,7 @@ return {
         {
           id = 1047,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -58445.5,
           y = 3431,
@@ -16777,7 +16777,7 @@ return {
         {
           id = 1048,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -61773.5,
           y = -2809,
@@ -16800,7 +16800,7 @@ return {
         {
           id = 1049,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -64461.5,
           y = -6201,
@@ -16823,7 +16823,7 @@ return {
         {
           id = 1050,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -33785,
           y = 12039,
@@ -16846,7 +16846,7 @@ return {
         {
           id = 1051,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -27065,
           y = -57,
@@ -16869,7 +16869,7 @@ return {
         {
           id = 1052,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -44473,
           y = -3705,
@@ -16892,7 +16892,7 @@ return {
         {
           id = 1053,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -54457,
           y = -13689,
@@ -16915,7 +16915,7 @@ return {
         {
           id = 1054,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -13113,
           y = -17785,
@@ -16938,7 +16938,7 @@ return {
         {
           id = 1055,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -17593,
           y = -30137,
@@ -16961,7 +16961,7 @@ return {
         {
           id = 1056,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 21255,
           y = -21561,
@@ -16984,7 +16984,7 @@ return {
         {
           id = 1057,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 39623,
           y = -4537,
@@ -17007,7 +17007,7 @@ return {
         {
           id = 1058,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 30023,
           y = 5575,
@@ -17030,7 +17030,7 @@ return {
         {
           id = 1059,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 21959,
           y = 23751,
@@ -17053,7 +17053,7 @@ return {
         {
           id = 1060,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 583,
           y = 24647,
@@ -17076,7 +17076,7 @@ return {
         {
           id = 1061,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15737,
           y = 22279,
@@ -17099,7 +17099,7 @@ return {
         {
           id = 1062,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -36985,
           y = 29383,
@@ -17122,7 +17122,7 @@ return {
         {
           id = 1063,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -14649,
           y = 3975,
@@ -17145,7 +17145,7 @@ return {
         {
           id = 1064,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -19449,
           y = -11321,
@@ -17168,7 +17168,7 @@ return {
         {
           id = 1065,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -59321,
           y = -49913,
@@ -17191,7 +17191,7 @@ return {
         {
           id = 1066,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -74105,
           y = -51705,
@@ -17214,7 +17214,7 @@ return {
         {
           id = 1067,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -81465,
           y = -39801,
@@ -17237,7 +17237,7 @@ return {
         {
           id = 1068,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -81337,
           y = -25337,
@@ -17260,7 +17260,7 @@ return {
         {
           id = 1069,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -79673,
           y = -7929,
@@ -17283,7 +17283,7 @@ return {
         {
           id = 1070,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -69305,
           y = -4025,
@@ -17306,7 +17306,7 @@ return {
         {
           id = 1071,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -76985,
           y = 10823,
@@ -17329,7 +17329,7 @@ return {
         {
           id = 1072,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -68281,
           y = 18119,
@@ -17352,7 +17352,7 @@ return {
         {
           id = 1073,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50553,
           y = -32249,
@@ -17375,7 +17375,7 @@ return {
         {
           id = 1077,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -15033,
           y = 16071,
@@ -17398,7 +17398,7 @@ return {
         {
           id = 1078,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -8889,
           y = 18567,
@@ -17421,7 +17421,7 @@ return {
         {
           id = 1079,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -2745,
           y = 18887,
@@ -17444,7 +17444,7 @@ return {
         {
           id = 1080,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -4217,
           y = 15431,
@@ -17467,7 +17467,7 @@ return {
         {
           id = 1081,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 4999,
           y = 19591,
@@ -17490,7 +17490,7 @@ return {
         {
           id = 1082,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 14151,
           y = 18055,
@@ -17513,7 +17513,7 @@ return {
         {
           id = 1083,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 22791,
           y = 15623,
@@ -17536,7 +17536,7 @@ return {
         {
           id = 1084,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 25223,
           y = 8903,
@@ -17559,7 +17559,7 @@ return {
         {
           id = 1085,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 25863,
           y = -2041,
@@ -17582,7 +17582,7 @@ return {
         {
           id = 1086,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 19335,
           y = 775,
@@ -17605,7 +17605,7 @@ return {
         {
           id = 1087,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 14919,
           y = 5063,
@@ -17628,7 +17628,7 @@ return {
         {
           id = 1088,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 10119,
           y = 12679,
@@ -17651,7 +17651,7 @@ return {
         {
           id = 1089,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -14009,
           y = -1209,
@@ -17674,7 +17674,7 @@ return {
         {
           id = 1090,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1657,
           y = -12153,
@@ -17697,7 +17697,7 @@ return {
         {
           id = 1091,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -12729,
           y = -24185,
@@ -17720,7 +17720,7 @@ return {
         {
           id = 1092,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 6727,
           y = -17785,
@@ -17743,7 +17743,7 @@ return {
         {
           id = 1093,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 16327,
           y = -23417,
@@ -17766,7 +17766,7 @@ return {
         {
           id = 1094,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -12089,
           y = -38905,
@@ -17789,7 +17789,7 @@ return {
         {
           id = 1095,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -29945,
           y = -40057,
@@ -17812,7 +17812,7 @@ return {
         {
           id = 1096,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -33593,
           y = -51257,
@@ -17835,7 +17835,7 @@ return {
         {
           id = 1097,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -39289,
           y = -37561,
@@ -17858,7 +17858,7 @@ return {
         {
           id = 1098,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -58745,
           y = -25593,
@@ -17881,7 +17881,7 @@ return {
         {
           id = 1099,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -63481,
           y = -15097,
@@ -17904,7 +17904,7 @@ return {
         {
           id = 1100,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -65337,
           y = -47161,
@@ -17927,7 +17927,7 @@ return {
         {
           id = 1101,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -59065,
           y = -57593,
@@ -17950,7 +17950,7 @@ return {
         {
           id = 1102,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -36665,
           y = 6599,
@@ -17973,7 +17973,7 @@ return {
         {
           id = 1103,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -39737,
           y = 20871,
@@ -17996,7 +17996,7 @@ return {
         {
           id = 1104,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -24761,
           y = 24263,
@@ -18019,7 +18019,7 @@ return {
         {
           id = 1105,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -27065,
           y = 10439,
@@ -18042,7 +18042,7 @@ return {
         {
           id = 1106,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -34745,
           y = -1977,
@@ -18065,7 +18065,7 @@ return {
         {
           id = 1107,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -54841,
           y = 26375,
@@ -18088,7 +18088,7 @@ return {
         {
           id = 1108,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -25721,
           y = 16647,
@@ -18111,7 +18111,7 @@ return {
         {
           id = 1109,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -31097,
           y = 21191,
@@ -18134,7 +18134,7 @@ return {
         {
           id = 1110,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -36281,
           y = 17415,
@@ -18157,7 +18157,7 @@ return {
         {
           id = 1111,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -39993,
           y = 10055,
@@ -18180,7 +18180,7 @@ return {
         {
           id = 1112,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47289,
           y = 13319,
@@ -18203,7 +18203,7 @@ return {
         {
           id = 1113,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -44217,
           y = 20231,
@@ -18226,7 +18226,7 @@ return {
         {
           id = 1114,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -41977,
           y = 26439,
@@ -18249,7 +18249,7 @@ return {
         {
           id = 1115,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -32185,
           y = 26759,
@@ -18272,7 +18272,7 @@ return {
         {
           id = 1116,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -17465,
           y = 28295,
@@ -18295,7 +18295,7 @@ return {
         {
           id = 1117,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -6969,
           y = 26439,
@@ -18318,7 +18318,7 @@ return {
         {
           id = 1118,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -8249,
           y = 14535,
@@ -18341,7 +18341,7 @@ return {
         {
           id = 1119,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -18041,
           y = 7239,
@@ -18364,7 +18364,7 @@ return {
         {
           id = 1120,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -25657,
           y = 6407,
@@ -18387,7 +18387,7 @@ return {
         {
           id = 1121,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -32185,
           y = 3719,
@@ -18410,7 +18410,7 @@ return {
         {
           id = 1122,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -27769,
           y = -4089,
@@ -18433,7 +18433,7 @@ return {
         {
           id = 1123,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -17465,
           y = -4153,
@@ -18456,7 +18456,7 @@ return {
         {
           id = 1124,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1721,
           y = -20281,
@@ -18479,7 +18479,7 @@ return {
         {
           id = 1125,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8071,
           y = -22137,
@@ -18502,7 +18502,7 @@ return {
         {
           id = 1126,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7751,
           y = -26297,
@@ -18525,7 +18525,7 @@ return {
         {
           id = 1127,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 10375,
           y = -32121,
@@ -18548,7 +18548,7 @@ return {
         {
           id = 1128,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 15047,
           y = -28473,
@@ -18571,7 +18571,7 @@ return {
         {
           id = 1129,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 23751,
           y = -25209,
@@ -18594,7 +18594,7 @@ return {
         {
           id = 1130,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 16455,
           y = -33593,
@@ -18617,7 +18617,7 @@ return {
         {
           id = 1131,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 13447,
           y = -39225,
@@ -18640,7 +18640,7 @@ return {
         {
           id = 1132,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 11527,
           y = -52665,
@@ -18663,7 +18663,7 @@ return {
         {
           id = 1133,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 7943,
           y = -51193,
@@ -18686,7 +18686,7 @@ return {
         {
           id = 1134,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 3079,
           y = -56377,
@@ -18709,7 +18709,7 @@ return {
         {
           id = 1135,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -1081,
           y = -53689,
@@ -18732,7 +18732,7 @@ return {
         {
           id = 1136,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -6841,
           y = -48185,
@@ -18755,7 +18755,7 @@ return {
         {
           id = 1137,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -10681,
           y = -45881,
@@ -18778,7 +18778,7 @@ return {
         {
           id = 1138,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -18233,
           y = -46969,
@@ -18801,7 +18801,7 @@ return {
         {
           id = 1139,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -25465,
           y = -44793,
@@ -18824,7 +18824,7 @@ return {
         {
           id = 1140,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -31033,
           y = -44281,
@@ -18847,7 +18847,7 @@ return {
         {
           id = 1141,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -37753,
           y = -45177,
@@ -18870,7 +18870,7 @@ return {
         {
           id = 1142,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -40825,
           y = -40761,
@@ -18893,7 +18893,7 @@ return {
         {
           id = 1143,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -53817,
           y = -45241,
@@ -18916,7 +18916,7 @@ return {
         {
           id = 1144,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47161,
           y = -41273,
@@ -18939,7 +18939,7 @@ return {
         {
           id = 1145,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -44665,
           y = -33913,
@@ -18962,7 +18962,7 @@ return {
         {
           id = 1146,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -23353,
           y = -35193,
@@ -18985,7 +18985,7 @@ return {
         {
           id = 1147,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -11257,
           y = -32505,
@@ -19008,7 +19008,7 @@ return {
         {
           id = 1148,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -6649,
           y = -25145,
@@ -19031,7 +19031,7 @@ return {
         {
           id = 1149,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -52665,
           y = -3705,
@@ -19054,7 +19054,7 @@ return {
         {
           id = 1150,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50489,
           y = 2311,
@@ -19077,7 +19077,7 @@ return {
         {
           id = 1151,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -43321,
           y = 6023,
@@ -19100,7 +19100,7 @@ return {
         {
           id = 1152,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -58937,
           y = -5305,
@@ -19123,7 +19123,7 @@ return {
         {
           id = 1153,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -47417,
           y = -10425,
@@ -19146,7 +19146,7 @@ return {
         {
           id = 1154,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -50873,
           y = -17273,
@@ -19169,7 +19169,7 @@ return {
         {
           id = 1155,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -55673,
           y = -18297,
@@ -19192,7 +19192,7 @@ return {
         {
           id = 1156,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -62521,
           y = -20473,
@@ -19215,7 +19215,7 @@ return {
         {
           id = 1157,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -73145,
           y = -38777,
@@ -19238,7 +19238,7 @@ return {
         {
           id = 1158,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -55929,
           y = -34425,
@@ -19261,7 +19261,7 @@ return {
         {
           id = 1159,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -52665,
           y = -27897,
@@ -19284,7 +19284,7 @@ return {
         {
           id = 1160,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -48697,
           y = -25017,
@@ -19307,7 +19307,7 @@ return {
         {
           id = 1161,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -37689,
           y = -1593,
@@ -19330,7 +19330,7 @@ return {
         {
           id = 1162,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = -38073,
           y = 2695,
@@ -19353,7 +19353,7 @@ return {
         {
           id = 1163,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 8391,
           y = 27591,
@@ -19376,7 +19376,7 @@ return {
         {
           id = 1164,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 9351,
           y = 22151,
@@ -19399,7 +19399,7 @@ return {
         {
           id = 1165,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 16711,
           y = 24135,
@@ -19422,7 +19422,7 @@ return {
         {
           id = 1166,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 21319,
           y = 11015,
@@ -19445,7 +19445,7 @@ return {
         {
           id = 1167,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 31879,
           y = 1415,
@@ -19468,7 +19468,7 @@ return {
         {
           id = 1168,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 29319,
           y = -7417,
@@ -19491,7 +19491,7 @@ return {
         {
           id = 1169,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 21575,
           y = -14713,
@@ -19514,7 +19514,7 @@ return {
         {
           id = 1170,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 15751,
           y = -17401,
@@ -19537,7 +19537,7 @@ return {
         {
           id = 1171,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 30599,
           y = -15353,
@@ -19560,7 +19560,7 @@ return {
         {
           id = 1172,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 35975,
           y = -7801,
@@ -19583,7 +19583,7 @@ return {
         {
           id = 1173,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 30087,
           y = -19769,
@@ -19606,7 +19606,7 @@ return {
         {
           id = 1174,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 24967,
           y = -30137,
@@ -19629,12 +19629,1162 @@ return {
         {
           id = 1175,
           name = "",
-          type = "",
+          class = "",
           shape = "ellipse",
           x = 20423,
           y = -38137,
           width = 1650,
           height = 1650,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1176,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -81789.8,
+          y = 774.282,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1177,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -82879.6,
+          y = 17697.4,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1178,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -67238.5,
+          y = 27569.2,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1179,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -48071.9,
+          y = 30710.2,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1180,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -27046.2,
+          y = 33274.3,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1181,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -12687.3,
+          y = 33082,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1182,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 5517.87,
+          y = 31543.5,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1183,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 21864,
+          y = 32440.9,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1184,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 29299.9,
+          y = 16094.8,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1185,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 39492.2,
+          y = 7761.46,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1186,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 44428.1,
+          y = -15700.1,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1187,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 33723,
+          y = -29161.6,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1188,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 29043.5,
+          y = -40892.4,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1189,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 20069.2,
+          y = -56469.3,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1190,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 5005.05,
+          y = -67815.5,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1191,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -8456.49,
+          y = -78392.4,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1192,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -30443.7,
+          y = -79674.4,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1193,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -54418,
+          y = -76789.8,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1194,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -64994.9,
+          y = -66341.1,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1195,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -86020.6,
+          y = -60636,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1196,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -93712.9,
+          y = -39289.8,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1197,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -92943.7,
+          y = -20956.5,
+          width = 7554,
+          height = 7554,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1198,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -47745.8,
+          y = -20758.6,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1199,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -44733,
+          y = -30822.7,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1200,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -36399.7,
+          y = -35566.3,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1201,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -23002.2,
+          y = -32425.3,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1202,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -18643.3,
+          y = -21784.3,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1203,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -24348.4,
+          y = -6784.28,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1204,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -44476.6,
+          y = -9668.9,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1205,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -21466,
+          y = 6867.31,
+          width = 1650,
+          height = 1650,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1206,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -23517.3,
+          y = 10841.7,
+          width = 1650,
+          height = 1650,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1207,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -22619.9,
+          y = 16034,
+          width = 1650,
+          height = 1650,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1208,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -20632.7,
+          y = 21098.1,
+          width = 1650,
+          height = 1650,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1209,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -35632.7,
+          y = 23149.4,
+          width = 1650,
+          height = 1650,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1210,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -41914.7,
+          y = 18534,
+          width = 1650,
+          height = 1650,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1211,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -46017.3,
+          y = 16739.1,
+          width = 1650,
+          height = 1650,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1212,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -67042.9,
+          y = 10264.7,
+          width = 1650,
+          height = 1650,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1213,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -69222.4,
+          y = 5008.33,
+          width = 1650,
+          height = 1650,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1214,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -75502.2,
+          y = -3707.36,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1215,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -72553.5,
+          y = 7959.31,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1216,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -48515.1,
+          y = 24113.2,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1217,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -28322.7,
+          y = 28023.4,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1218,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -13258.6,
+          y = 27959.3,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1219,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = -3963.77,
+          y = 30523.4,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1220,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 18856.7,
+          y = 18920.8,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1221,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 16484.9,
+          y = -7361.21,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1222,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 24177.3,
+          y = -13579.2,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1223,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 37382.4,
+          y = -14604.8,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1224,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 28600.3,
+          y = -28194.5,
+          width = 4466,
+          height = 4466,
+          rotation = 0,
+          visible = true,
+          properties = {
+            ["autoMass"] = {},
+            ["force"] = {
+              ["x"] = 0,
+              ["y"] = 0
+            },
+            ["velocity"] = {
+              ["angle"] = 0,
+              ["magnitude"] = 0
+            }
+          }
+        },
+        {
+          id = 1225,
+          name = "",
+          class = "",
+          shape = "ellipse",
+          x = 20523.4,
+          y = -34925.3,
+          width = 4466,
+          height = 4466,
           rotation = 0,
           visible = true,
           properties = {

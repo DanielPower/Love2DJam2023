@@ -28,6 +28,11 @@ function CollisionSystem:update()
 						- util.radiusToMass(smallRadius - overlap / 2)
 					smaller.mass.val = smaller.mass.val - massTransferred
 					larger.mass.val = larger.mass.val + massTransferred
+					if e1:has("player") then
+						self:getWorld():emit("playerCollision", e1, e2)
+					elseif e2:has("player") then
+						self:getWorld():emit("playerCollision", e2, e1)
+					end
 				end
 			else
 				if e1Immune then

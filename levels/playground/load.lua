@@ -11,10 +11,10 @@ return function(world)
 		world:getSystem(systems.shoot):setEnabled(true)
 		world:addSystem(systems.goal)
 		world:setResource("goal", {
-			title = "Grow to 10 micrograms",
+			title = "Grow to 1 milligram",
 			condition = function()
 				local player = world:getResource("player")
-				return player.mass.val >= 10000000
+				return player.mass.val >= 1000000000
 			end,
 		})
 		entity:destroy()

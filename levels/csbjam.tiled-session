@@ -22,11 +22,11 @@
             "expandedObjectLayers": [
                 2
             ],
-            "scale": 0.03125,
+            "scale": 0.0156,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": -67216,
-                "y": 46288
+                "x": -16153.846153846152,
+                "y": -26794.871794871793
             }
         },
         "simple.tmx": {
@@ -47,16 +47,16 @@
             "scale": 0.0625,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1032,
-                "y": 4136
+                "x": 1040,
+                "y": 4144
             }
         },
         "tutorial/tutorial.tmx": {
             "scale": 0.125,
             "selectedLayer": 0,
             "viewCenter": {
-                "x": 1036,
-                "y": -172
+                "x": 1040,
+                "y": -168
             }
         }
     },
