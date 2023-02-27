@@ -9,6 +9,10 @@ Concord.component("mass", function(component, mass)
 	component.val = mass
 end)
 
+Concord.component("growth", function(component, growth)
+	component.val = growth
+end)
+
 Concord.component("velocity", function(component, velocity)
 	component.val = velocity or Vec.of(0)
 end)

@@ -30,30 +30,6 @@ return {
       properties = {},
       objects = {
         {
-          id = 312,
-          name = "",
-          type = "",
-          shape = "ellipse",
-          x = -493,
-          y = -556.667,
-          width = 147,
-          height = 147,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["autoMass"] = {},
-            ["force"] = {
-              ["x"] = 0,
-              ["y"] = 0
-            },
-            ["player"] = {},
-            ["velocity"] = {
-              ["angle"] = 0,
-              ["magnitude"] = 0
-            }
-          }
-        },
-        {
           id = 325,
           name = "",
           type = "",
@@ -1737,10 +1713,10 @@ return {
           name = "",
           type = "",
           shape = "ellipse",
-          x = -1123,
-          y = 177,
-          width = 366,
-          height = 366,
+          x = -1231,
+          y = -499,
+          width = 226,
+          height = 226,
           rotation = 0,
           visible = true,
           properties = {
@@ -1749,6 +1725,7 @@ return {
               ["x"] = 0,
               ["y"] = 0
             },
+            ["player"] = {},
             ["velocity"] = {
               ["angle"] = 0,
               ["magnitude"] = 0
@@ -21835,30 +21812,6 @@ return {
           }
         },
         {
-          id = 1363,
-          name = "",
-          type = "",
-          shape = "ellipse",
-          x = 1317.75,
-          y = -1541.17,
-          width = 147,
-          height = 147,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["autoMass"] = {},
-            ["force"] = {
-              ["x"] = 0,
-              ["y"] = 0
-            },
-            ["player"] = {},
-            ["velocity"] = {
-              ["angle"] = 0,
-              ["magnitude"] = 0
-            }
-          }
-        },
-        {
           id = 1364,
           name = "",
           type = "",
@@ -22848,30 +22801,6 @@ return {
           }
         },
         {
-          id = 1407,
-          name = "",
-          type = "",
-          shape = "ellipse",
-          x = -1706.25,
-          y = 2490.83,
-          width = 147,
-          height = 147,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["autoMass"] = {},
-            ["force"] = {
-              ["x"] = 0,
-              ["y"] = 0
-            },
-            ["player"] = {},
-            ["velocity"] = {
-              ["angle"] = 0,
-              ["magnitude"] = 0
-            }
-          }
-        },
-        {
           id = 1408,
           name = "",
           type = "",
@@ -23854,30 +23783,6 @@ return {
               ["x"] = 0,
               ["y"] = 0
             },
-            ["velocity"] = {
-              ["angle"] = 0,
-              ["magnitude"] = 0
-            }
-          }
-        },
-        {
-          id = 1451,
-          name = "",
-          type = "",
-          shape = "ellipse",
-          x = -3866.25,
-          y = 50.167,
-          width = 147,
-          height = 147,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["autoMass"] = {},
-            ["force"] = {
-              ["x"] = 0,
-              ["y"] = 0
-            },
-            ["player"] = {},
             ["velocity"] = {
               ["angle"] = 0,
               ["magnitude"] = 0
@@ -24890,7 +24795,6 @@ return {
               ["x"] = 0,
               ["y"] = 0
             },
-            ["player"] = {},
             ["velocity"] = {
               ["angle"] = 0,
               ["magnitude"] = 0
@@ -27237,7 +27141,6 @@ return {
               ["x"] = 0,
               ["y"] = 0
             },
-            ["player"] = {},
             ["velocity"] = {
               ["angle"] = 0,
               ["magnitude"] = 0
@@ -27813,7 +27716,6 @@ return {
               ["x"] = 0,
               ["y"] = 0
             },
-            ["player"] = {},
             ["velocity"] = {
               ["angle"] = 0,
               ["magnitude"] = 0
@@ -30137,30 +30039,6 @@ return {
               ["x"] = 0,
               ["y"] = 0
             },
-            ["velocity"] = {
-              ["angle"] = 0,
-              ["magnitude"] = 0
-            }
-          }
-        },
-        {
-          id = 1724,
-          name = "",
-          type = "",
-          shape = "ellipse",
-          x = 307.5,
-          y = -7196.92,
-          width = 147,
-          height = 147,
-          rotation = 0,
-          visible = true,
-          properties = {
-            ["autoMass"] = {},
-            ["force"] = {
-              ["x"] = 0,
-              ["y"] = 0
-            },
-            ["player"] = {},
             ["velocity"] = {
               ["angle"] = 0,
               ["magnitude"] = 0

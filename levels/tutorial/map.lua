@@ -118,7 +118,7 @@ return {
             },
             ["velocity"] = {
               ["angle"] = 45,
-              ["magnitude"] = 80
+              ["magnitude"] = 60
             }
           }
         },
@@ -187,7 +187,7 @@ return {
             },
             ["velocity"] = {
               ["angle"] = 135,
-              ["magnitude"] = 80
+              ["magnitude"] = 60
             }
           }
         },
@@ -256,7 +256,7 @@ return {
             },
             ["velocity"] = {
               ["angle"] = 315,
-              ["magnitude"] = 80
+              ["magnitude"] = 60
             }
           }
         },
@@ -325,7 +325,7 @@ return {
             },
             ["velocity"] = {
               ["angle"] = 225,
-              ["magnitude"] = 80
+              ["magnitude"] = 60
             }
           }
         },
@@ -348,7 +348,7 @@ return {
             },
             ["velocity"] = {
               ["angle"] = 45,
-              ["magnitude"] = 180
+              ["magnitude"] = 140
             }
           }
         },
@@ -371,7 +371,7 @@ return {
             },
             ["velocity"] = {
               ["angle"] = 135,
-              ["magnitude"] = 180
+              ["magnitude"] = 140
             }
           }
         },
@@ -394,7 +394,7 @@ return {
             },
             ["velocity"] = {
               ["angle"] = 315,
-              ["magnitude"] = 180
+              ["magnitude"] = 140
             }
           }
         },
@@ -417,7 +417,7 @@ return {
             },
             ["velocity"] = {
               ["angle"] = 225,
-              ["magnitude"] = 180
+              ["magnitude"] = 140
             }
           }
         }

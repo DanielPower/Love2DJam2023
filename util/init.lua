@@ -30,15 +30,15 @@ local componentResolvers = {
 		else
 			e:give("velocity", Vec(o.value.x, o.value.y))
 		end
-	end,
-	force = function(e, o)
-		e:give("force", Vec(o.value.x, o.value.y))
+		e:give("force", Vec.of(0))
 	end,
 	autoMass = function(e, o)
 		e:give("mass", util.radiusToMass(o.properties.width / 2))
+		e:give("growth", 0)
 	end,
 	mass = function(e, o)
 		e:give("mass", o.value)
+		e:give("growth", 0)
 	end,
 	timer = function(e, o)
 		e:ensure("timer", {})

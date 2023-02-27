@@ -11,19 +11,20 @@ local systems = {
 	goal = require("systems.goal"),
 	message = require("systems.message"),
 	cursedSound = require("systems.cursedSound"),
+	growth = require("systems.growth"),
 }
 
 systems.default = {
-	-- systems.collision,
+	systems.collision,
 	systems.death,
 	systems.orbDraw,
 	systems.fpsCounter,
-	-- systems.gravity,
 	systems.hud,
 	systems.move,
 	systems.shoot,
 	systems.timer,
 	systems.cursedSound,
+	systems.growth,
 }
 
 return systems

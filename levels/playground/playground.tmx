@@ -4,11 +4,6 @@
   <export target="map.lua" format="lua"/>
  </editorsettings>
  <objectgroup id="2" name="Objects">
-  <object id="312" template="../Orb.tx" x="-493" y="-556.667" width="147" height="147">
-   <properties>
-    <property name="player" type="class" propertytype="Void"/>
-   </properties>
-  </object>
   <object id="325" template="../Orb.tx" x="308" y="-320"/>
   <object id="326" template="../Orb.tx" x="383" y="-160"/>
   <object id="327" template="../Orb.tx" x="422" y="40"/>
@@ -82,7 +77,11 @@
   <object id="403" template="../Orb.tx" x="-575.5" y="-1188"/>
   <object id="404" template="../Orb.tx" x="77.5" y="-842"/>
   <object id="405" template="../Orb.tx" x="-1143" y="-1331" width="366" height="366"/>
-  <object id="406" template="../Orb.tx" x="-1123" y="177" width="366" height="366"/>
+  <object id="406" template="../Orb.tx" x="-1231" y="-499" width="226" height="226">
+   <properties>
+    <property name="player" type="class" propertytype="Void"/>
+   </properties>
+  </object>
   <object id="407" template="../Orb.tx" x="349" y="501" width="366" height="366"/>
   <object id="408" template="../Orb.tx" x="-2921" y="-1865" width="914" height="914"/>
   <object id="409" template="../Orb.tx" x="-2673" y="691" width="914" height="914"/>
@@ -1580,11 +1579,6 @@
   <object id="1318" template="../Orb.tx" gid="0" x="2915.5" y="1237" width="366" height="366" rotation="0">
    <ellipse/>
   </object>
-  <object id="1363" template="../Orb.tx" x="1317.75" y="-1541.17" width="147" height="147">
-   <properties>
-    <property name="player" type="class" propertytype="Void"/>
-   </properties>
-  </object>
   <object id="1364" template="../Orb.tx" x="2118.75" y="-1304.5"/>
   <object id="1365" template="../Orb.tx" x="1321.75" y="-1354.5"/>
   <object id="1366" template="../Orb.tx" x="1856.75" y="-1444.5"/>
@@ -1638,11 +1632,6 @@
   <object id="1406" template="../Orb.tx" x="2486.25" y="-1427.5" width="366" height="366" rotation="0">
    <ellipse/>
   </object>
-  <object id="1407" template="../Orb.tx" x="-1706.25" y="2490.83" width="147" height="147">
-   <properties>
-    <property name="player" type="class" propertytype="Void"/>
-   </properties>
-  </object>
   <object id="1408" template="../Orb.tx" x="-905.25" y="2727.5"/>
   <object id="1409" template="../Orb.tx" x="-1702.25" y="2677.5"/>
   <object id="1410" template="../Orb.tx" x="-1167.25" y="2587.5"/>
@@ -1694,12 +1683,6 @@
    <ellipse/>
   </object>
   <object id="1450" template="../Orb.tx" x="-537.75" y="2604.5" width="366" height="366" rotation="0">
-   <ellipse/>
-  </object>
-  <object id="1451" template="../Orb.tx" gid="0" x="-3866.25" y="50.167" width="147" height="147" rotation="0">
-   <properties>
-    <property name="player" type="class" propertytype="Void"/>
-   </properties>
    <ellipse/>
   </object>
   <object id="1452" template="../Orb.tx" gid="0" x="-3065.25" y="-125.5" rotation="0">
@@ -1831,11 +1814,7 @@
   <object id="1494" template="../Orb.tx" gid="0" x="-2697.75" y="-282.5" width="366" height="366" rotation="0">
    <ellipse/>
   </object>
-  <object id="1495" template="../Orb.tx" x="-7097.25" y="-804.417" width="147" height="147">
-   <properties>
-    <property name="player" type="class" propertytype="Void"/>
-   </properties>
-  </object>
+  <object id="1495" template="../Orb.tx" x="-7097.25" y="-804.417" width="147" height="147"/>
   <object id="1496" template="../Orb.tx" x="-6296.25" y="-567.75"/>
   <object id="1497" template="../Orb.tx" x="-6221.25" y="-407.75"/>
   <object id="1498" template="../Orb.tx" x="-6182.25" y="-207.75"/>
@@ -1987,11 +1966,7 @@
   <object id="1594" template="../Orb.tx" x="-5075.25" y="798.25"/>
   <object id="1595" template="../Orb.tx" x="-5793.25" y="900.25"/>
   <object id="1596" template="../Orb.tx" x="-6360.75" y="757.25" width="366" height="366"/>
-  <object id="1597" template="../Orb.tx" x="-5286.5" y="-1788.92" width="147" height="147">
-   <properties>
-    <property name="player" type="class" propertytype="Void"/>
-   </properties>
-  </object>
+  <object id="1597" template="../Orb.tx" x="-5286.5" y="-1788.92" width="147" height="147"/>
   <object id="1598" template="../Orb.tx" x="-5282.5" y="-1602.25"/>
   <object id="1599" template="../Orb.tx" x="-4747.5" y="-1692.25"/>
   <object id="1600" template="../Orb.tx" x="-4891.5" y="-1584.25"/>
@@ -2017,9 +1992,6 @@
   <object id="1620" template="../Orb.tx" x="-4716" y="-2074.25"/>
   <object id="1621" template="../Orb.tx" x="-5936.5" y="-2563.25" width="366" height="366"/>
   <object id="1622" template="../Orb.tx" gid="0" x="2118.25" y="-6212.42" width="147" height="147" rotation="0">
-   <properties>
-    <property name="player" type="class" propertytype="Void"/>
-   </properties>
    <ellipse/>
   </object>
   <object id="1623" template="../Orb.tx" gid="0" x="1378.25" y="-5975.75" rotation="0">
@@ -2323,12 +2295,6 @@
    <ellipse/>
   </object>
   <object id="1723" template="../Orb.tx" gid="0" x="1162.75" y="-4650.75" width="366" height="366" rotation="0">
-   <ellipse/>
-  </object>
-  <object id="1724" template="../Orb.tx" gid="0" x="307.5" y="-7196.92" width="147" height="147" rotation="0">
-   <properties>
-    <property name="player" type="class" propertytype="Void"/>
-   </properties>
    <ellipse/>
   </object>
   <object id="1725" template="../Orb.tx" gid="0" x="364.5" y="-7010.25" rotation="0">
