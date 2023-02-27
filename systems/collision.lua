@@ -7,8 +7,8 @@ local CollisionSystem = Concord.system({
 
 function CollisionSystem:update()
 	for i = 1, #self.pool do
+		local e1 = self.pool[i]
 		for j = i + 1, #self.pool do
-			local e1 = self.pool[i]
 			local e2 = self.pool[j]
 			local smaller, larger
 			if e1.mass.val < e2.mass.val then
@@ -16,8 +16,10 @@ function CollisionSystem:update()
 			else
 				smaller, larger = e2, e1
 			end
-			local smallRadius = util.massToRadius(smaller.mass.val)
-			local largeRadius = util.massToRadius(larger.mass.val)
+			local smallerMass = smaller.mass.val
+			local largerMass = larger.mass.val
+			local smallRadius = util.massToRadius(smallerMass)
+			local largeRadius = util.massToRadius(largerMass)
 			local dist = e1.position.val:dist(e2.position.val)
 			local overlap = smallRadius + largeRadius - dist
 			local e1Immune = e1:has("immunity") and e1.immunity.entity == e2
@@ -26,8 +28,8 @@ function CollisionSystem:update()
 				if not e1Immune and not e2Immune then
 					local massTransferred = util.radiusToMass(smallRadius)
 						- util.radiusToMass(smallRadius - overlap / 2)
-					smaller.mass.val = smaller.mass.val - massTransferred
-					larger.mass.val = larger.mass.val + massTransferred
+					smaller.mass.val = smallerMass - massTransferred
+					larger.mass.val = largerMass + massTransferred
 					if e1:has("player") then
 						self:getWorld():emit("playerCollision", e1, e2)
 					elseif e2:has("player") then

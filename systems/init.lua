@@ -14,10 +14,10 @@ local systems = {
 }
 
 systems.default = {
-	systems.collision,
+	-- systems.collision,
 	systems.death,
 	systems.orbDraw,
-	-- systems.fpsCounter,
+	systems.fpsCounter,
 	-- systems.gravity,
 	systems.hud,
 	systems.move,

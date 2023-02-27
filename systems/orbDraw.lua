@@ -28,18 +28,27 @@ end
 function OrbDrawSystem:draw()
 	local world = self:getWorld()
 	local player = world:getResource("player")
+	local playerMass = player.mass.val
 	local camera = world:getResource("camera")
+	local x1, y1, w, h = camera:getVisible()
+	local x2, y2 = x1 + w, y1 + h
 	camera:draw(function()
 		love.graphics.setBackgroundColor(world:getResource("backgroundColor"))
 		for _, e in ipairs(self.pool) do
-			if e.player then
-				love.graphics.setColor(PLAYER_COLOR)
-			elseif e.mass.val < player.mass.val then
-				love.graphics.setColor(SMALL_ORB_COLOR)
-			else
-				love.graphics.setColor(LARGE_ORB_COLOR)
+			local mass = e.mass.val
+			local px = e.position.val.x
+			local py = e.position.val.y
+			local radius = util.massToRadius(mass)
+			if px > x1 - radius and px < x2 + radius and py > y1 - radius and py < y2 + radius then
+				if e.player then
+					love.graphics.setColor(PLAYER_COLOR)
+				elseif mass < playerMass then
+					love.graphics.setColor(SMALL_ORB_COLOR)
+				else
+					love.graphics.setColor(LARGE_ORB_COLOR)
+				end
+				love.graphics.circle("fill", px, py, radius)
 			end
-			love.graphics.circle("fill", e.position.val.x, e.position.val.y, util.massToRadius(e.mass.val))
 		end
 	end)
 end
