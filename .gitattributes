@@ -1,0 +1,4 @@
+concord/** linguist-vendored
+gamera.lua linguist-vendored
+tween.lua linguist-vendored
+levels/**/map.lua linguist-generated
