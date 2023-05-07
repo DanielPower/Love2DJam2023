@@ -11,7 +11,6 @@ end
 
 function CursedSoundSystem:playerCollision(player, other)
 	local sizeRatio = player.mass.val / other.mass.val
-	print("FOO")
 	local rate = 44100 -- samples per second
 	local length = lastDt * 2
 	local tone = 200 * (sizeRatio + 0.3) -- Hz
